@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Loomicons</title>
+    <link rel="stylesheet" href="loomicons.css">
+    <link rel="stylesheet" href="theme.css">
+    <script type="text/javascript" src="manipulator.js"></script>
+  </head>
+  <body>
+    {% for fontName, font in fonts %}
+      <header>
+        <div class="manipulator">
+          <label>Weight</label>
+          <input name="weight" list="weights" value="800" type="range" min="100" max="900" step="100" disabled>
+            <datalist id="weights">
+            <option value="100" data-font-size="128">thin</option>
+            <option value="200" data-font-size="64">extra light</option>
+            <option value="300" data-font-size="48">light</option>
+            <option value="400" data-font-size="32">regular</option>
+            <option value="500" data-font-size="28">medium</option>
+            <option value="600" data-font-size="24">semi bold</option>
+            <option value="700" data-font-size="20">bold</option>
+            <option value="800" data-font-size="16">extra bold</option>
+            <option value="900" data-font-size="8">black</option>
+          </datalist>
+          <span>extra bold</span>
+          <!--<code>font: 800 16px/1.4 {{ fontName }}, sans-serif</code>-->
+        </div>
+      </header>
+      <section style="font-weight: 800;">
+        <h1>{{ fontName }}</h1>
+        {% for name, block in unicode %}
+          <h2>{{ name }}</h2>
+          {% for glyph in block %}
+            <figure style="font-family: {{ fontName }};">{{ glyph }}</figure>
+          {% endfor %}
+        {% endfor %}
+      </section>
+    {% endfor %}
+  </body>
+</html>

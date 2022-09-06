@@ -1,0 +1,16 @@
+{% for name, font in fonts %}
+{% for weight, blocks in font %}
+{% for blockName, block in blocks %}
+/* {{ blockName }} */
+@font-face {
+  font-family: {{ name }};
+  font-display: swap;
+  font-weight: {{ weight }};
+  src: url({{name}}/{{ weight }}/{{ block.abbr }}.woff2?{{ block.hash }}) format('woff2');
+  /* contains glyphs: {{ block.glyphs }} */
+  unicode-range: {{ block.unicodeRange  }};
+}
+
+{% endfor %}
+{% endfor %}
+{% endfor %}
