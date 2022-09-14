@@ -13,9 +13,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 100;
-  src: url(basic/100/GS.woff2?GfDdijpzdId7k4Mq4UErCVcQjoOXE7VKab64wZFVhz8=) format('woff2');
-  /* contains glyphs: □,▶,○ */
-  unicode-range: U+25A1,U+25B6,U+25CB;
+  src: url(basic/100/GS.woff2?6PsxihXdfSJ+5SzdyaziKiyW+WwcoNvZ8jcXhVymJUo=) format('woff2');
+  /* contains glyphs: □,▤,▥,▦,▶,○ */
+  unicode-range: U+25A1,U+25A4-25A6,U+25B6,U+25CB;
 }
 
 /* Dingbats */

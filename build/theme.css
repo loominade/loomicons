@@ -165,13 +165,25 @@
   font-family: 'Barlow Condensed';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --background:  white;
+  --foreground:  black;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background:  black;
+    --foreground:  white;
+  }
 }
 
 body {
   padding: 3em;
   margin: auto;
   max-width: 1000px;
+  color: var(--foreground);
+  background: var(--background);
 }
+
 
 h1 {
   font: 100 70px/1.4 'Barlow Condensed', sans-serif;
@@ -189,8 +201,8 @@ header {
 
 a {
   border: 1px solid;
-  color: white;
-  background-color: black;
+  color: var(--background);
+  background-color: var(--foreground);
   padding: 1em;
   text-decoration: none;
   font-weight: 400;
@@ -221,7 +233,7 @@ figure[hidden] {
 
 figure:focus {
   background: black;
-  color: white;
+  color: var(--background);
 }
 
 [type="range"] {

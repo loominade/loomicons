@@ -15,17 +15,23 @@ basic:
       abbr: A
       hash: 8FVz2FUDcBt5yitjfl6z5bZkJd7DizbIxocnjQjSZ4o=
     Geometric Shapes:
-      unicodeRange: U+25A1,U+25B6,U+25CB
+      unicodeRange: U+25A1,U+25A4-25A6,U+25B6,U+25CB
       glyphs:
         - □
+        - ▤
+        - ▥
+        - ▦
         - ▶
         - ○
       files:
-        src/basic/100/u25A1-square.svg: x5u0XZof5XOR8SN+/Kr/ENu02fNz7oEkxFHmMkFOxYM=
+        src/basic/100/u25A1-square.svg: CSEI+PtJBxdjAUh6/YhDFZ+hlxasUTYaAobuTdPan5k=
+        src/basic/100/u25A4-rows.svg: kWX4XHoi1edpc/wqkUG5vEgulwc6KP14Psn7LIh/cVk=
+        src/basic/100/u25A5-columns.svg: qJmxqwPTyhSQTwd9irPBb3L+a0EYmfWhV9/9hf0pM0c=
+        src/basic/100/u25A6-grid.svg: hWfYpcxsqtAtbpybP9F6odt14Gikj9zSuknYPiQgtNI=
         src/basic/100/u25B6-play.svg: +mCTVM+HpL1drtVGdqMBYnYBpj6ic0wc3OMbN6s8ndM=
         src/basic/100/u25CB-circle.svg: V2kwciPhqqdT+4sMxjvrM+G2b33ePFGlmDpL8vRMnRI=
       abbr: GS
-      hash: GfDdijpzdId7k4Mq4UErCVcQjoOXE7VKab64wZFVhz8=
+      hash: 6PsxihXdfSJ+5SzdyaziKiyW+WwcoNvZ8jcXhVymJUo=
     Dingbats:
       unicodeRange: U+2795,U+2796
       glyphs:
