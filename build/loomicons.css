@@ -13,9 +13,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 100;
-  src: url(basic/100/GS.woff2?lyixBdnofQ7wGPKhkBLmkmXPVmj9nvXPCJlEt/89CQQ=) format('woff2');
-  /* contains glyphs: □ */
-  unicode-range: U+25A1;
+  src: url(basic/100/GS.woff2?GfDdijpzdId7k4Mq4UErCVcQjoOXE7VKab64wZFVhz8=) format('woff2');
+  /* contains glyphs: □,▶,○ */
+  unicode-range: U+25A1,U+25B6,U+25CB;
 }
 
 /* Dingbats */
@@ -23,9 +23,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 100;
-  src: url(basic/100/D.woff2?pH7f/v51a6afxv3c+i2L/bMtHgSRUB8sQ7dDulyNBQc=) format('woff2');
-  /* contains glyphs: ➕ */
-  unicode-range: U+2795;
+  src: url(basic/100/D.woff2?JT+T7EufBxcqy+SKfcney8C5U/gR2DypgBBasnN218M=) format('woff2');
+  /* contains glyphs: ➕,➖ */
+  unicode-range: U+2795,U+2796;
 }
 
 /* Supplemental Arrows-A */
@@ -53,9 +53,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 100;
-  src: url(basic/100/MSAA.woff2?/9s+d3dflkxMIBm3GjTBdv65tXDWQlyWN+IrZPD1wsI=) format('woff2');
-  /* contains glyphs: ⮜,⮞ */
-  unicode-range: U+2B9C,U+2B9E;
+  src: url(basic/100/MSAA.woff2?wpCs5hxrSuYIQHYGZU+yyoen74FTe/7XCU59Re856VM=) format('woff2');
+  /* contains glyphs: ⬡,⮜,⮞ */
+  unicode-range: U+2B21,U+2B9C,U+2B9E;
 }
 
 /* Miscellaneous Symbols and Pictographs */

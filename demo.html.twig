@@ -29,9 +29,12 @@
         </div>
       </header>
       <section style="font-weight: 800;">
-        <h1>{{ fontName }}</h1>
+        <header>
+          <h1>{{ fontName | upper }}</h1>
+          <a href="{{ fontName }}.zip" download>Download {{ fontName | upper }}</a>
+        </header>
         {% for blockName, block in unicode %}
-          <h2>{{ blockName }}</h2>
+          <!--<h2>{{ blockName }}</h2>-->
           {% for glyph in block %}
             <figure
               style="font-family: {{ fontName }};"
