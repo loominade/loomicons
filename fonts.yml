@@ -588,13 +588,15 @@ basic:
       abbr: GS
       hash: Lq5DykbYYs2TRWNg9jRVnuM5lA8cj0Bg7yumHrTmf2s=
     Dingbats:
-      unicodeRange: U+2795
+      unicodeRange: U+2795,U+2796
       glyphs:
         - ➕
+        - ➖
       files:
         src/basic/800/u2795-plus.svg: PKNu6jUzHJ4isikjnvKqdhfd4zjrIBxdGoiHEPSXZDY=
+        src/basic/800/u2796-minus.svg: 4Jh/MIRUvEqq9+Nc+soGCNAK9r2gnqJOhuaWgtQZ2Ig=
       abbr: D
-      hash: Cgxhx8ThY7UkLhLX6zFBggl+kICxlbRHpnNyiDCLRpo=
+      hash: cktbBJu/YRHfNqnyUzc0vqqahyFJR3nby8zlKpTN+8Y=
     Supplemental Arrows-A:
       unicodeRange: U+27F6
       glyphs:
@@ -657,27 +659,33 @@ basic:
       hash: E7mdoO0/zKLWloXkBmdpplDtwt8xHqtrftXPFm4PT7o=
   '900':
     Arrows:
-      unicodeRange: U+2190-2193
+      unicodeRange: U+2190-2193,U+21BA,U+21BB
       glyphs:
         - ←
         - ↑
         - →
         - ↓
+        - ↺
+        - ↻
       files:
         src/basic/900/u2190-left.svg: A8tZ7bqULWqvpfpz7EmMu4Ie211GOLifllHgy67TPA4=
         src/basic/900/u2191-up.svg: HoDGIqx7O5tQiWK6dK5gZqWBeIzOrVeUQtUx92QL9oA=
         src/basic/900/u2192-right.svg: TBP5++e8p7SvwtDBNX6aIU8hYFyzhi21PfbdwpOMDwQ=
         src/basic/900/u2193-down.svg: 0SZqlHPMzyy+Ct9KeIMz4zsKkhfFS9xOcXrgUnCTZFY=
+        src/basic/900/u21ba-go-back.svg: 2ScJWEEQAaY2CY3A9wdBapP2kih15mT+JmfcrtYztig=
+        src/basic/900/u21bb-skip-ahead.svg: dQplzQDSV0DD/eJrUjAN8nYdbntqVz5r36MUyaFIShs=
       abbr: A
-      hash: rrQfNdNchYVy3aZxA1OFArUYko+X2122k8mFMXquc+g=
+      hash: mosOnVACNqdmmQLth1TrtLidCnib2uvfRxlQ1kdGZTk=
     Geometric Shapes:
-      unicodeRange: U+25A1
+      unicodeRange: U+25A1,U+25CB
       glyphs:
         - □
+        - ○
       files:
         src/basic/900/u25A1-square.svg: KUBEyBvcJLfr7UJuIP6IV1dalQCAugF8M+vCeNV6Ro4=
+        src/basic/900/u25CB-circle.svg: ScyZAa6CYLjYnSS4FO3reVl8pZm4adH3SrlNxpO54TM=
       abbr: GS
-      hash: 8grlXqSDFa4uBaKRoJPPSkYvy6t3ULTHDs98+y79Rc4=
+      hash: aZ6xoG/Oym6p26ctmXtx0wgaQiUyqUW7F0IH6et6VfM=
     Dingbats:
       unicodeRange: U+2795
       glyphs:

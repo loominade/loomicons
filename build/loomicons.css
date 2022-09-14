@@ -1,0 +1,700 @@
+/* Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 100;
+  src: url(basic/100/A.woff2?8FVz2FUDcBt5yitjfl6z5bZkJd7DizbIxocnjQjSZ4o=) format('woff2');
+  /* contains glyphs: ←,↑,→,↓ */
+  unicode-range: U+2190-2193;
+}
+
+/* Geometric Shapes */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 100;
+  src: url(basic/100/GS.woff2?lyixBdnofQ7wGPKhkBLmkmXPVmj9nvXPCJlEt/89CQQ=) format('woff2');
+  /* contains glyphs: □ */
+  unicode-range: U+25A1;
+}
+
+/* Dingbats */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 100;
+  src: url(basic/100/D.woff2?pH7f/v51a6afxv3c+i2L/bMtHgSRUB8sQ7dDulyNBQc=) format('woff2');
+  /* contains glyphs: ➕ */
+  unicode-range: U+2795;
+}
+
+/* Supplemental Arrows-A */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 100;
+  src: url(basic/100/SAA.woff2?ahu6+l638kthggXPjFrm2H83JNJqSyoD3z9AXzzHmdE=) format('woff2');
+  /* contains glyphs: ⟶ */
+  unicode-range: U+27F6;
+}
+
+/* Supplemental Arrows-B */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 100;
+  src: url(basic/100/SAB.woff2?z26kIeJ+W7QA4OFQEtpP9ekKGF8jBloA739bG4aVK1w=) format('woff2');
+  /* contains glyphs: ⤓ */
+  unicode-range: U+2913;
+}
+
+/* Miscellaneous Symbols and Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 100;
+  src: url(basic/100/MSAA.woff2?/9s+d3dflkxMIBm3GjTBdv65tXDWQlyWN+IrZPD1wsI=) format('woff2');
+  /* contains glyphs: ⮜,⮞ */
+  unicode-range: U+2B9C,U+2B9E;
+}
+
+/* Miscellaneous Symbols and Pictographs */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 100;
+  src: url(basic/100/MSAP.woff2?h2cNXZapV16S1GCZb+xZvZ84N+iGipqp5NrBK7ks0nM=) format('woff2');
+  /* contains glyphs: 📖,🗙 */
+  unicode-range: U+1F4D6,U+1F5D9;
+}
+
+/* Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 200;
+  src: url(basic/200/A.woff2?1I7UFdvJNkN5sEbJLoxHsWTLMQQKaI4aOZ85ijKMma4=) format('woff2');
+  /* contains glyphs: ←,↑,→,↓ */
+  unicode-range: U+2190-2193;
+}
+
+/* Geometric Shapes */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 200;
+  src: url(basic/200/GS.woff2?+GDjO0n4y6fFgpKcHNy5zuvcDA6ef/tX2BN8S54oSsc=) format('woff2');
+  /* contains glyphs: □,▶ */
+  unicode-range: U+25A1,U+25B6;
+}
+
+/* Dingbats */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 200;
+  src: url(basic/200/D.woff2?RST1C6wH/MHsb0anTCb0qoLCfU0SJV0z0ws1E0nvjkU=) format('woff2');
+  /* contains glyphs: ➕ */
+  unicode-range: U+2795;
+}
+
+/* Supplemental Arrows-A */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 200;
+  src: url(basic/200/SAA.woff2?lfHVxT05Lk2eJAJrosYfApLh5eAdz9pVjbWzh9xSEMY=) format('woff2');
+  /* contains glyphs: ⟶ */
+  unicode-range: U+27F6;
+}
+
+/* Supplemental Arrows-B */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 200;
+  src: url(basic/200/SAB.woff2?775Dz81imwU1Cnlg4diJg7iLudj+u7kjSGC5rYqtPnU=) format('woff2');
+  /* contains glyphs: ⤓ */
+  unicode-range: U+2913;
+}
+
+/* Miscellaneous Symbols and Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 200;
+  src: url(basic/200/MSAA.woff2?ajkIhO9Exb3fGuBoO7FZs6+U3SUHMYm0Ur3cW/12kn4=) format('woff2');
+  /* contains glyphs: ⮜,⮞ */
+  unicode-range: U+2B9C,U+2B9E;
+}
+
+/* Miscellaneous Symbols and Pictographs */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 200;
+  src: url(basic/200/MSAP.woff2?QShA7bjjcqtAKLBVJ+LGIEGY/L+A0tDi8JbM2+25WPg=) format('woff2');
+  /* contains glyphs: 📖,🗙 */
+  unicode-range: U+1F4D6,U+1F5D9;
+}
+
+/* Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(basic/300/A.woff2?snh/BHdcTHJbhbQxKYyWNdnYxSz5JL4hiMhVY5XWUXc=) format('woff2');
+  /* contains glyphs: ←,↑,→,↓ */
+  unicode-range: U+2190-2193;
+}
+
+/* Geometric Shapes */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(basic/300/GS.woff2?4brdMt9zEFtiBKvpHEgrcSmyh+fzTtzAsi0YYuiljqE=) format('woff2');
+  /* contains glyphs: □ */
+  unicode-range: U+25A1;
+}
+
+/* Dingbats */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(basic/300/D.woff2?E3QtvHzF6B+8fnb9hX9jSWyi5Ky/ONNaSujAdS6jlLg=) format('woff2');
+  /* contains glyphs: ➕ */
+  unicode-range: U+2795;
+}
+
+/* Supplemental Arrows-A */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(basic/300/SAA.woff2?ttDkkziMzLs8FuBHDD5qeIBpe2E7xT64HnT8Zqskv70=) format('woff2');
+  /* contains glyphs: ⟶ */
+  unicode-range: U+27F6;
+}
+
+/* Supplemental Arrows-B */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(basic/300/SAB.woff2?ykMex0Z83XlNJCkeQy6VPjRnLHxN7OAYKVQ11GiivsE=) format('woff2');
+  /* contains glyphs: ⤓ */
+  unicode-range: U+2913;
+}
+
+/* Miscellaneous Symbols and Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(basic/300/MSAA.woff2?XmYvHUCRtamajybVYWME/2V55D8PB33Z+lT1vo/Xy6g=) format('woff2');
+  /* contains glyphs: ⮜,⮞ */
+  unicode-range: U+2B9C,U+2B9E;
+}
+
+/* Miscellaneous Symbols and Pictographs */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 300;
+  src: url(basic/300/MSAP.woff2?D6Qa/elLlgYGBMTm/NWyuOd3oba5kzuqR+RWLdj3PXg=) format('woff2');
+  /* contains glyphs: 📖,🗙 */
+  unicode-range: U+1F4D6,U+1F5D9;
+}
+
+/* Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(basic/400/A.woff2?llUhDLcWC83hMjnnzXmLpXd+zVwxEdeEsHG6Vf79MEg=) format('woff2');
+  /* contains glyphs: ←,↑,→,↓ */
+  unicode-range: U+2190-2193;
+}
+
+/* Mathematical Operators */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(basic/400/MO.woff2?0qGGcuEWCTvlAgEfpLRFb7a/h14fGVJtwIkP6A51JqY=) format('woff2');
+  /* contains glyphs: ⋮ */
+  unicode-range: U+22EE;
+}
+
+/* Geometric Shapes */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(basic/400/GS.woff2?YKWidMYkJsF5sTfsKau9wwaLbXxrLaMAlxhJK/Bb/wo=) format('woff2');
+  /* contains glyphs: □,▣,▶,◑,▼ */
+  unicode-range: U+25A1,U+25A3,U+25B6,U+25BC,U+25D1;
+}
+
+/* Dingbats */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(basic/400/D.woff2?FJyM8mk989N3jcRGAOsRN0PVA3X4guoDPopHNCwArL8=) format('woff2');
+  /* contains glyphs: ➕ */
+  unicode-range: U+2795;
+}
+
+/* Supplemental Arrows-A */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(basic/400/SAA.woff2?nlmiy2z7nKONj+z4iyiM51Cc/dy0gSii2stXh7apH04=) format('woff2');
+  /* contains glyphs: ⟶ */
+  unicode-range: U+27F6;
+}
+
+/* Supplemental Arrows-B */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(basic/400/SAB.woff2?VulUXWFT21vMrQb0ajjmqNWLfN8c+30SiSgHm8CkKLY=) format('woff2');
+  /* contains glyphs: ⤓ */
+  unicode-range: U+2913;
+}
+
+/* Miscellaneous Mathematical Symbols-B */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(basic/400/MMSB.woff2?DZQe07BuZC6ARjNLUgzTsvNMlNOsSOfgKOidHvblVTU=) format('woff2');
+  /* contains glyphs: ⧀,⧁ */
+  unicode-range: U+29C0,U+29C1;
+}
+
+/* Miscellaneous Symbols and Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(basic/400/MSAA.woff2?Um4kdy4faOhWOf4VBjgar052rgqO4edQAp7ZcXXVc08=) format('woff2');
+  /* contains glyphs: ⬡,⮜,⮞,⯃ */
+  unicode-range: U+2B21,U+2B9C,U+2B9E,U+2BC3;
+}
+
+/* Miscellaneous Symbols and Pictographs */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(basic/400/MSAP.woff2?4RgaGVXTlUc8K8MUkgUvICEj9jTfA5DvYpnleyd4Fkk=) format('woff2');
+  /* contains glyphs: 📖,📞,🔍,🗙 */
+  unicode-range: U+1F4D6,U+1F4DE,U+1F50D,U+1F5D9;
+}
+
+/* Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(basic/500/A.woff2?2rrZyPRXwcm+uNpilVsN+8qlDT8F2R9qEAuePNyg8bA=) format('woff2');
+  /* contains glyphs: ←,↑,→,↓ */
+  unicode-range: U+2190-2193;
+}
+
+/* Geometric Shapes */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(basic/500/GS.woff2?CjgvN6v6DywP+SLGlfKEcEHYChH+3z/eGcyIwaGQ4K8=) format('woff2');
+  /* contains glyphs: □ */
+  unicode-range: U+25A1;
+}
+
+/* Dingbats */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(basic/500/D.woff2?+0xpInauUpnhijPo84J+BncQRu9NQ479xSfP7VXbbf0=) format('woff2');
+  /* contains glyphs: ➕ */
+  unicode-range: U+2795;
+}
+
+/* Supplemental Arrows-A */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(basic/500/SAA.woff2?tlDwYcSXLzhQXtFXGZpVUix15HCUwy7hVlGeMKt5V20=) format('woff2');
+  /* contains glyphs: ⟶ */
+  unicode-range: U+27F6;
+}
+
+/* Supplemental Arrows-B */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(basic/500/SAB.woff2?8nC6wLWJtaoBKS8sJhqFT0CXijGOiJNS+JJfqB0mbJE=) format('woff2');
+  /* contains glyphs: ⤓ */
+  unicode-range: U+2913;
+}
+
+/* Miscellaneous Symbols and Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(basic/500/MSAA.woff2?OPk/FLcmkvhStMrFYIye3v5dRrcj/vGEvJn//WDJ3LM=) format('woff2');
+  /* contains glyphs: ⮜,⮞ */
+  unicode-range: U+2B9C,U+2B9E;
+}
+
+/* Miscellaneous Symbols and Pictographs */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(basic/500/MSAP.woff2?rmJ0rJSc1m3ga3T3crSwWMpKB3CYNGKLtGPEfY/kNbA=) format('woff2');
+  /* contains glyphs: 📖,🗙 */
+  unicode-range: U+1F4D6,U+1F5D9;
+}
+
+/* Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(basic/600/A.woff2?G3FFpm6Qydn/5Cdf4CPi6FoERwwQhTyPygwiiPL9jQk=) format('woff2');
+  /* contains glyphs: ←,↑,→,↓ */
+  unicode-range: U+2190-2193;
+}
+
+/* Mathematical Operators */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(basic/600/MO.woff2?OfMeBvaMUgf6FZnyKvkQxob6dxofGK1r+3yguNecRN4=) format('woff2');
+  /* contains glyphs: ⋮ */
+  unicode-range: U+22EE;
+}
+
+/* Geometric Shapes */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(basic/600/GS.woff2?AFs54FRAypwySvsn4Ic7zgvww/xmUyL2wu+cjlc1Sls=) format('woff2');
+  /* contains glyphs: □,◑ */
+  unicode-range: U+25A1,U+25D1;
+}
+
+/* Dingbats */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(basic/600/D.woff2?BOlAVgmc+aR4TTtfBqIkHwOVa6AgVvFqd4u6WCD6scs=) format('woff2');
+  /* contains glyphs: ➕ */
+  unicode-range: U+2795;
+}
+
+/* Supplemental Arrows-A */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(basic/600/SAA.woff2?bZttqCqR0QLmPD7lnQp58OX2DCEm6dvcDm4FBorg01M=) format('woff2');
+  /* contains glyphs: ⟶ */
+  unicode-range: U+27F6;
+}
+
+/* Supplemental Arrows-B */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(basic/600/SAB.woff2?sfBHKjMkg2dVHGyOzmV5XVfRsZE8bSphTQNZeeOFOEQ=) format('woff2');
+  /* contains glyphs: ⤓ */
+  unicode-range: U+2913;
+}
+
+/* Miscellaneous Mathematical Symbols-B */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(basic/600/MMSB.woff2?0Lh1It7SEOAs+ZSlm4KAhOjDsvYFOZcgDpwVWewbH1o=) format('woff2');
+  /* contains glyphs: ⧀,⧁ */
+  unicode-range: U+29C0,U+29C1;
+}
+
+/* Miscellaneous Symbols and Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(basic/600/MSAA.woff2?XYoRX/EAG1t2S2p8lZRskEHFt0J/W68FPoSas6eNBvk=) format('woff2');
+  /* contains glyphs: ⬡,⮜,⮞,⯃ */
+  unicode-range: U+2B21,U+2B9C,U+2B9E,U+2BC3;
+}
+
+/* Miscellaneous Symbols and Pictographs */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(basic/600/MSAP.woff2?ZtGYN8+a9gyse7Vrj//c1tPly7787bNVpJhOMh6u64g=) format('woff2');
+  /* contains glyphs: 📖,📞,🔍,🗙 */
+  unicode-range: U+1F4D6,U+1F4DE,U+1F50D,U+1F5D9;
+}
+
+/* Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(basic/700/A.woff2?XxXZ/b4+4yAPamXiw1MU91P8p3LE32lHeWlZoUA5Zlg=) format('woff2');
+  /* contains glyphs: ←,↑,→,↓ */
+  unicode-range: U+2190-2193;
+}
+
+/* Geometric Shapes */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(basic/700/GS.woff2?mVuCb9W7ts8dJ+JI22YBkzbJW1u5rJbUKJb+HciuArc=) format('woff2');
+  /* contains glyphs: □ */
+  unicode-range: U+25A1;
+}
+
+/* Dingbats */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(basic/700/D.woff2?nLDWiaZ3zstILcs22mn+eZNFfm1MZyrUxIUiPwwrhUI=) format('woff2');
+  /* contains glyphs: ➕ */
+  unicode-range: U+2795;
+}
+
+/* Supplemental Arrows-A */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(basic/700/SAA.woff2?5Phk76b+9HPlEg9Tk6N5FkJCE40wpBEbbcvSCiAcvCg=) format('woff2');
+  /* contains glyphs: ⟶ */
+  unicode-range: U+27F6;
+}
+
+/* Supplemental Arrows-B */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(basic/700/SAB.woff2?nB8V03u962FrnaGBZTM9VLZEjBHOD5LafvrKvvDrJEE=) format('woff2');
+  /* contains glyphs: ⤓ */
+  unicode-range: U+2913;
+}
+
+/* Miscellaneous Symbols and Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(basic/700/MSAA.woff2?T/Kn29g1tUtDJU6uwsZskMcNLI3BiAyRk25VWjvVJbo=) format('woff2');
+  /* contains glyphs: ⮜,⮞ */
+  unicode-range: U+2B9C,U+2B9E;
+}
+
+/* Miscellaneous Symbols and Pictographs */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(basic/700/MSAP.woff2?h+OSIVzmFjD8Rw455Ybt9MMi5ZKkglfGnB/U7bn0rLA=) format('woff2');
+  /* contains glyphs: 📖,🗙 */
+  unicode-range: U+1F4D6,U+1F5D9;
+}
+
+/* Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 800;
+  src: url(basic/800/A.woff2?Z5ivCuFphXRKatPU0rGEra/tyDYbWKZ2bb16CnNOe6U=) format('woff2');
+  /* contains glyphs: ←,↑,→,↓,↺,↻ */
+  unicode-range: U+2190-2193,U+21BA,U+21BB;
+}
+
+/* Mathematical Operators */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 800;
+  src: url(basic/800/MO.woff2?cmj8307fkSYQ7BGK8RlUJJY+PhXs5uMhv87lfRFo1aE=) format('woff2');
+  /* contains glyphs: ⋮ */
+  unicode-range: U+22EE;
+}
+
+/* Miscellaneous Technical */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 800;
+  src: url(basic/800/MT.woff2?sHCNRaOoFG2pjMM64eo88eOY+ONPt4WBf7neBByA6cE=) format('woff2');
+  /* contains glyphs: ⏸ */
+  unicode-range: U+23F8;
+}
+
+/* Geometric Shapes */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 800;
+  src: url(basic/800/GS.woff2?Lq5DykbYYs2TRWNg9jRVnuM5lA8cj0Bg7yumHrTmf2s=) format('woff2');
+  /* contains glyphs: □,▣,▶,○,●,◑,▼ */
+  unicode-range: U+25A1,U+25A3,U+25B6,U+25BC,U+25CB,U+25CF,U+25D1;
+}
+
+/* Dingbats */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 800;
+  src: url(basic/800/D.woff2?cktbBJu/YRHfNqnyUzc0vqqahyFJR3nby8zlKpTN+8Y=) format('woff2');
+  /* contains glyphs: ➕,➖ */
+  unicode-range: U+2795,U+2796;
+}
+
+/* Supplemental Arrows-A */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 800;
+  src: url(basic/800/SAA.woff2?GAmCxVYDkAvx8c5mtgg9SxgluvZ9rqNuuONOlBUYglw=) format('woff2');
+  /* contains glyphs: ⟶ */
+  unicode-range: U+27F6;
+}
+
+/* Supplemental Arrows-B */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 800;
+  src: url(basic/800/SAB.woff2?ulcUI7XBGmlUZpUNhwUpDAo+w03Q62rHjsBV4yeIF/Q=) format('woff2');
+  /* contains glyphs: ⤓ */
+  unicode-range: U+2913;
+}
+
+/* Miscellaneous Mathematical Symbols-B */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 800;
+  src: url(basic/800/MMSB.woff2?vRfwQJrbpuSYy5BGbjmjQmApT7X/6yVwntPPfChWMB8=) format('woff2');
+  /* contains glyphs: ⧀,⧁ */
+  unicode-range: U+29C0,U+29C1;
+}
+
+/* Miscellaneous Symbols and Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 800;
+  src: url(basic/800/MSAA.woff2?twg4mPJ/sQlHb5LQQmXb/tFxkNFh9hqiHLSj+m2Tvc4=) format('woff2');
+  /* contains glyphs: ⬡,⮜,⮞ */
+  unicode-range: U+2B21,U+2B9C,U+2B9E;
+}
+
+/* Miscellaneous Symbols and Pictographs */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 800;
+  src: url(basic/800/MSAP.woff2?E7mdoO0/zKLWloXkBmdpplDtwt8xHqtrftXPFm4PT7o=) format('woff2');
+  /* contains glyphs: 📖,📞,🔄,🔍,🗙,🗨,🗩,🗩🗨 */
+  unicode-range: U+1F4D6,U+1F4DE,U+1F504,U+1F50D,U+1F5D9,U+1F5E8,U+1F5E9;
+}
+
+/* Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 900;
+  src: url(basic/900/A.woff2?mosOnVACNqdmmQLth1TrtLidCnib2uvfRxlQ1kdGZTk=) format('woff2');
+  /* contains glyphs: ←,↑,→,↓,↺,↻ */
+  unicode-range: U+2190-2193,U+21BA,U+21BB;
+}
+
+/* Geometric Shapes */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 900;
+  src: url(basic/900/GS.woff2?aZ6xoG/Oym6p26ctmXtx0wgaQiUyqUW7F0IH6et6VfM=) format('woff2');
+  /* contains glyphs: □,○ */
+  unicode-range: U+25A1,U+25CB;
+}
+
+/* Dingbats */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 900;
+  src: url(basic/900/D.woff2?3x42Z6uKoWFoXeqO5RWqckGYS9uh3xp5bgscowiPSu0=) format('woff2');
+  /* contains glyphs: ➕ */
+  unicode-range: U+2795;
+}
+
+/* Supplemental Arrows-A */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 900;
+  src: url(basic/900/SAA.woff2?HsTJvHJ01HLRDE9KhJ5YB5al/WFi9oOAxGvAj4jFhL0=) format('woff2');
+  /* contains glyphs: ⟶ */
+  unicode-range: U+27F6;
+}
+
+/* Supplemental Arrows-B */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 900;
+  src: url(basic/900/SAB.woff2?pSrIcwLqgMHihxWX/pMY/RRV1dTRaYAsaDYsE/WeIpA=) format('woff2');
+  /* contains glyphs: ⤓ */
+  unicode-range: U+2913;
+}
+
+/* Miscellaneous Symbols and Arrows */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 900;
+  src: url(basic/900/MSAA.woff2?AS9Ssf1szqe7df3xBQEh58hPjrjQbTAwZMjUvE44xbk=) format('woff2');
+  /* contains glyphs: ⮜,⮞ */
+  unicode-range: U+2B9C,U+2B9E;
+}
+
+/* Miscellaneous Symbols and Pictographs */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 900;
+  src: url(basic/900/MSAP.woff2?5emG8U4pjtYU9nFO5URqGlmhIaJe/F9aV80wPYf04zU=) format('woff2');
+  /* contains glyphs: 📖,🗙 */
+  unicode-range: U+1F4D6,U+1F5D9;
+}
+

@@ -30,10 +30,26 @@
       </header>
       <section style="font-weight: 800;">
         <h1>{{ fontName }}</h1>
-        {% for name, block in unicode %}
-          <h2>{{ name }}</h2>
+        {% for blockName, block in unicode %}
+          <h2>{{ blockName }}</h2>
           {% for glyph in block %}
-            <figure style="font-family: {{ fontName }};">{{ glyph }}</figure>
+            <figure
+              style="font-family: {{ fontName }};"
+              data-weights="
+                {%- for thisFontName, font in fonts if fontName == thisFontName -%}
+                  {%- for weightName, weight in font -%}
+                    {%- if glyph in weight[blockName].glyphs -%}
+                      {{- weightName -}}
+                      {% if not loop.last %}
+                        {{- ' ' -}}
+                      {% endif %}
+                    {%- endif -%}
+                  {%- endfor -%}
+                {%- endfor -%}
+              "
+            >
+              {{ glyph }}
+            </figure>
           {% endfor %}
         {% endfor %}
       </section>
