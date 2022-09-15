@@ -5,8 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const input = manipulator.querySelector('[type="range"]')
     const list = manipulator.querySelector('datalist')
     const indicator = manipulator.querySelector('span')
-    input.removeAttribute('disabled')
-    input.addEventListener('input', () => {
+    const update = () => {
       const optiondata = list.querySelector(`[value="${input.value}"]`)
       indicator.innerText = optiondata.innerText
       for (let figure of figures) {
@@ -16,7 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const weights = figure.getAttribute('data-weights').split(' ')
         figure.toggleAttribute('hidden', !weights.includes(weight))
       }
-    })
+    }
+    update()
+    input.removeAttribute('disabled')
+    input.addEventListener('input', update)
   }
   for (let figure of figures) {
     figure.style.cursor = 'pointer'
