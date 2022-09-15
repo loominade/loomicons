@@ -206,4 +206,4 @@ gulp.task('html', function () {
 
 buildJobs.push('html')
 
-gulp.task('build', gulp.parallel(buildJobs));
+gulp.task('build', gulp.series(buildJobs));

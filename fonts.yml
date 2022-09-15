@@ -29,17 +29,17 @@ basic:
         - ◰
       files:
         src/basic/100/u25A1-square.svg: CSEI+PtJBxdjAUh6/YhDFZ+hlxasUTYaAobuTdPan5k=
-        src/basic/100/u25A4-rows.svg: kWX4XHoi1edpc/wqkUG5vEgulwc6KP14Psn7LIh/cVk=
-        src/basic/100/u25A5-columns.svg: qJmxqwPTyhSQTwd9irPBb3L+a0EYmfWhV9/9hf0pM0c=
+        src/basic/100/u25A4-rows.svg: LRVEyq6K2AmaYxsi5joogMHShomVGh442uQj+Uacbas=
+        src/basic/100/u25A5-columns.svg: XhMbgU5SBMnnghMqHJF+elxuvo/5S1nBr8/CccQauEU=
         src/basic/100/u25A6-grid.svg: hWfYpcxsqtAtbpybP9F6odt14Gikj9zSuknYPiQgtNI=
         src/basic/100/u25B3-up-triangle.svg: PaK7izVlcENRpLZON97yhq9KSaIDrnz66ObBSyCE82M=
         src/basic/100/u25B6-play.svg: +mCTVM+HpL1drtVGdqMBYnYBpj6ic0wc3OMbN6s8ndM=
-        src/basic/100/u25C7-diamond.svg: yBsTHfEFbcNdRPB+yviK1LJ2sBZVpVq68nAEnKQv4S0=
+        src/basic/100/u25C7-diamond.svg: //AOmC/+nWRw73Maxn4k7yE0fTfb7i655rnhU4kgozk=
         src/basic/100/u25CB-circle.svg: V2kwciPhqqdT+4sMxjvrM+G2b33ePFGlmDpL8vRMnRI=
-        src/basic/100/u25EB-two-columns.svg: f4ps4yhrZxb9rzjeDJ9/AunivU9IhOel/Md8/OryiY4=
+        src/basic/100/u25EB-two-columns.svg: /z4+XXz5m1oa/oIK1eucJTwyto++fkWpgWOV8emUlR8=
         src/basic/100/u25F0-upper-left.svg: yE8Pgt021bdlgQKoAr9IF8itCfHxW2C3oz2uYItEfiM=
       abbr: GS
-      hash: HzSVJ+ooj5ZX5Y8Azi9TZcyXA1njBBoT6fDPa0Ivm6E=
+      hash: PkFcBo4IVWLaWTFZNxPuo/l5zhyNFIWsZ9BZm0iAql0=
     Dingbats:
       unicodeRange: U+2795,U+2796
       glyphs:
@@ -73,11 +73,11 @@ basic:
         - ⮜
         - ⮞
       files:
-        src/basic/100/u2B21-hex.svg: 3NnGxjNWON+ETU4tMH74rQ2oZAnbDIPPMNettW6TpRg=
+        src/basic/100/u2B21-hex.svg: RqbAZhwTu/MOKXWrt8TqR+xx7VjTwlk1IYRM708OSb0=
         src/basic/100/u2B9C-left-arrowhead.svg: sMiIemCLw4DkGXBUnCREckxRutfwStGmPWREnMKyCyU=
         src/basic/100/u2B9E-right-arrowhead.svg: 91by8jvRniHjG1cNe+31C7qB5tYFu4POZo0x3ebkH+s=
       abbr: MSAA
-      hash: wpCs5hxrSuYIQHYGZU+yyoen74FTe/7XCU59Re856VM=
+      hash: uWVsehk2uoMam3EeF9ZiVDhew57EfwSZg+lSoUU2YYQ=
     Miscellaneous Symbols and Pictographs:
       unicodeRange: U+1F4D6,U+1F5D9
       glyphs:
@@ -85,9 +85,9 @@ basic:
         - 🗙
       files:
         src/basic/100/u1F4D6-book.svg: o9mmsiUTH3qHM84aHokk7ZD1mjLDeGzO+nM4G20pXEA=
-        src/basic/100/u1F5D9-close.svg: 11OBwXRNspdZFDdp627qdGBYH+Ox2rsPDGlbkp/fOYc=
+        src/basic/100/u1F5D9-close.svg: ZghVAcPZpXD/ibCmaN26pNpPirbFVexxGLubrkLLei0=
       abbr: MSAP
-      hash: h2cNXZapV16S1GCZb+xZvZ84N+iGipqp5NrBK7ks0nM=
+      hash: AJSG/An/nslPcTl3JYHZBItE+fMO3ZmiXwCd/509bg4=
   '200':
     Arrows:
       unicodeRange: U+2190-2193
