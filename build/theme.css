@@ -163,7 +163,7 @@
 
 :root {
   font-family: 'Barlow Condensed';
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: grayscale;
   --background:  white;
   --foreground:  black;
