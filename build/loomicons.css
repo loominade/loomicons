@@ -583,9 +583,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/D.woff2?cTsdp9EiGhqNx1/QGmsvBqglLFkXHMxOjQEqrieaeWw=) format('woff2');
-  /* contains glyphs: ✏,❞,➕,➖,➭ */
-  unicode-range: U+270F,U+275E,U+2795,U+2796,U+27AD;
+  src: url(basic/800/D.woff2?9xQizLCTkAE1J7qq75Q1tVmD3wI3D3ukHWLv/oRxxZs=) format('woff2');
+  /* contains glyphs: ✏,✏,✔,❞,➕,➖,➭ */
+  unicode-range: U+270F,U+2714,U+275E,U+2795,U+2796,U+27AD;
 }
 
 /* Supplemental Arrows-A */
@@ -643,9 +643,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/MSAP.woff2?svLB4uBILr1UwY3ZjTc97afvPb3ELQZQBRTSv0jeKBs=) format('woff2');
-  /* contains glyphs: 👤,💾,📖,📞,🔄,🔍,🔎,🗙,🗨,🗩,🗩🗨 */
-  unicode-range: U+1F464,U+1F4BE,U+1F4D6,U+1F4DE,U+1F504,U+1F50D,U+1F50E,U+1F5D9,U+1F5E8,U+1F5E9;
+  src: url(basic/800/MSAP.woff2?hsSEMKxJQeWIJVUSZ8snAFfZ9704HtYSvAtVReXHFwA=) format('woff2');
+  /* contains glyphs: 👤,👥,💾,📖,📞,🔄,🔍,🔎,🗒,🗙,🗨,🗩,🗩🗨 */
+  unicode-range: U+1F464,U+1F465,U+1F4BE,U+1F4D6,U+1F4DE,U+1F504,U+1F50D,U+1F50E,U+1F5D2,U+1F5D9,U+1F5E8,U+1F5E9;
 }
 
 /* Arrows */
