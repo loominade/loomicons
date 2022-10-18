@@ -629,14 +629,12 @@ basic:
       unicodeRange: U+270F,U+2714,U+275E,U+2795,U+2796,U+27AD
       glyphs:
         - ✏
-        - ✏
         - ✔
         - ❞
         - ➕
         - ➖
         - ➭
       files:
-        src/basic/800/u270F-edit-2.svg: 1DlMzshAHFOsjPXplDrL44vEnVdjZOcZ2APuMhZwx5o=
         src/basic/800/u270F-edit.svg: YBM+l/2y/lwtd2dBaD2/ywNB8tPW2sIzcRRBHMc6h2M=
         src/basic/800/u2714-heavycheck.svg: EeJIQgWXZprv92c6N3uK17WA0mEfcN3sbsM0aLSSKW4=
         src/basic/800/u275E-quote.svg: hRK13k6feCrsslSe9GGN/AxH5yxvm+VrDnvLsOtxvoE=
@@ -644,7 +642,7 @@ basic:
         src/basic/800/u2796-minus.svg: XPu9VZmhdTKsLQReNV6uW9abk6doJEla0EsuI/L+53U=
         src/basic/800/u27AD-right-3d.svg: WozfzUkZcu7CRK8ir8eIrVPCKNkuiE40IggCvNX/8so=
       abbr: D
-      hash: 9xQizLCTkAE1J7qq75Q1tVmD3wI3D3ukHWLv/oRxxZs=
+      hash: 8cMigc3dVJWJsZZ9a1t61/uQFWTsifnCOgMuQ50gBio=
     Supplemental Arrows-A:
       unicodeRange: U+27F6
       glyphs:
