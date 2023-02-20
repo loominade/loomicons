@@ -63,9 +63,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 100;
-  src: url(basic/100/MSAP.woff2?AJSG/An/nslPcTl3JYHZBItE+fMO3ZmiXwCd/509bg4=) format('woff2');
-  /* contains glyphs: 📖,🗙 */
-  unicode-range: U+1F4D6,U+1F5D9;
+  src: url(basic/100/MSAP.woff2?jo6eEycL+ScxIujTGDV9dTnGrKuw9ZvS+faEyrmSC7Y=) format('woff2');
+  /* contains glyphs: 🌐,📖,🖥,🖥‍🌐,🗙 */
+  unicode-range: U+200D,U+1F310,U+1F4D6,U+1F5A5,U+1F5D9;
 }
 
 /* Arrows */
@@ -363,9 +363,19 @@
   font-family: basic;
   font-display: swap;
   font-weight: 500;
-  src: url(basic/500/MSAP.woff2?rmJ0rJSc1m3ga3T3crSwWMpKB3CYNGKLtGPEfY/kNbA=) format('woff2');
-  /* contains glyphs: 📖,🗙 */
-  unicode-range: U+1F4D6,U+1F5D9;
+  src: url(basic/500/MSAP.woff2?P3bAZer7xJkjmXwYvSJhi/rCfb/Dnol39Le2QOPjJ3U=) format('woff2');
+  /* contains glyphs: 📖,🔍,🗙 */
+  unicode-range: U+1F4D6,U+1F50D,U+1F5D9;
+}
+
+/* Transport and Map Symbols */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 500;
+  src: url(basic/500/TAMS.woff2?x3GCqLmf846OlOhpH/YuAlRKBndUo2U6SvtnBcdXWJE=) format('woff2');
+  /* contains glyphs: 🛈,🛍 */
+  unicode-range: U+1F6C8,U+1F6CD;
 }
 
 /* Arrows */

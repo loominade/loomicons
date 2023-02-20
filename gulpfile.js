@@ -60,6 +60,9 @@ fontFolders.forEach(fontFolder => {
               let allInRange = true
               for (const codepointSting of sequence) {
                 const codePoint = parseInt(codepointSting, 16)
+                if ([8205, 65039].includes(codePoint)) {
+                  continue
+                }
                 if (codePoint < blockRange.start || codePoint > blockRange.end) {
                   allInRange = false
                 }

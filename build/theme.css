@@ -167,6 +167,7 @@
   -moz-osx-font-smoothing: grayscale;
   --background:  white;
   --foreground:  black;
+  font-variant-ligatures: contextual;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -229,6 +230,7 @@ figure {
 
 figure[hidden] {
   display: none;
+  letter-spacing: .001em;
 }
 
 figure:focus {

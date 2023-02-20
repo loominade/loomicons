@@ -79,15 +79,21 @@ basic:
       abbr: MSAA
       hash: uWVsehk2uoMam3EeF9ZiVDhew57EfwSZg+lSoUU2YYQ=
     Miscellaneous Symbols and Pictographs:
-      unicodeRange: U+1F4D6,U+1F5D9
+      unicodeRange: U+200D,U+1F310,U+1F4D6,U+1F5A5,U+1F5D9
       glyphs:
+        - 🌐
         - 📖
+        - 🖥
+        - 🖥‍🌐
         - 🗙
       files:
+        src/basic/100/u1F310-globe.svg: wpGM8YXwBgR5WHEUjmIPA7svysfPckCFq4lTcXVUhXM=
         src/basic/100/u1F4D6-book.svg: o9mmsiUTH3qHM84aHokk7ZD1mjLDeGzO+nM4G20pXEA=
+        src/basic/100/u1F5A5-computer.svg: Q//hRbzHrRFlLxyXuh5YZMreiTMGgyaD3s5bf70pwUE=
+        src/basic/100/u1F5A5u200Du1F310-website.svg: q7atJsq3ekxjc3qxU/6Mwj226+HJvqcBdMcEwTh4qrc=
         src/basic/100/u1F5D9-close.svg: ZghVAcPZpXD/ibCmaN26pNpPirbFVexxGLubrkLLei0=
       abbr: MSAP
-      hash: AJSG/An/nslPcTl3JYHZBItE+fMO3ZmiXwCd/509bg4=
+      hash: jo6eEycL+ScxIujTGDV9dTnGrKuw9ZvS+faEyrmSC7Y=
   '200':
     Arrows:
       unicodeRange: U+2190-2193
@@ -383,15 +389,27 @@ basic:
       abbr: MSAA
       hash: OPk/FLcmkvhStMrFYIye3v5dRrcj/vGEvJn//WDJ3LM=
     Miscellaneous Symbols and Pictographs:
-      unicodeRange: U+1F4D6,U+1F5D9
+      unicodeRange: U+1F4D6,U+1F50D,U+1F5D9
       glyphs:
         - 📖
+        - 🔍
         - 🗙
       files:
         src/basic/500/u1F4D6-book.svg: kZVHqYp9lilJ51Z2c57YmYaDjXkq6LfaSxSn67p24EI=
+        src/basic/500/u1F50D-search.svg: BBZmlaPtLHS1Dw7D5NI9286lN0pkRdlZH2UEEMxBtYw=
         src/basic/500/u1F5D9-close.svg: 31A1t/GYXZoIAuc1cWeU8aGZVj9o7+x3CKFQf9DBCa8=
       abbr: MSAP
-      hash: rmJ0rJSc1m3ga3T3crSwWMpKB3CYNGKLtGPEfY/kNbA=
+      hash: P3bAZer7xJkjmXwYvSJhi/rCfb/Dnol39Le2QOPjJ3U=
+    Transport and Map Symbols:
+      unicodeRange: U+1F6C8,U+1F6CD
+      glyphs:
+        - 🛈
+        - 🛍
+      files:
+        src/basic/500/u1F6C8-info.svg: stdqGbCeDAlSmBu9uoLZ02eWqVurlWhk2El8KLYda6o=
+        src/basic/500/u1F6CD-shopping.svg: 7nBcw+FQSmG569jeJpD18ZnghN4iHUFyR0DFNC3rfbk=
+      abbr: TAMS
+      hash: x3GCqLmf846OlOhpH/YuAlRKBndUo2U6SvtnBcdXWJE=
   '600':
     Arrows:
       unicodeRange: U+2190-2193
