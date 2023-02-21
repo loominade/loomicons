@@ -563,15 +563,17 @@ basic:
       abbr: MSAA
       hash: T/Kn29g1tUtDJU6uwsZskMcNLI3BiAyRk25VWjvVJbo=
     Miscellaneous Symbols and Pictographs:
-      unicodeRange: U+1F4D6,U+1F5D9
+      unicodeRange: U+1F4D6,U+1F5A8,U+1F5D9
       glyphs:
         - 📖
+        - 🖨
         - 🗙
       files:
         src/basic/700/u1F4D6-book.svg: i/vlLQK8MLQjKDgxwfJSteT4tWW7BK2qLg2p3/zdESQ=
+        src/basic/700/u1F5A8-printer.svg: UXnOKDP9ERICrhkf2zO/Dk7CvVbaEswKW3a0Mrwz/+s=
         src/basic/700/u1F5D9-close.svg: HOVXQ7isAmkmiA23/CzZmCQKGek8Fxn9mh8GYYPjT/g=
       abbr: MSAP
-      hash: h+OSIVzmFjD8Rw455Ybt9MMi5ZKkglfGnB/U7bn0rLA=
+      hash: 3P+q5uzsX8g5B81LYZZLQtdt0eU7T5qC61f4b96ygGo=
   '800':
     Arrows:
       unicodeRange: U+2190-2193,U+21BA,U+21BB

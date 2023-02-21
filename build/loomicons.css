@@ -533,9 +533,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 700;
-  src: url(basic/700/MSAP.woff2?h+OSIVzmFjD8Rw455Ybt9MMi5ZKkglfGnB/U7bn0rLA=) format('woff2');
-  /* contains glyphs: 📖,🗙 */
-  unicode-range: U+1F4D6,U+1F5D9;
+  src: url(basic/700/MSAP.woff2?3P+q5uzsX8g5B81LYZZLQtdt0eU7T5qC61f4b96ygGo=) format('woff2');
+  /* contains glyphs: 📖,🖨,🗙 */
+  unicode-range: U+1F4D6,U+1F5A8,U+1F5D9;
 }
 
 /* Arrows */
