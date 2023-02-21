@@ -750,6 +750,14 @@ basic:
         src/basic/800/u1F5E9u1F5E8-speech-baloons.svg: /eDs12+i9gtJSTNSXXuT3+eXOez1sF/ylGV+GQAF2+Q=
       abbr: MSAP
       hash: MJg3+ZAupDXShJVOH0MJCpcSQ1E1qScdgldVfnOL7ww=
+    Transport and Map Symbols:
+      unicodeRange: U+1F6C8
+      glyphs:
+        - 🛈
+      files:
+        src/basic/800/u1F6C8-info.svg: F5ivvxMC9ZTl326uZbJp9Fmbo+QF8nzhaF5iDH5owfA=
+      abbr: TAMS
+      hash: PKGoncL5x1ACWsarABCGwnterGGWKBzxGKCWko1E0Lg=
   '900':
     Arrows:
       unicodeRange: U+2190-2193,U+21BA,U+21BB
