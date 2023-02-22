@@ -22,8 +22,11 @@
   "dependencies": {
     "@stdlib/string-acronym": "^0.0.3",
     "crypto": "^1.0.1",
+    "gulp-change-file-content": "^1.0.1",
+    "gulp-svgo": "^2.2.1",
     "gulp-twig": "^1.2.0",
     "js-yaml": "^4.1.0",
+    "svg-reorient": "^1.0.3",
     "unicode-blocks": "^2.0.4"
   }
 }

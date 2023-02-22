@@ -11,6 +11,8 @@ const crypto = require('crypto')
 const acronym = require( '@stdlib/string-acronym' )
 const twig = require('gulp-twig')
 const zip = require('gulp-zip')
+const changeFileContent = require('gulp-change-file-content')
+const { reorient } = require('svg-reorient')
 
 const weights = [
   'normal',
@@ -112,6 +114,17 @@ fontFolders.forEach(fontFolder => {
 fs.writeFileSync('fonts.yml', yaml.dump(fonts, { flowLevel: 5 }), { encoding: 'utf-8'})
 
 const buildJobs = []
+
+function prepareSVG() {
+  return gulp.src(`src/*/*/*.svg`)
+    .pipe(changeFileContent((content) => {
+      return reorient(content)
+    }))
+    .pipe(gulp.dest('./src'))
+}
+
+buildJobs.push(prepareSVG)
+
 
 for (let format of ['web', 'desktop']) {
   for (let font in fonts) {
