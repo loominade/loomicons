@@ -233,7 +233,7 @@
   font-family: basic;
   font-display: swap;
   font-weight: 400;
-  src: url(basic/400/GS.woff2?d5LVCKhJQ8Pft+HIl2nln+UzL6wQCEz7DxViU2bNRZc=) format('woff2');
+  src: url(basic/400/GS.woff2?iPrJgaZpMaRoUwMH9m3mxcd/pmw5SW+R8AFXlnZU8oI=) format('woff2');
   /* contains glyphs: □,▣,▶,◑,▼ */
   unicode-range: U+25A1,U+25A3,U+25B6,U+25BC,U+25D1;
 }
@@ -383,9 +383,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 600;
-  src: url(basic/600/A.woff2?EfRAWbMWIg0PTXTHh7UQPgcdrpksGZ7o42hUJD5SSLo=) format('woff2');
-  /* contains glyphs: ←,↑,→,↓ */
-  unicode-range: U+2190-2193;
+  src: url(basic/600/A.woff2?SNVctq1WjNBXH8XokWrBVieWJ9UmoUIZ1bmb+hhf9tQ=) format('woff2');
+  /* contains glyphs: ←,↑,→,↓,↗ */
+  unicode-range: U+2190-2193,U+2197;
 }
 
 /* Mathematical Operators */
@@ -396,6 +396,16 @@
   src: url(basic/600/MO.woff2?XfhEMe7C1t0YxnoyLTRTfelnUasv6UIK7nqkfJRc2Ms=) format('woff2');
   /* contains glyphs: ⋮ */
   unicode-range: U+22EE;
+}
+
+/* Box Drawing */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 600;
+  src: url(basic/600/BD.woff2?XWEYww3YysMWC+PXuTTNPbNA2Pyqr6sBtmsvjQ4R+/U=) format('woff2');
+  /* contains glyphs: ═ */
+  unicode-range: U+2550;
 }
 
 /* Geometric Shapes */
@@ -488,6 +498,16 @@
   unicode-range: U+2303,U+2304;
 }
 
+/* Box Drawing */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 700;
+  src: url(basic/700/BD.woff2?jtWuK4SsRogoCT25DAlWMUT6J6uUj2lYwJKz5opECHM=) format('woff2');
+  /* contains glyphs: ═ */
+  unicode-range: U+2550;
+}
+
 /* Geometric Shapes */
 @font-face {
   font-family: basic;
@@ -543,7 +563,7 @@
   font-family: basic;
   font-display: swap;
   font-weight: 700;
-  src: url(basic/700/MSAP.woff2?WrM+me2xOG0cpiCIEecz6LQ8+ajcsG4kSo84YxohviU=) format('woff2');
+  src: url(basic/700/MSAP.woff2?TKCKPECIKaHsVi9bXODoA5lZaUKFb5Z8skUkPEZKfrU=) format('woff2');
   /* contains glyphs: 📖,📧,🖨,🗙 */
   unicode-range: U+1F4D6,U+1F4E7,U+1F5A8,U+1F5D9;
 }
@@ -586,6 +606,16 @@
   src: url(basic/800/MT.woff2?sahJ4/QRKXA2Iyq3ZmqIertEYeTKaI8eO9obK+F+lek=) format('woff2');
   /* contains glyphs: ⏱,⏸ */
   unicode-range: U+23F1,U+23F8;
+}
+
+/* Box Drawing */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 800;
+  src: url(basic/800/BD.woff2?KHeO8HO3rpmLyTHsjMpYAZ82f3k6Z1yNwl/WdV81vf8=) format('woff2');
+  /* contains glyphs: ═ */
+  unicode-range: U+2550;
 }
 
 /* Geometric Shapes */
