@@ -228,12 +228,22 @@
   unicode-range: U+22EE;
 }
 
+/* Box Drawing */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 400;
+  src: url(basic/400/BD.woff2?blabw7j2OYJkjZerlDpuRRPBcJOLDyXYo1TKd3gKw/M=) format('woff2');
+  /* contains glyphs: ═ */
+  unicode-range: U+2550;
+}
+
 /* Geometric Shapes */
 @font-face {
   font-family: basic;
   font-display: swap;
   font-weight: 400;
-  src: url(basic/400/GS.woff2?iPrJgaZpMaRoUwMH9m3mxcd/pmw5SW+R8AFXlnZU8oI=) format('woff2');
+  src: url(basic/400/GS.woff2?d5LVCKhJQ8Pft+HIl2nln+UzL6wQCEz7DxViU2bNRZc=) format('woff2');
   /* contains glyphs: □,▣,▶,◑,▼ */
   unicode-range: U+25A1,U+25A3,U+25B6,U+25BC,U+25D1;
 }
@@ -383,7 +393,7 @@
   font-family: basic;
   font-display: swap;
   font-weight: 600;
-  src: url(basic/600/A.woff2?SNVctq1WjNBXH8XokWrBVieWJ9UmoUIZ1bmb+hhf9tQ=) format('woff2');
+  src: url(basic/600/A.woff2?dLIlnHRAa1rZLb/IzzGRaEMr40q78qjC/N5bOOFIQTk=) format('woff2');
   /* contains glyphs: ←,↑,→,↓,↗ */
   unicode-range: U+2190-2193,U+2197;
 }
