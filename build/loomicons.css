@@ -643,9 +643,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/MS.woff2?WkLKQnr233oDONF4xeOm4jf6oD6oVT1CtOVkf6po1qA=) format('woff2');
-  /* contains glyphs: ★,☆,☐,☑ */
-  unicode-range: U+2605,U+2606,U+2610,U+2611;
+  src: url(basic/800/MS.woff2?HlkYnWoOpxVz8mhY8X5oRdSQkOeT8AR2Ib03mTLOJNk=) format('woff2');
+  /* contains glyphs: ★,☆,☐,☑,⚙ */
+  unicode-range: U+2605,U+2606,U+2610,U+2611,U+2699;
 }
 
 /* Dingbats */
@@ -713,9 +713,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/MSAP.woff2?pQd2IeJ/0ha5sGejKJjl+NDf5Rt2UiobrIFJq/5I5S0=) format('woff2');
-  /* contains glyphs: 👤,👥,💾,📖,📞,📧,🔄,🔍,🔎,🔑,🔽,🗒,🗙,🗨,🗩,🗩🗨 */
-  unicode-range: U+1F464,U+1F465,U+1F4BE,U+1F4D6,U+1F4DE,U+1F4E7,U+1F504,U+1F50D,U+1F50E,U+1F511,U+1F53D,U+1F5D2,U+1F5D9,U+1F5E8,U+1F5E9;
+  src: url(basic/800/MSAP.woff2?gMYGption1pNJHByoMjLpRMExZ90iDjv+pG/10TUhDQ=) format('woff2');
+  /* contains glyphs: 👤,👥,💾,📖,📞,📧,🔄,🔍,🔎,🔑,🔒,🔽,🗒,🗙,🗨,🗩,🗩🗨 */
+  unicode-range: U+1F464,U+1F465,U+1F4BE,U+1F4D6,U+1F4DE,U+1F4E7,U+1F504,U+1F50D,U+1F50E,U+1F511,U+1F512,U+1F53D,U+1F5D2,U+1F5D9,U+1F5E8,U+1F5E9;
 }
 
 /* Transport and Map Symbols */
