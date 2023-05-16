@@ -643,9 +643,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/MS.woff2?VC1J4jF3ful//N/UX5S1xOuHwKUwXZHZItYpssm9AXU=) format('woff2');
-  /* contains glyphs: ★,☆,☐,☑,⚙ */
-  unicode-range: U+2605,U+2606,U+2610,U+2611,U+2699;
+  src: url(basic/800/MS.woff2?i5RjapWoVmCtgibGPk81oRpJ+t6Nrlwf3wSqDHLwJTw=) format('woff2');
+  /* contains glyphs: ★,☆,☐,☑,⚙,⛓ */
+  unicode-range: U+2605,U+2606,U+2610,U+2611,U+2699,U+26D3;
 }
 
 /* Dingbats */
@@ -683,7 +683,7 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/MMSB.woff2?B3KFphjpYdxaRR88f4xooxX+K9GxDTh/TJF0rUk9dlY=) format('woff2');
+  src: url(basic/800/MMSB.woff2?0noA1Uez20D23/uOlWLoSnQGV4hOBkvmFohZM0/xpIc=) format('woff2');
   /* contains glyphs: ⧀,⧁,⧉ */
   unicode-range: U+29C0,U+29C1,U+29C9;
 }

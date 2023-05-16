@@ -688,21 +688,23 @@ basic:
       abbr: GS
       hash: xXxLLJqPkdLyCIKrezSR/lUOYH8j/wDPo0FDKCJdRg4=
     Miscellaneous Symbols:
-      unicodeRange: U+2605,U+2606,U+2610,U+2611,U+2699
+      unicodeRange: U+2605,U+2606,U+2610,U+2611,U+2699,U+26D3
       glyphs:
         - ★
         - ☆
         - ☐
         - ☑
         - ⚙
+        - ⛓
       files:
         src/basic/800/u2605-full-star.svg: 7mJksSVbO1mtJV7fuvXNIwURfgaFBLIuW/A+KO863WE=
         src/basic/800/u2606-star.svg: nDEumeMsZ4YfYln4I9oKUi8untOGnqBqW0TCW2OrU9E=
         src/basic/800/u2610-unchecked.svg: MINdWcFlLR46tC3KYBogeVSpqSvJQfC/UkiUmdpWP3c=
         src/basic/800/u2611-check.svg: zWAMKLrNFqX3amKhYOZOCZvGMHhJtKQImYiD34hxEhg=
         src/basic/800/u2699-settings.svg: /6wV7po8HSdDneTK214oRB6apQUQXPEPTBqt1LrWd50=
+        src/basic/800/u26D3-chain.svg: VHTVm0MIM2AV7A4FQay+v5db+tjoz4HwvHzmgui9qJo=
       abbr: MS
-      hash: VC1J4jF3ful//N/UX5S1xOuHwKUwXZHZItYpssm9AXU=
+      hash: i5RjapWoVmCtgibGPk81oRpJ+t6Nrlwf3wSqDHLwJTw=
     Dingbats:
       unicodeRange: U+270F,U+2714,U+275E,U+2795,U+2796,U+27AD
       glyphs:
@@ -746,9 +748,9 @@ basic:
       files:
         src/basic/800/u29C0-left.svg: OMzTun515p6dILNDHQSouU9yAtPS8lgK5Z1VpYXeVO4=
         src/basic/800/u29C1-right.svg: 1+50LnjkUn48KfpaJ5opnVfmJXmBAx+szlqktZOKOdg=
-        src/basic/800/u29C9-copy.svg: 3pXzDzwe4fIPW7v0/8gsn0eap30qw/NQ+ME0YQtwo04=
+        src/basic/800/u29C9-copy.svg: n3z1qD01u/2Ux9GyE7Bsk2dZkYKo58psPUOOU9wbHQY=
       abbr: MMSB
-      hash: B3KFphjpYdxaRR88f4xooxX+K9GxDTh/TJF0rUk9dlY=
+      hash: 0noA1Uez20D23/uOlWLoSnQGV4hOBkvmFohZM0/xpIc=
     Miscellaneous Symbols and Arrows:
       unicodeRange: U+2B21,U+2B9C,U+2B9E,U+2BEA
       glyphs:
