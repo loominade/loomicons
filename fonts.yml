@@ -702,9 +702,9 @@ basic:
         src/basic/800/u2610-unchecked.svg: MINdWcFlLR46tC3KYBogeVSpqSvJQfC/UkiUmdpWP3c=
         src/basic/800/u2611-check.svg: zWAMKLrNFqX3amKhYOZOCZvGMHhJtKQImYiD34hxEhg=
         src/basic/800/u2699-settings.svg: /6wV7po8HSdDneTK214oRB6apQUQXPEPTBqt1LrWd50=
-        src/basic/800/u26D3-chain.svg: VHTVm0MIM2AV7A4FQay+v5db+tjoz4HwvHzmgui9qJo=
+        src/basic/800/u26D3-chain.svg: JewIn+Qdn/TkaLpkqyzy9VJPipdDZo+I2IhPv20L5s4=
       abbr: MS
-      hash: i5RjapWoVmCtgibGPk81oRpJ+t6Nrlwf3wSqDHLwJTw=
+      hash: r+rsu4z53Y7mrVXOrMzAp4NEy/akIIQZ3nQM8k+kaB0=
     Dingbats:
       unicodeRange: U+270F,U+2714,U+275E,U+2795,U+2796,U+27AD
       glyphs:
@@ -879,6 +879,14 @@ basic:
         src/basic/900/u2913-download.svg: tTjEyG0XUQyJuhYgyCn4d1iHwiTfoz9szPPgDHXaUw0=
       abbr: SAB
       hash: tl181fgQLNI1W3Y/zsN8QJEGvkrQ1nAJcqP7gkDKKng=
+    Miscellaneous Mathematical Symbols-B:
+      unicodeRange: U+29C9
+      glyphs:
+        - ⧉
+      files:
+        src/basic/900/u29C9-copy.svg: WEdW2ecs1wCGpyBrrEg2vZ1llahgXilMEeEaQ9r6vNI=
+      abbr: MMSB
+      hash: bUwgGTmcmaTdwdcC44r8rKmyUEGSeTuH97O3veh1aL8=
     Miscellaneous Symbols and Arrows:
       unicodeRange: U+2B9C,U+2B9E
       glyphs:

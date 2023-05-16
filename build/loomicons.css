@@ -643,7 +643,7 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/MS.woff2?i5RjapWoVmCtgibGPk81oRpJ+t6Nrlwf3wSqDHLwJTw=) format('woff2');
+  src: url(basic/800/MS.woff2?r+rsu4z53Y7mrVXOrMzAp4NEy/akIIQZ3nQM8k+kaB0=) format('woff2');
   /* contains glyphs: ★,☆,☐,☑,⚙,⛓ */
   unicode-range: U+2605,U+2606,U+2610,U+2611,U+2699,U+26D3;
 }
@@ -776,6 +776,16 @@
   src: url(basic/900/SAB.woff2?tl181fgQLNI1W3Y/zsN8QJEGvkrQ1nAJcqP7gkDKKng=) format('woff2');
   /* contains glyphs: ⤓ */
   unicode-range: U+2913;
+}
+
+/* Miscellaneous Mathematical Symbols-B */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 900;
+  src: url(basic/900/MMSB.woff2?bUwgGTmcmaTdwdcC44r8rKmyUEGSeTuH97O3veh1aL8=) format('woff2');
+  /* contains glyphs: ⧉ */
+  unicode-range: U+29C9;
 }
 
 /* Miscellaneous Symbols and Arrows */
