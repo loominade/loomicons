@@ -738,15 +738,17 @@ basic:
       abbr: SAB
       hash: DsWM1/89Ev5S9QjYFvqZxyckRgViHptsH5hEOIpSu/Y=
     Miscellaneous Mathematical Symbols-B:
-      unicodeRange: U+29C0,U+29C1
+      unicodeRange: U+29C0,U+29C1,U+29C9
       glyphs:
         - ⧀
         - ⧁
+        - ⧉
       files:
         src/basic/800/u29C0-left.svg: OMzTun515p6dILNDHQSouU9yAtPS8lgK5Z1VpYXeVO4=
         src/basic/800/u29C1-right.svg: 1+50LnjkUn48KfpaJ5opnVfmJXmBAx+szlqktZOKOdg=
+        src/basic/800/u29C9-copy.svg: 3pXzDzwe4fIPW7v0/8gsn0eap30qw/NQ+ME0YQtwo04=
       abbr: MMSB
-      hash: +sAmYpsZgq2UhmXP9fdxiVNTtLqtOh2LirDF2BUL134=
+      hash: B3KFphjpYdxaRR88f4xooxX+K9GxDTh/TJF0rUk9dlY=
     Miscellaneous Symbols and Arrows:
       unicodeRange: U+2B21,U+2B9C,U+2B9E,U+2BEA
       glyphs:
@@ -793,7 +795,7 @@ basic:
         - 🗩
         - 🗩🗨
       files:
-        src/basic/800/u1F3D7-crane.svg: pYljXe0p00ERyqpVERsVeS2DsJBEwYtiWwFfZ3jlOYU=
+        src/basic/800/u1F3D7-crane.svg: 208VzlgNX2uwg7ASWM0NwcwOz1EiEauSiwNqiVsygU4=
         src/basic/800/u1F464-profile.svg: VirtAKYHcA4UHds8Aarbsr2ITr750Kabbzikh2VVJm4=
         src/basic/800/u1F465-profiles.svg: WwPt3t1Lk7oNp87BS4lqHXa83bh0YLUR5i29o6+KHAw=
         src/basic/800/u1F4A9-poop.svg: qFgXNBPVjll/iAN6S943lsZRmMCHEi7vLId7S7n3yuk=
@@ -813,7 +815,7 @@ basic:
         src/basic/800/u1F5E9-speech-baloon.svg: po9jn0fFAGYGnhkRWfY3FcouqgqHqMtdKa9pM5AP/OE=
         src/basic/800/u1F5E9u1F5E8-speech-baloons.svg: st0u+oty1gGZbvmX08Jnlx8WfwktyaltIgppgi1RfbA=
       abbr: MSAP
-      hash: HXfsBGgbCNPH8IfFOv3XpPpLfRMiQdNmgMgpWDKuPLw=
+      hash: +vZICrHv6qSpzLxHaV0dGYTyQhJn77cL2ONu4zOJ0OA=
     Transport and Map Symbols:
       unicodeRange: U+1F6C8
       glyphs:
