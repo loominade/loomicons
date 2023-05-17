@@ -643,7 +643,7 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/MS.woff2?r+rsu4z53Y7mrVXOrMzAp4NEy/akIIQZ3nQM8k+kaB0=) format('woff2');
+  src: url(basic/800/MS.woff2?owExgfkX0Gpu71/P3ilgejYotlEGysdgX75AaE2zpVQ=) format('woff2');
   /* contains glyphs: ★,☆,☐,☑,⚙,⛓ */
   unicode-range: U+2605,U+2606,U+2610,U+2611,U+2699,U+26D3;
 }
@@ -683,7 +683,7 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/MMSB.woff2?0noA1Uez20D23/uOlWLoSnQGV4hOBkvmFohZM0/xpIc=) format('woff2');
+  src: url(basic/800/MMSB.woff2?6GTDMkiQrDQ3BKR5nmrBxvaIY0KR5sUcl5epL5AUKfE=) format('woff2');
   /* contains glyphs: ⧀,⧁,⧉ */
   unicode-range: U+29C0,U+29C1,U+29C9;
 }
@@ -693,7 +693,7 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/MSAA.woff2?vc/N2Lm2NXki6DuYK6z2UDSs6clvPnQSMN0XKP8ScAI=) format('woff2');
+  src: url(basic/800/MSAA.woff2?GKF66lNJN6d7mjkkFblEbbS+YHgwdWTiP5D6Y/+09r8=) format('woff2');
   /* contains glyphs: ⬡,⮜,⮞,⯪ */
   unicode-range: U+2B21,U+2B9C,U+2B9E,U+2BEA;
 }
@@ -713,9 +713,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/MSAP.woff2?cSoFlnWJFNS5M1K0KoYko8aB8qDvZz8zDFxYpLioyd0=) format('woff2');
-  /* contains glyphs: 🏗,👔,👤,👥,💩,💾,📖,📞,📧,🔄,🔍,🔎,🔑,🔒,🔽,🗒,🗙,🗨,🗩,🗩🗨 */
-  unicode-range: U+1F3D7,U+1F454,U+1F464,U+1F465,U+1F4A9,U+1F4BE,U+1F4D6,U+1F4DE,U+1F4E7,U+1F504,U+1F50D,U+1F50E,U+1F511,U+1F512,U+1F53D,U+1F5D2,U+1F5D9,U+1F5E8,U+1F5E9;
+  src: url(basic/800/MSAP.woff2?g4JGhRnccAqhtznB4R4fD7HE7Dp8OAJDDULXt94lUn0=) format('woff2');
+  /* contains glyphs: 🏗,👔,👤,👥,💩,💾,📊,📖,📞,📧,🔄,🔍,🔎,🔑,🔒,🔽,🗒,🗙,🗨,🗩,🗩🗨 */
+  unicode-range: U+1F3D7,U+1F454,U+1F464,U+1F465,U+1F4A9,U+1F4BE,U+1F4CA,U+1F4D6,U+1F4DE,U+1F4E7,U+1F504,U+1F50D,U+1F50E,U+1F511,U+1F512,U+1F53D,U+1F5D2,U+1F5D9,U+1F5E8,U+1F5E9;
 }
 
 /* Transport and Map Symbols */
