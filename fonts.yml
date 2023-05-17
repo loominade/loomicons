@@ -697,14 +697,14 @@ basic:
         - ⚙
         - ⛓
       files:
-        src/basic/800/u2605-full-star.svg: CohGUa3PBbwWf3nYVnpWSHn86z4pvbPIvxAavyIbKiQ=
-        src/basic/800/u2606-star.svg: Tl/xJFDEwugw4XvdNLAMMnXKrKrB10OUoR3dMiTsb0c=
+        src/basic/800/u2605-full-star.svg: d+jk4fSrPx/Sgs2+Wv0WhnGta3FFaaKq25FesRaWIt0=
+        src/basic/800/u2606-star.svg: ullUQ8YnqqiodrlJOTAnlfq2BEQWCLiw0wD+6LdCUeE=
         src/basic/800/u2610-unchecked.svg: v5DCQEA5NO09Q2bOfy3sK5GkuCUC5tywq++/E7UwCjI=
         src/basic/800/u2611-check.svg: LLYxR0RdpPTqeAKoth6SJ2wfhsRGE44CB11RHc1aCNc=
         src/basic/800/u2699-settings.svg: /6wV7po8HSdDneTK214oRB6apQUQXPEPTBqt1LrWd50=
         src/basic/800/u26D3-chain.svg: JewIn+Qdn/TkaLpkqyzy9VJPipdDZo+I2IhPv20L5s4=
       abbr: MS
-      hash: owExgfkX0Gpu71/P3ilgejYotlEGysdgX75AaE2zpVQ=
+      hash: E90S0sbQWfAMZU4uQ4AWhSETzTEmRod083WTR07RQqY=
     Dingbats:
       unicodeRange: U+270F,U+2714,U+275E,U+2795,U+2796,U+27AD
       glyphs:
@@ -762,9 +762,9 @@ basic:
         src/basic/800/u2B21-hex.svg: nhDCO6odWeDxfwd2bq+tEyZhZpcBXuUmSlHqfjXYYwI=
         src/basic/800/u2B9C-left-arrowhead.svg: vs58gW5lfnm8BJQEUOMEGLif6rOewssx8bX9NFsFEXU=
         src/basic/800/u2B9E-right-arrowhead.svg: pmi6wEP8aJKvmVklylbXZm0ObaDaZrpbJl/dqqbdSfA=
-        src/basic/800/u2BEA-half-star.svg: 0/qsfmW04qRRDtWvQn3F1w6aq74pE0jFuQztChOm8T0=
+        src/basic/800/u2BEA-half-star.svg: 6SioG8IkFpi5l2DWmPmLHdV/ws++O5N7+LtxDuQlvZk=
       abbr: MSAA
-      hash: GKF66lNJN6d7mjkkFblEbbS+YHgwdWTiP5D6Y/+09r8=
+      hash: MjhKv2LOXB/5hayZvNqB00CbyEgP1NAghwq1IRWj9WQ=
     Private Use Area:
       unicodeRange: U+E381
       glyphs:
@@ -902,12 +902,14 @@ basic:
       abbr: MSAA
       hash: 1RwjjOTdLiR/QaUK+TSb5XYoZpPSdWNiipCclPHH+Ec=
     Miscellaneous Symbols and Pictographs:
-      unicodeRange: U+1F4D6,U+1F5D9
+      unicodeRange: U+1F4CA,U+1F4D6,U+1F5D9
       glyphs:
+        - 📊
         - 📖
         - 🗙
       files:
+        src/basic/900/u1F4CA-stats.svg: WA9gVDIILPq/O/81C6J5shy6NG9HzDbj/G5jsqVn0a8=
         src/basic/900/u1F4D6-book.svg: XhHSE0iO7iXmzkUFCXHstBxKw7uOihdGStDLKrnBqKU=
         src/basic/900/u1F5D9-close.svg: cyEPk3JxsBSZkddHWJyRTRtGuAhMyd877gUzdS7Hdb4=
       abbr: MSAP
-      hash: oPFiWBrNoyrUQ8zhcxebegCcFnuH9zDi+aLjDs0zjxg=
+      hash: ZpaYU7YNns+FRAToXlZOVACbFcDo6XFFqJX4vUzGzWM=
