@@ -624,12 +624,13 @@ basic:
       hash: LlwLYJo72oCYgRGRRsWIEQ1dphn0KqhCvjSOFHBFG4M=
   '800':
     Arrows:
-      unicodeRange: U+2190-2193,U+21BA,U+21BB
+      unicodeRange: U+2190-2193,U+2195,U+21BA,U+21BB
       glyphs:
         - ←
         - ↑
         - →
         - ↓
+        - ↕
         - ↺
         - ↻
       files:
@@ -637,10 +638,11 @@ basic:
         src/basic/800/u2191-up.svg: ptbRIkDttxLDibUQFH3TR0b5Rs9zt9j03nRKxTcDkg4=
         src/basic/800/u2192-right.svg: z9xUZ6m8C/y2NLp+7R4mPHdPnF+V6yCuv8L8Yg2zYps=
         src/basic/800/u2193-down.svg: VV3zPmTG4PmXgwa+zJvpwD1H+byYmShuouXreObidc8=
+        src/basic/800/u2195-updown.svg: 3h0mM4bGUXKcNdSRxuc2oB8FT8cSdw9KtOOCE6wjJ7A=
         src/basic/800/u21ba-go-back.svg: SUpIHWwdHLRIfwzcpEL9taHSYG++tOWhUim2bv444Lo=
         src/basic/800/u21bb-skip-ahead.svg: g89lo38p1JM5P6VQ+XPcvA+cDRVvkLB3B5tLTYqaHwU=
       abbr: A
-      hash: TQTeOe5TWEykrWJQRRlmXLLt5QO/gLpi5P59uGik1wQ=
+      hash: 1xM7xY9vWLit/0tuHil5EES+PLlialjrbalGp+5iLqc=
     Mathematical Operators:
       unicodeRange: U+22EE
       glyphs:
@@ -908,8 +910,8 @@ basic:
         - 📖
         - 🗙
       files:
-        src/basic/900/u1F4CA-stats.svg: WA9gVDIILPq/O/81C6J5shy6NG9HzDbj/G5jsqVn0a8=
+        src/basic/900/u1F4CA-stats.svg: 9xZ5pKtOL9BfBS3OV7i6dKjhzvNXSNjvzXr39S4Jwqc=
         src/basic/900/u1F4D6-book.svg: XhHSE0iO7iXmzkUFCXHstBxKw7uOihdGStDLKrnBqKU=
         src/basic/900/u1F5D9-close.svg: cyEPk3JxsBSZkddHWJyRTRtGuAhMyd877gUzdS7Hdb4=
       abbr: MSAP
-      hash: ZpaYU7YNns+FRAToXlZOVACbFcDo6XFFqJX4vUzGzWM=
+      hash: O7DejwkszH+sHzc24SVhCrgFcvcoLWGfoI0+upxU9vY=

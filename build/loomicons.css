@@ -593,9 +593,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/A.woff2?TQTeOe5TWEykrWJQRRlmXLLt5QO/gLpi5P59uGik1wQ=) format('woff2');
-  /* contains glyphs: ←,↑,→,↓,↺,↻ */
-  unicode-range: U+2190-2193,U+21BA,U+21BB;
+  src: url(basic/800/A.woff2?1xM7xY9vWLit/0tuHil5EES+PLlialjrbalGp+5iLqc=) format('woff2');
+  /* contains glyphs: ←,↑,→,↓,↕,↺,↻ */
+  unicode-range: U+2190-2193,U+2195,U+21BA,U+21BB;
 }
 
 /* Mathematical Operators */
@@ -803,7 +803,7 @@
   font-family: basic;
   font-display: swap;
   font-weight: 900;
-  src: url(basic/900/MSAP.woff2?ZpaYU7YNns+FRAToXlZOVACbFcDo6XFFqJX4vUzGzWM=) format('woff2');
+  src: url(basic/900/MSAP.woff2?O7DejwkszH+sHzc24SVhCrgFcvcoLWGfoI0+upxU9vY=) format('woff2');
   /* contains glyphs: 📊,📖,🗙 */
   unicode-range: U+1F4CA,U+1F4D6,U+1F5D9;
 }
