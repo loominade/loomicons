@@ -593,7 +593,7 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/A.woff2?1xM7xY9vWLit/0tuHil5EES+PLlialjrbalGp+5iLqc=) format('woff2');
+  src: url(basic/800/A.woff2?48i3AqGS2NQN3aYQjL6XPKbzA/kEpYpkRX4sI7RBBAI=) format('woff2');
   /* contains glyphs: ←,↑,→,↓,↕,↺,↻ */
   unicode-range: U+2190-2193,U+2195,U+21BA,U+21BB;
 }
@@ -703,9 +703,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/PUA.woff2?p5y+ZAhlH/jiNnxiMPayQizc+XtiYFAqzUnz64HnXNo=) format('woff2');
-  /* contains glyphs:  */
-  unicode-range: U+E381;
+  src: url(basic/800/PUA.woff2?6vaIJv70q+FeKAxk0RmPnV7B5BAEi7Ivu39DvN9Rtrc=) format('woff2');
+  /* contains glyphs: ,,,,, */
+  unicode-range: U+E050,U+E051,U+E053,U+E056,U+E057,U+E381;
 }
 
 /* Miscellaneous Symbols and Pictographs */

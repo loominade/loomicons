@@ -638,11 +638,11 @@ basic:
         src/basic/800/u2191-up.svg: ptbRIkDttxLDibUQFH3TR0b5Rs9zt9j03nRKxTcDkg4=
         src/basic/800/u2192-right.svg: z9xUZ6m8C/y2NLp+7R4mPHdPnF+V6yCuv8L8Yg2zYps=
         src/basic/800/u2193-down.svg: VV3zPmTG4PmXgwa+zJvpwD1H+byYmShuouXreObidc8=
-        src/basic/800/u2195-updown.svg: 3h0mM4bGUXKcNdSRxuc2oB8FT8cSdw9KtOOCE6wjJ7A=
+        src/basic/800/u2195-updown.svg: FCP8mSfWhj9zl+WfYl2q/Kf+Fkyv0gw0sdslqfRjLGI=
         src/basic/800/u21ba-go-back.svg: SUpIHWwdHLRIfwzcpEL9taHSYG++tOWhUim2bv444Lo=
         src/basic/800/u21bb-skip-ahead.svg: g89lo38p1JM5P6VQ+XPcvA+cDRVvkLB3B5tLTYqaHwU=
       abbr: A
-      hash: 1xM7xY9vWLit/0tuHil5EES+PLlialjrbalGp+5iLqc=
+      hash: 48i3AqGS2NQN3aYQjL6XPKbzA/kEpYpkRX4sI7RBBAI=
     Mathematical Operators:
       unicodeRange: U+22EE
       glyphs:
@@ -768,13 +768,23 @@ basic:
       abbr: MSAA
       hash: MjhKv2LOXB/5hayZvNqB00CbyEgP1NAghwq1IRWj9WQ=
     Private Use Area:
-      unicodeRange: U+E381
+      unicodeRange: U+E050,U+E051,U+E053,U+E056,U+E057,U+E381
       glyphs:
+        - 
+        - 
+        - 
+        - 
+        - 
         - 
       files:
+        src/basic/800/uE050-firefox.svg: xzIJGRF3a7/EzpgAw3V2eO7861c95Uj16kp25gyp/Pg=
+        src/basic/800/uE051-safari.svg: MIB+kOsC1YG4+tE7n6JFJZUMBdme50u755Xs/2zDHek=
+        src/basic/800/uE053-chromium.svg: lx4EKHtZcMf9mxdx05Aks8EBJvxob0MqUnod161pIgw=
+        src/basic/800/uE056-ie.svg: FMTiTP8WSpP6wzOzx+Rjm3Ou4hhwQn83eBgzq4aNUF4=
+        src/basic/800/uE057-edge.svg: b8kcFYnEr/8LX1qNy1RCYcJIe5KB1iTe2mBHDP7EyBQ=
         src/basic/800/uE381-rss.svg: KZQ/zCv67NNbTW9ViNr4wOeayV4egthoPsKm8zJW/oc=
       abbr: PUA
-      hash: p5y+ZAhlH/jiNnxiMPayQizc+XtiYFAqzUnz64HnXNo=
+      hash: 6vaIJv70q+FeKAxk0RmPnV7B5BAEi7Ivu39DvN9Rtrc=
     Miscellaneous Symbols and Pictographs:
       unicodeRange: >-
         U+1F3D7,U+1F454,U+1F464,U+1F465,U+1F4A9,U+1F4BE,U+1F4CA,U+1F4D6,U+1F4DE,U+1F4E7,U+1F504,U+1F50D,U+1F50E,U+1F511,U+1F512,U+1F53D,U+1F5D2,U+1F5D9,U+1F5E8,U+1F5E9
