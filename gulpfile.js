@@ -13,6 +13,50 @@ const twig = require('gulp-twig')
 const zip = require('gulp-zip')
 const changeFileContent = require('gulp-change-file-content')
 const { reorient } = require('svg-reorient')
+const through = require('through2')
+const isEmoji = require('is-emoji')
+
+const cloneSink = function() {
+  const tapStream = through.obj();
+
+  const stream = through.obj(function(file, enc, cb) {
+    if (file.isStream()) {
+      this.emit('error', new PluginError('gulp-clone', 'Streaming not supported'));
+      return cb()
+    }
+
+    if (file.isNull()) {
+      return cb(null, file)
+    }
+
+    const codePoints = file.path.match(/(u[0-9a-fA-Fu]+)-[^\/]+\.svg$/)[1].split('u')
+    let cloneName = []
+    let needsClone = false
+    for (const codePoint of codePoints) {
+      if (codePoint != '') {
+        if (isEmoji(String.fromCodePoint(parseInt(codePoint, 16)))) {
+          needsClone = true
+          cloneName.push(`${codePoint}uEF0F`)
+        } else {
+          cloneName.push(codePoint)
+        }
+      }
+    }
+    if (needsClone) {
+      const clone = file.clone()
+      clone.path.replace(/(u[0-9a-fA-Fu]+)(-[^\/]+)\.svg$/, `u${cloneName.join('u')}$2-plain.svg`)
+      tapStream.write(clone)
+    }
+    cb(null, file)
+  })
+
+  stream.tap = function() {
+    return tapStream
+  }
+
+  return stream
+};
+
 
 const weights = [
   'normal',
@@ -76,8 +120,14 @@ fontFolders.forEach(fontFolder => {
                 const hashSum = crypto.createHash('sha256')
                 hashSum.update(fileBuffer);
                 
-                files[glyphFileName] = hashSum.digest('base64')
+                files[glyphFileName] = hashSum.digest('base64')    
               }
+            }
+          }
+          for (const k in glyphs) {
+            console.debug(glyphs[k])
+            if (isEmoji(glyphs[k])) {
+              glyphs[k] += String.fromCodePoint(65038)
             }
           }
           if (glyphs.length > 0) {
@@ -144,6 +194,7 @@ for (let format of ['web', 'desktop']) {
         gulp.task(jobName, function (resove) {
           return gulp
             .src(Object.keys(fonts[font][weight][block].files))
+            .pipe(cloneSink())
             .pipe(iconfont({
               fontName: font,
               fontWeight: weight,

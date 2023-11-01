@@ -14,8 +14,8 @@
   font-display: swap;
   font-weight: 100;
   src: url(basic/100/GS.woff2?eiKdYkJC4vDuUpKfsgVnWh3EW/OzX9FMRMUB/cxc9xw=) format('woff2');
-  /* contains glyphs: □,▤,▥,▦,△,▶,◇,○,◫,◰ */
-  unicode-range: U+25A1,U+25A4-25A6,U+25B3,U+25B6,U+25C7,U+25CB,U+25EB,U+25F0;
+  /* contains glyphs: □,▤,▥,▦,△,▶︎,◇,○,◫,◰ */
+  unicode-range: U+25A1,U+25A4-25A6,U+25B3,U+25B6,U+25C7,U+25CB,U+25EB,U+25F0,U+FE0E;
 }
 
 /* Dingbats */
@@ -24,8 +24,8 @@
   font-display: swap;
   font-weight: 100;
   src: url(basic/100/D.woff2?cApUsslHE+/MnnaomdtjDYFNbUVvDgQme/XiusghbVw=) format('woff2');
-  /* contains glyphs: ➕,➖ */
-  unicode-range: U+2795,U+2796;
+  /* contains glyphs: ➕︎,➖︎ */
+  unicode-range: U+2795,U+2796,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -64,8 +64,8 @@
   font-display: swap;
   font-weight: 100;
   src: url(basic/100/MSAP.woff2?s2HGiHZu4pauodlGq9tR33Cc3mm8wSoYj1Ybn+7ORq0=) format('woff2');
-  /* contains glyphs: 🌐,📖,🖥,🖥‍🌐,🗙 */
-  unicode-range: U+200D,U+1F310,U+1F4D6,U+1F5A5,U+1F5D9;
+  /* contains glyphs: 🌐︎,📖︎,🖥︎,🖥‍🌐,🗙︎ */
+  unicode-range: U+200D,U+FE0E,U+1F310,U+1F4D6,U+1F5A5,U+1F5D9;
 }
 
 /* Arrows */
@@ -84,8 +84,8 @@
   font-display: swap;
   font-weight: 200;
   src: url(basic/200/GS.woff2?mio317YJAzGhFqZr4p5DjQvLyYzkSDjL2Se4s7APbjg=) format('woff2');
-  /* contains glyphs: □,▶ */
-  unicode-range: U+25A1,U+25B6;
+  /* contains glyphs: □,▶︎ */
+  unicode-range: U+25A1,U+25B6,U+FE0E;
 }
 
 /* Dingbats */
@@ -94,8 +94,8 @@
   font-display: swap;
   font-weight: 200;
   src: url(basic/200/D.woff2?K8ORQUq5ITpABf/Lh2LYqDjkkhaltxZAMZkDX75PcWE=) format('woff2');
-  /* contains glyphs: ➕ */
-  unicode-range: U+2795;
+  /* contains glyphs: ➕︎ */
+  unicode-range: U+2795,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -134,8 +134,8 @@
   font-display: swap;
   font-weight: 200;
   src: url(basic/200/MSAP.woff2?EkQbUKSRI2LWwc2nI/5uviXTBBMuctZq4ruQZ9AdruE=) format('woff2');
-  /* contains glyphs: 📖,🗙 */
-  unicode-range: U+1F4D6,U+1F5D9;
+  /* contains glyphs: 📖︎,🗙︎ */
+  unicode-range: U+FE0E,U+1F4D6,U+1F5D9;
 }
 
 /* Arrows */
@@ -164,8 +164,8 @@
   font-display: swap;
   font-weight: 300;
   src: url(basic/300/D.woff2?v8FWU4NVmaLPOT2urjeI/ha+ncBoaqKl7i2Gjzdb2Tw=) format('woff2');
-  /* contains glyphs: ➕ */
-  unicode-range: U+2795;
+  /* contains glyphs: ➕︎ */
+  unicode-range: U+2795,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -204,8 +204,8 @@
   font-display: swap;
   font-weight: 300;
   src: url(basic/300/MSAP.woff2?v+/8H5Xqv8neH9i6VaWE7Qt+gOUj0yhCnBTwmabz6sw=) format('woff2');
-  /* contains glyphs: 📖,🗙 */
-  unicode-range: U+1F4D6,U+1F5D9;
+  /* contains glyphs: 📖︎,🗙︎ */
+  unicode-range: U+FE0E,U+1F4D6,U+1F5D9;
 }
 
 /* Arrows */
@@ -244,8 +244,8 @@
   font-display: swap;
   font-weight: 400;
   src: url(basic/400/GS.woff2?d5LVCKhJQ8Pft+HIl2nln+UzL6wQCEz7DxViU2bNRZc=) format('woff2');
-  /* contains glyphs: □,▣,▶,◑,▼ */
-  unicode-range: U+25A1,U+25A3,U+25B6,U+25BC,U+25D1;
+  /* contains glyphs: □,▣,▶︎,◑,▼ */
+  unicode-range: U+25A1,U+25A3,U+25B6,U+25BC,U+25D1,U+FE0E;
 }
 
 /* Dingbats */
@@ -254,8 +254,8 @@
   font-display: swap;
   font-weight: 400;
   src: url(basic/400/D.woff2?JKMF2Kz3EG3M+tN0e/H86O0AtTuTZ+UT4oowt2LWMvA=) format('woff2');
-  /* contains glyphs: ➕ */
-  unicode-range: U+2795;
+  /* contains glyphs: ➕︎ */
+  unicode-range: U+2795,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -304,8 +304,8 @@
   font-display: swap;
   font-weight: 400;
   src: url(basic/400/MSAP.woff2?NZTanYFV+f4EdRIg+KGJZBhkasMHrX8b0zCAJr3I9Pg=) format('woff2');
-  /* contains glyphs: 📖,📞,🔍,🗙 */
-  unicode-range: U+1F4D6,U+1F4DE,U+1F50D,U+1F5D9;
+  /* contains glyphs: 📖︎,📞︎,🔍︎,🗙︎ */
+  unicode-range: U+FE0E,U+1F4D6,U+1F4DE,U+1F50D,U+1F5D9;
 }
 
 /* Arrows */
@@ -334,8 +334,8 @@
   font-display: swap;
   font-weight: 500;
   src: url(basic/500/D.woff2?qk2yunFKn4+PkDW5dLGgf8/FHRfPyvOdOUoHM+AkZ1s=) format('woff2');
-  /* contains glyphs: ➕ */
-  unicode-range: U+2795;
+  /* contains glyphs: ➕︎ */
+  unicode-range: U+2795,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -374,8 +374,8 @@
   font-display: swap;
   font-weight: 500;
   src: url(basic/500/MSAP.woff2?lSU5DPFLVNwQSdErW0z5IK+eKkyq8N2uuiUCxj/UQOc=) format('woff2');
-  /* contains glyphs: 📖,🔍,🗙 */
-  unicode-range: U+1F4D6,U+1F50D,U+1F5D9;
+  /* contains glyphs: 📖︎,🔍︎,🗙︎ */
+  unicode-range: U+FE0E,U+1F4D6,U+1F50D,U+1F5D9;
 }
 
 /* Transport and Map Symbols */
@@ -384,8 +384,8 @@
   font-display: swap;
   font-weight: 500;
   src: url(basic/500/TAMS.woff2?RKFo2ogu/qfuFWNSG/ahadF76gOQVX7cpxUJUgSuOR0=) format('woff2');
-  /* contains glyphs: 🛈,🛍 */
-  unicode-range: U+1F6C8,U+1F6CD;
+  /* contains glyphs: 🛈︎,🛍︎ */
+  unicode-range: U+FE0E,U+1F6C8,U+1F6CD;
 }
 
 /* Arrows */
@@ -394,8 +394,8 @@
   font-display: swap;
   font-weight: 600;
   src: url(basic/600/A.woff2?dLIlnHRAa1rZLb/IzzGRaEMr40q78qjC/N5bOOFIQTk=) format('woff2');
-  /* contains glyphs: ←,↑,→,↓,↗ */
-  unicode-range: U+2190-2193,U+2197;
+  /* contains glyphs: ←,↑,→,↓,↗︎ */
+  unicode-range: U+2190-2193,U+2197,U+FE0E;
 }
 
 /* Mathematical Operators */
@@ -434,8 +434,8 @@
   font-display: swap;
   font-weight: 600;
   src: url(basic/600/D.woff2?5RisRsoWrgJVA9eE5MQ4Z7llcMOsnFyNkv9Nv4qmP3s=) format('woff2');
-  /* contains glyphs: ➕ */
-  unicode-range: U+2795;
+  /* contains glyphs: ➕︎ */
+  unicode-range: U+2795,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -484,8 +484,8 @@
   font-display: swap;
   font-weight: 600;
   src: url(basic/600/MSAP.woff2?Kr5X5/Oa3ttcOLO4djzBt2NTAXNsPYmxQD8pL8RR+C0=) format('woff2');
-  /* contains glyphs: 📖,📞,🔍,🗙 */
-  unicode-range: U+1F4D6,U+1F4DE,U+1F50D,U+1F5D9;
+  /* contains glyphs: 📖︎,📞︎,🔍︎,🗙︎ */
+  unicode-range: U+FE0E,U+1F4D6,U+1F4DE,U+1F50D,U+1F5D9;
 }
 
 /* Arrows */
@@ -534,8 +534,8 @@
   font-display: swap;
   font-weight: 700;
   src: url(basic/700/D.woff2?dA5qkomwdgdP1C8l87z5d7OWtaiOi74Wo0rQDyE+9Hg=) format('woff2');
-  /* contains glyphs: ➕ */
-  unicode-range: U+2795;
+  /* contains glyphs: ➕︎ */
+  unicode-range: U+2795,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -574,8 +574,8 @@
   font-display: swap;
   font-weight: 700;
   src: url(basic/700/MSAP.woff2?TKCKPECIKaHsVi9bXODoA5lZaUKFb5Z8skUkPEZKfrU=) format('woff2');
-  /* contains glyphs: 📖,📧,🖨,🗙 */
-  unicode-range: U+1F4D6,U+1F4E7,U+1F5A8,U+1F5D9;
+  /* contains glyphs: 📖︎,📧︎,🖨︎,🗙︎ */
+  unicode-range: U+FE0E,U+1F4D6,U+1F4E7,U+1F5A8,U+1F5D9;
 }
 
 /* Transport and Map Symbols */
@@ -584,8 +584,8 @@
   font-display: swap;
   font-weight: 700;
   src: url(basic/700/TAMS.woff2?LlwLYJo72oCYgRGRRsWIEQ1dphn0KqhCvjSOFHBFG4M=) format('woff2');
-  /* contains glyphs: 🛈,🛍 */
-  unicode-range: U+1F6C8,U+1F6CD;
+  /* contains glyphs: 🛈︎,🛍︎ */
+  unicode-range: U+FE0E,U+1F6C8,U+1F6CD;
 }
 
 /* Arrows */
@@ -594,8 +594,8 @@
   font-display: swap;
   font-weight: 800;
   src: url(basic/800/A.woff2?48i3AqGS2NQN3aYQjL6XPKbzA/kEpYpkRX4sI7RBBAI=) format('woff2');
-  /* contains glyphs: ←,↑,→,↓,↕,↺,↻ */
-  unicode-range: U+2190-2193,U+2195,U+21BA,U+21BB;
+  /* contains glyphs: ←,↑,→,↓,↕︎,↺,↻ */
+  unicode-range: U+2190-2193,U+2195,U+21BA,U+21BB,U+FE0E;
 }
 
 /* Mathematical Operators */
@@ -614,8 +614,8 @@
   font-display: swap;
   font-weight: 800;
   src: url(basic/800/MT.woff2?sahJ4/QRKXA2Iyq3ZmqIertEYeTKaI8eO9obK+F+lek=) format('woff2');
-  /* contains glyphs: ⏱,⏸ */
-  unicode-range: U+23F1,U+23F8;
+  /* contains glyphs: ⏱︎,⏸︎ */
+  unicode-range: U+23F1,U+23F8,U+FE0E;
 }
 
 /* Box Drawing */
@@ -634,8 +634,8 @@
   font-display: swap;
   font-weight: 800;
   src: url(basic/800/GS.woff2?xXxLLJqPkdLyCIKrezSR/lUOYH8j/wDPo0FDKCJdRg4=) format('woff2');
-  /* contains glyphs: □,▣,▶,○,●,◑,▼ */
-  unicode-range: U+25A1,U+25A3,U+25B6,U+25BC,U+25CB,U+25CF,U+25D1;
+  /* contains glyphs: □,▣,▶︎,○,●︎,◑,▼ */
+  unicode-range: U+25A1,U+25A3,U+25B6,U+25BC,U+25CB,U+25CF,U+25D1,U+FE0E;
 }
 
 /* Miscellaneous Symbols */
@@ -644,8 +644,8 @@
   font-display: swap;
   font-weight: 800;
   src: url(basic/800/MS.woff2?E90S0sbQWfAMZU4uQ4AWhSETzTEmRod083WTR07RQqY=) format('woff2');
-  /* contains glyphs: ★,☆,☐,☑,⚙,⛓ */
-  unicode-range: U+2605,U+2606,U+2610,U+2611,U+2699,U+26D3;
+  /* contains glyphs: ★,☆,☐︎,☑︎,⚙︎,⛓︎ */
+  unicode-range: U+2605,U+2606,U+2610,U+2611,U+2699,U+26D3,U+FE0E;
 }
 
 /* Dingbats */
@@ -654,8 +654,8 @@
   font-display: swap;
   font-weight: 800;
   src: url(basic/800/D.woff2?AzQrLHi/Z58knX907/cOZMI8kHSEtHhD21A6zWXYjLw=) format('woff2');
-  /* contains glyphs: ✏,✔,❞,➕,➖,➭ */
-  unicode-range: U+270F,U+2714,U+275E,U+2795,U+2796,U+27AD;
+  /* contains glyphs: ✏︎,✔︎,❞,➕︎,➖︎,➭ */
+  unicode-range: U+270F,U+2714,U+275E,U+2795,U+2796,U+27AD,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -703,7 +703,7 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/PUA.woff2?6vaIJv70q+FeKAxk0RmPnV7B5BAEi7Ivu39DvN9Rtrc=) format('woff2');
+  src: url(basic/800/PUA.woff2?JAkkTZcWwdjMTpIY0yW9BPWxh7BcjgKz5LrjIMg1qzw=) format('woff2');
   /* contains glyphs: ,,,,, */
   unicode-range: U+E050,U+E051,U+E053,U+E056,U+E057,U+E381;
 }
@@ -714,8 +714,8 @@
   font-display: swap;
   font-weight: 800;
   src: url(basic/800/MSAP.woff2?g4JGhRnccAqhtznB4R4fD7HE7Dp8OAJDDULXt94lUn0=) format('woff2');
-  /* contains glyphs: 🏗,👔,👤,👥,💩,💾,📊,📖,📞,📧,🔄,🔍,🔎,🔑,🔒,🔽,🗒,🗙,🗨,🗩,🗩🗨 */
-  unicode-range: U+1F3D7,U+1F454,U+1F464,U+1F465,U+1F4A9,U+1F4BE,U+1F4CA,U+1F4D6,U+1F4DE,U+1F4E7,U+1F504,U+1F50D,U+1F50E,U+1F511,U+1F512,U+1F53D,U+1F5D2,U+1F5D9,U+1F5E8,U+1F5E9;
+  /* contains glyphs: 🏗︎,👔︎,👤︎,👥︎,💩︎,💾︎,📊︎,📖︎,📞︎,📧︎,🔄︎,🔍︎,🔎︎,🔑︎,🔒︎,🔽︎,🗒︎,🗙︎,🗨︎,🗩︎,🗩🗨 */
+  unicode-range: U+FE0E,U+1F3D7,U+1F454,U+1F464,U+1F465,U+1F4A9,U+1F4BE,U+1F4CA,U+1F4D6,U+1F4DE,U+1F4E7,U+1F504,U+1F50D,U+1F50E,U+1F511,U+1F512,U+1F53D,U+1F5D2,U+1F5D9,U+1F5E8,U+1F5E9;
 }
 
 /* Transport and Map Symbols */
@@ -724,8 +724,8 @@
   font-display: swap;
   font-weight: 800;
   src: url(basic/800/TAMS.woff2?tPBkrjjnvTjOQTjnfT9lpBSbqRcCOEPFWeFUHupPD8g=) format('woff2');
-  /* contains glyphs: 🛈 */
-  unicode-range: U+1F6C8;
+  /* contains glyphs: 🛈︎ */
+  unicode-range: U+FE0E,U+1F6C8;
 }
 
 /* Arrows */
@@ -754,8 +754,8 @@
   font-display: swap;
   font-weight: 900;
   src: url(basic/900/D.woff2?9bD13zf3sEl+yk18YbF9aGwujS0IDaDC2TxxXfhird0=) format('woff2');
-  /* contains glyphs: ➕ */
-  unicode-range: U+2795;
+  /* contains glyphs: ➕︎ */
+  unicode-range: U+2795,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -804,7 +804,7 @@
   font-display: swap;
   font-weight: 900;
   src: url(basic/900/MSAP.woff2?O7DejwkszH+sHzc24SVhCrgFcvcoLWGfoI0+upxU9vY=) format('woff2');
-  /* contains glyphs: 📊,📖,🗙 */
-  unicode-range: U+1F4CA,U+1F4D6,U+1F5D9;
+  /* contains glyphs: 📊︎,📖︎,🗙︎ */
+  unicode-range: U+FE0E,U+1F4CA,U+1F4D6,U+1F5D9;
 }
 
