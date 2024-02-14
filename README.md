@@ -8,3 +8,11 @@
 ```html
 <link href="/loomicons/build/loomicons.css" rel="stylesheet" />
 ```
+
+```css
+
+:root {
+  font-family: basic, sans-serif;
+}
+
+```
