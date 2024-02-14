@@ -16,3 +16,13 @@
 }
 
 ```
+
+### Drupal library
+
+```yml
+
+loomicons:
+  base:
+    assets/loomicons/build/loomicons.css:
+      minified: false
+```
