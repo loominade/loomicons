@@ -6,5 +6,5 @@
 ## How to embedd
 
 ```html
-<link href="/loomicons/build/loomicons.css" rel="stylesheet" />`
+<link href="/loomicons/build/loomicons.css" rel="stylesheet" />
 ```
