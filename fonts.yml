@@ -844,12 +844,13 @@ basic:
       hash: tPBkrjjnvTjOQTjnfT9lpBSbqRcCOEPFWeFUHupPD8g=
   '900':
     Arrows:
-      unicodeRange: U+2190-2193,U+21BA,U+21BB
+      unicodeRange: U+2190-2193,U+2197,U+21BA,U+21BB,U+FE0E
       glyphs:
         - ←
         - ↑
         - →
         - ↓
+        - ↗︎
         - ↺
         - ↻
       files:
@@ -857,10 +858,11 @@ basic:
         src/basic/900/u2191-up.svg: 5I9UNrrWiCMr72gmJud4cdYlgP7+U2hNW8VFewbBMeM=
         src/basic/900/u2192-right.svg: ggX2NH6aj0g99oXPakYFfA4oMIB3Ipxk78IjNU/kKOU=
         src/basic/900/u2193-down.svg: 2l/xuIXYRbUSUDAoaX/QHH87OWgcZPpxdqIvP76t4Uw=
+        src/basic/900/u2197-north-east.svg: J5FlRhcaI2x8dzorJHNP0mttltvMLQggIiPjTX33sHg=
         src/basic/900/u21ba-go-back.svg: T7+91keQ2EN/8fJOaGFS1WgSELTOJfH7HyxcZ7PhguQ=
         src/basic/900/u21bb-skip-ahead.svg: v2yrdgZYaQ16nPFxnXzkGKZ86hqMfvvrZ7PrRa+2Nd8=
       abbr: A
-      hash: HmseAESj8nFt2MLaorrNwvPISgsfLpCzWMM1dMstw+M=
+      hash: zQE2tkcJiIm3LaoSWTV8k1i9CcoyjD3G6batXOrO64Q=
     Geometric Shapes:
       unicodeRange: U+25A1,U+25CB
       glyphs:

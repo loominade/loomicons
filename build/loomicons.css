@@ -733,9 +733,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 900;
-  src: url(basic/900/A.woff2?HmseAESj8nFt2MLaorrNwvPISgsfLpCzWMM1dMstw+M=) format('woff2');
-  /* contains glyphs: ←,↑,→,↓,↺,↻ */
-  unicode-range: U+2190-2193,U+21BA,U+21BB;
+  src: url(basic/900/A.woff2?zQE2tkcJiIm3LaoSWTV8k1i9CcoyjD3G6batXOrO64Q=) format('woff2');
+  /* contains glyphs: ←,↑,→,↓,↗︎,↺,↻ */
+  unicode-range: U+2190-2193,U+2197,U+21BA,U+21BB,U+FE0E;
 }
 
 /* Geometric Shapes */
