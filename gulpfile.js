@@ -14,7 +14,56 @@ const zip = require('gulp-zip');
 const changeFileContent = require('gulp-change-file-content');
 const { reorient } = require('svg-reorient');
 const through = require('through2');
-const isEmoji = require('is-emoji');
+
+// Function to read the file and extract emojis
+function extractDefaultEmojiStyle(filePath) {
+  try {
+    // Read the file content
+    const data = fs.readFileSync(filePath, 'utf8');
+
+    // Split the data into lines
+    const lines = data.split('\n');
+
+    // Initialize a string to hold the result
+    let result = '';
+
+    // Process each line
+    lines.forEach((line) => {
+      // Ignore comments and empty lines
+      if (line.startsWith('#') || line.trim() === '') {
+        return;
+      }
+
+      // Split the line into components
+      const parts = line.split(';');
+      if (parts.length >= 2) {
+        // Check if the Default_Emoji_Style is 'emoji'
+        const defaultEmojiStyle = parts[1].trim();
+        if (defaultEmojiStyle === 'emoji') {
+          // Extract the codepoint
+          const codePoint = parts[0].trim();
+          // Ensure only single codepoint entries are processed
+          if (!codePoint.includes(' ') && !codePoint.includes('..')) {
+            // Convert the codepoint to a character
+            const char = String.fromCodePoint(parseInt(codePoint, 16));
+            result += char;
+          }
+        }
+      }
+    });
+
+    return result;
+  } catch (err) {
+    console.error('Failed to read the file:', err);
+    return '';
+  }
+}
+
+const emojis = extractDefaultEmojiStyle('./emoji-data.txt');
+
+function isEmoji(string) {
+  return emojis.includes(string);
+}
 
 const cloneSink = function () {
   const tapStream = through.obj();
@@ -141,7 +190,6 @@ fontFolders.forEach((fontFolder) => {
             }
           }
           for (const k in glyphs) {
-            console.debug(glyphs[k]);
             if (isEmoji(glyphs[k])) {
               glyphs[k] += String.fromCodePoint(65038);
             }

@@ -15,16 +15,17 @@ basic:
       abbr: A
       hash: KrZ+NqNreMDZYHO45C0wh1nY3ICvDziWBHx2fv+42yc=
     Geometric Shapes:
-      unicodeRange: U+25A1,U+25A4-25A6,U+25B3,U+25B6,U+25C7,U+25CB,U+25EB,U+25F0,U+FE0E
+      unicodeRange: U+25A1,U+25A4-25A6,U+25B3,U+25B6,U+25C7,U+25CB,U+25D1,U+25EB,U+25F0
       glyphs:
         - □
         - ▤
         - ▥
         - ▦
         - △
-        - ▶︎
+        - ▶
         - ◇
         - ○
+        - ◑
         - ◫
         - ◰
       files:
@@ -36,10 +37,11 @@ basic:
         src/basic/100/u25B6-play.svg: cfQ392pybr0lsxhGJtfqjofosEIXEDtpeJaX22rSAFk=
         src/basic/100/u25C7-diamond.svg: VzMfrLHebWBGzdwtdQwPbMHSVbboxHeNSVFy1eRosPI=
         src/basic/100/u25CB-circle.svg: 9L+3OlQnQfIMFgQS6TEJbgxdPdwgJoO2A0ASccNsSCQ=
+        src/basic/100/u25D1-half-circle.svg: y278zNaYk7S+BKPXXdfBxt/q3ZhzpjCgwBjYWcp7Z6g=
         src/basic/100/u25EB-two-columns.svg: ZR9tnbrcJx4UmFy27liI6dtnIqSWLM6B6SGlWC0UwRs=
         src/basic/100/u25F0-upper-left.svg: 0aJwB8tA9Kz4v8pPPdtqT5cT3clRKpVHkqe0MFrWGUs=
       abbr: GS
-      hash: eiKdYkJC4vDuUpKfsgVnWh3EW/OzX9FMRMUB/cxc9xw=
+      hash: xVGBGcB8eEULWFhuuyemnideE+OJityDOcoioM/qXXI=
     Dingbats:
       unicodeRange: U+2795,U+2796,U+FE0E
       glyphs:
@@ -83,9 +85,9 @@ basic:
       glyphs:
         - 🌐︎
         - 📖︎
-        - 🖥︎
+        - 🖥
         - 🖥‍🌐
-        - 🗙︎
+        - 🗙
       files:
         src/basic/100/u1F310-globe.svg: Jxi5jFTlMU9klu0NWNmv9q3wknSfssjV7pU7n/61Fxs=
         src/basic/100/u1F4D6-book.svg: XuskbSYc03ru7ch3uMjdVwmjrn8lbHHXIqOjdd8gACo=
@@ -110,10 +112,10 @@ basic:
       abbr: A
       hash: FLgeC958lvqrwXupQCsVJ5KS0YeE8grT+1fLDy7eM54=
     Geometric Shapes:
-      unicodeRange: U+25A1,U+25B6,U+FE0E
+      unicodeRange: U+25A1,U+25B6
       glyphs:
         - □
-        - ▶︎
+        - ▶
       files:
         src/basic/200/u25A1-square.svg: pkvJERDOb4XLFn4OjgYGpyXq2Oo35KZ+L+8f3ppZKak=
         src/basic/200/u25B6-play.svg: i4E4JPO1h9gLv8KCqxb3CPpy/WYsAnLY4nJTXxgY9I4=
@@ -157,7 +159,7 @@ basic:
       unicodeRange: U+FE0E,U+1F4D6,U+1F5D9
       glyphs:
         - 📖︎
-        - 🗙︎
+        - 🗙
       files:
         src/basic/200/u1F4D6-book.svg: L9gXhrZXfCNivyPTPoYEkWd9dJXbjG2khIlsbPBnJSM=
         src/basic/200/u1F5D9-close.svg: 3WvlN8+SkXgNJuia4I77ISp60eILBiAVlZMNb4cqbRI=
@@ -224,7 +226,7 @@ basic:
       unicodeRange: U+FE0E,U+1F4D6,U+1F5D9
       glyphs:
         - 📖︎
-        - 🗙︎
+        - 🗙
       files:
         src/basic/300/u1F4D6-book.svg: YDwO9rd4wKUlNFPtN/VAbgUQ8lF74SK4g/cC4TU9MLg=
         src/basic/300/u1F5D9-close.svg: MmSrgN/eg/i9Ook4NvK1H3zQSEq1StaQKOgnIFm5KHY=
@@ -262,11 +264,11 @@ basic:
       abbr: BD
       hash: blabw7j2OYJkjZerlDpuRRPBcJOLDyXYo1TKd3gKw/M=
     Geometric Shapes:
-      unicodeRange: U+25A1,U+25A3,U+25B6,U+25BC,U+25D1,U+FE0E
+      unicodeRange: U+25A1,U+25A3,U+25B6,U+25BC,U+25D1
       glyphs:
         - □
         - ▣
-        - ▶︎
+        - ▶
         - ◑
         - ▼
       files:
@@ -331,7 +333,7 @@ basic:
         - 📖︎
         - 📞︎
         - 🔍︎
-        - 🗙︎
+        - 🗙
       files:
         src/basic/400/u1F4D6-book.svg: hnmvYHOK1hxUMJM8PTmerFmNs+u+Yug8txI742hlG+I=
         src/basic/400/u1F4DE-phone.svg: hLoIdg1jKlma/hLF05Ofm6OCuKDzU4aYzfLiaQPhNYc=
@@ -401,7 +403,7 @@ basic:
       glyphs:
         - 📖︎
         - 🔍︎
-        - 🗙︎
+        - 🗙
       files:
         src/basic/500/u1F4D6-book.svg: eSr20t2kcfHwS8NprD9n+A+SZA2iggH0q/GKxo3d7NI=
         src/basic/500/u1F50D-search.svg: mtX9WY0m7ntIH53F1zZnQOjIWe5PyDxKv/46eJiPkxI=
@@ -409,10 +411,10 @@ basic:
       abbr: MSAP
       hash: lSU5DPFLVNwQSdErW0z5IK+eKkyq8N2uuiUCxj/UQOc=
     Transport and Map Symbols:
-      unicodeRange: U+FE0E,U+1F6C8,U+1F6CD
+      unicodeRange: U+1F6C8,U+1F6CD
       glyphs:
-        - 🛈︎
-        - 🛍︎
+        - 🛈
+        - 🛍
       files:
         src/basic/500/u1F6C8-info.svg: Ne4W3x7cUTMRbYYSfHYrdZRXmBJrqAQ383T5QCl657Y=
         src/basic/500/u1F6CD-shopping.svg: cfuCTjxhjcr9y1BJcAc+bwpV9/vyMkSgWga8GBkttz8=
@@ -420,13 +422,13 @@ basic:
       hash: RKFo2ogu/qfuFWNSG/ahadF76gOQVX7cpxUJUgSuOR0=
   '600':
     Arrows:
-      unicodeRange: U+2190-2193,U+2197,U+FE0E
+      unicodeRange: U+2190-2193,U+2197
       glyphs:
         - ←
         - ↑
         - →
         - ↓
-        - ↗︎
+        - ↗
       files:
         src/basic/600/u2190-left.svg: Xn5bNBGqj/wSejVLtMn8wOYiJvGbdWm0FzTmLsaO8Uw=
         src/basic/600/u2191-up.svg: j5SdeAtIny7z2vmbN5mX0qTVLs/2UtvGtzfq7tzlqcs=
@@ -515,7 +517,7 @@ basic:
         - 📖︎
         - 📞︎
         - 🔍︎
-        - 🗙︎
+        - 🗙
       files:
         src/basic/600/u1F4D6-book.svg: Vk/jgmofcnwWqsbvK7id+BI7qnTwXTfHQMd25mow/Us=
         src/basic/600/u1F4DE-phone.svg: Rz9mOrvxHwqUZD/pKI7xEnLqb2iMmsqpaOEQvVPQk/E=
@@ -603,8 +605,8 @@ basic:
       glyphs:
         - 📖︎
         - 📧︎
-        - 🖨︎
-        - 🗙︎
+        - 🖨
+        - 🗙
       files:
         src/basic/700/u1F4D6-book.svg: tw3BSjNwO+6YTbbqfP5pRx3GtEFbLAONIpvMmGpvv1s=
         src/basic/700/u1F4E7-email.svg: v/icTVLRK0rVMkfLtOK8inGRjqaWrimsQtM2SxaCHLw=
@@ -613,10 +615,10 @@ basic:
       abbr: MSAP
       hash: TKCKPECIKaHsVi9bXODoA5lZaUKFb5Z8skUkPEZKfrU=
     Transport and Map Symbols:
-      unicodeRange: U+FE0E,U+1F6C8,U+1F6CD
+      unicodeRange: U+1F6C8,U+1F6CD
       glyphs:
-        - 🛈︎
-        - 🛍︎
+        - 🛈
+        - 🛍
       files:
         src/basic/700/u1F6C8-info.svg: PdqHrfbVkGPtu/nc4ixa6q8qZYCW2JJxRavgB+VjFL8=
         src/basic/700/u1F6CD-shopping.svg: ovXmqOYUn0lApP28zmhsS8XRIWsDAY4iFu71q1KispA=
@@ -624,13 +626,13 @@ basic:
       hash: LlwLYJo72oCYgRGRRsWIEQ1dphn0KqhCvjSOFHBFG4M=
   '800':
     Arrows:
-      unicodeRange: U+2190-2193,U+2195,U+21BA,U+21BB,U+FE0E
+      unicodeRange: U+2190-2193,U+2195,U+21BA,U+21BB
       glyphs:
         - ←
         - ↑
         - →
         - ↓
-        - ↕︎
+        - ↕
         - ↺
         - ↻
       files:
@@ -652,10 +654,10 @@ basic:
       abbr: MO
       hash: kcS55uB6tiTe7aRjGjL0mJVLry4rLawshp4tM3kL+3s=
     Miscellaneous Technical:
-      unicodeRange: U+23F1,U+23F8,U+FE0E
+      unicodeRange: U+23F1,U+23F8
       glyphs:
-        - ⏱︎
-        - ⏸︎
+        - ⏱
+        - ⏸
       files:
         src/basic/800/u23F1-time-tracking.svg: mv2kCPAz72ijW/gBDsVHSVKfTRrG0FlfSh7GQTy3nuw=
         src/basic/800/u23F8-pause.svg: AHXraUrz1TYBA0XkcxnOQU5N4bGavuTkPM22v8mn7QM=
@@ -670,13 +672,13 @@ basic:
       abbr: BD
       hash: KHeO8HO3rpmLyTHsjMpYAZ82f3k6Z1yNwl/WdV81vf8=
     Geometric Shapes:
-      unicodeRange: U+25A1,U+25A3,U+25B6,U+25BC,U+25CB,U+25CF,U+25D1,U+FE0E
+      unicodeRange: U+25A1,U+25A3,U+25B6,U+25BC,U+25CB,U+25CF,U+25D1
       glyphs:
         - □
         - ▣
-        - ▶︎
+        - ▶
         - ○
-        - ●︎
+        - ●
         - ◑
         - ▼
       files:
@@ -690,14 +692,14 @@ basic:
       abbr: GS
       hash: xXxLLJqPkdLyCIKrezSR/lUOYH8j/wDPo0FDKCJdRg4=
     Miscellaneous Symbols:
-      unicodeRange: U+2605,U+2606,U+2610,U+2611,U+2699,U+26D3,U+FE0E
+      unicodeRange: U+2605,U+2606,U+2610,U+2611,U+2699,U+26D3
       glyphs:
         - ★
         - ☆
-        - ☐︎
-        - ☑︎
-        - ⚙︎
-        - ⛓︎
+        - ☐
+        - ☑
+        - ⚙
+        - ⛓
       files:
         src/basic/800/u2605-full-star.svg: d+jk4fSrPx/Sgs2+Wv0WhnGta3FFaaKq25FesRaWIt0=
         src/basic/800/u2606-star.svg: ullUQ8YnqqiodrlJOTAnlfq2BEQWCLiw0wD+6LdCUeE=
@@ -710,8 +712,8 @@ basic:
     Dingbats:
       unicodeRange: U+270F,U+2714,U+275E,U+2795,U+2796,U+27AD,U+FE0E
       glyphs:
-        - ✏︎
-        - ✔︎
+        - ✏
+        - ✔
         - ❞
         - ➕︎
         - ➖︎
@@ -789,7 +791,7 @@ basic:
       unicodeRange: >-
         U+FE0E,U+1F3D7,U+1F454,U+1F464,U+1F465,U+1F4A9,U+1F4BE,U+1F4CA,U+1F4D6,U+1F4DE,U+1F4E7,U+1F504,U+1F50D,U+1F50E,U+1F511,U+1F512,U+1F53D,U+1F5D2,U+1F5D9,U+1F5E8,U+1F5E9
       glyphs:
-        - 🏗︎
+        - 🏗
         - 👔︎
         - 👤︎
         - 👥︎
@@ -805,10 +807,10 @@ basic:
         - 🔑︎
         - 🔒︎
         - 🔽︎
-        - 🗒︎
-        - 🗙︎
-        - 🗨︎
-        - 🗩︎
+        - 🗒
+        - 🗙
+        - 🗨
+        - 🗩
         - 🗩🗨
       files:
         src/basic/800/u1F3D7-crane.svg: 208VzlgNX2uwg7ASWM0NwcwOz1EiEauSiwNqiVsygU4=
@@ -835,22 +837,30 @@ basic:
       abbr: MSAP
       hash: g4JGhRnccAqhtznB4R4fD7HE7Dp8OAJDDULXt94lUn0=
     Transport and Map Symbols:
-      unicodeRange: U+FE0E,U+1F6C8
+      unicodeRange: U+1F6C8
       glyphs:
-        - 🛈︎
+        - 🛈
       files:
         src/basic/800/u1F6C8-info.svg: UmYIKUtY2rtuGtBwPO/M1Sg19Vq6xXILY6ludPh6aZg=
       abbr: TAMS
       hash: tPBkrjjnvTjOQTjnfT9lpBSbqRcCOEPFWeFUHupPD8g=
+    Supplemental Symbols and Pictographs:
+      unicodeRange: U+FE0E,U+1F916
+      glyphs:
+        - 🤖︎
+      files:
+        src/basic/800/u1F916-robot.svg: kyrjuG8VPVZf/bGKX7VKhi5qZVSx5Pq7ELOmUksdD1o=
+      abbr: SSAP
+      hash: tkJWI029ssiE3uVggXwvFgVBaCma2B6PjYTblYf/A6k=
   '900':
     Arrows:
-      unicodeRange: U+2190-2193,U+2197,U+21BA,U+21BB,U+FE0E
+      unicodeRange: U+2190-2193,U+2197,U+21BA,U+21BB
       glyphs:
         - ←
         - ↑
         - →
         - ↓
-        - ↗︎
+        - ↗
         - ↺
         - ↻
       files:
@@ -858,11 +868,11 @@ basic:
         src/basic/900/u2191-up.svg: 5I9UNrrWiCMr72gmJud4cdYlgP7+U2hNW8VFewbBMeM=
         src/basic/900/u2192-right.svg: ggX2NH6aj0g99oXPakYFfA4oMIB3Ipxk78IjNU/kKOU=
         src/basic/900/u2193-down.svg: 2l/xuIXYRbUSUDAoaX/QHH87OWgcZPpxdqIvP76t4Uw=
-        src/basic/900/u2197-north-east.svg: J5FlRhcaI2x8dzorJHNP0mttltvMLQggIiPjTX33sHg=
+        src/basic/900/u2197-north-east.svg: f5JsKYlLQ98TQ0aFCVljIfKJrGfnPkBkagCCNx7AU5g=
         src/basic/900/u21ba-go-back.svg: T7+91keQ2EN/8fJOaGFS1WgSELTOJfH7HyxcZ7PhguQ=
         src/basic/900/u21bb-skip-ahead.svg: v2yrdgZYaQ16nPFxnXzkGKZ86hqMfvvrZ7PrRa+2Nd8=
       abbr: A
-      hash: zQE2tkcJiIm3LaoSWTV8k1i9CcoyjD3G6batXOrO64Q=
+      hash: /n0h7vKxebxn6TuTb0aaed1lg4rtS7se3WUT66qupRg=
     Geometric Shapes:
       unicodeRange: U+25A1,U+25CB
       glyphs:
@@ -920,7 +930,7 @@ basic:
       glyphs:
         - 📊︎
         - 📖︎
-        - 🗙︎
+        - 🗙
       files:
         src/basic/900/u1F4CA-stats.svg: 9xZ5pKtOL9BfBS3OV7i6dKjhzvNXSNjvzXr39S4Jwqc=
         src/basic/900/u1F4D6-book.svg: XhHSE0iO7iXmzkUFCXHstBxKw7uOihdGStDLKrnBqKU=
