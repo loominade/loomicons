@@ -818,3 +818,173 @@
   unicode-range: U+FE0E,U+1F4CA,U+1F4D6,U+1F5D9;
 }
 
+/* Basic Latin */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 400;
+  src: url(soba/400/BL.woff2?hn46ABX2sYQcvaA56uFSrYTtZiI706IOs8a59VsOxp8=) format('woff2');
+  /* contains glyphs: + */
+  unicode-range: U+2B;
+}
+
+/* Arrows */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 400;
+  src: url(soba/400/A.woff2?E74lf/ZDizQ9l+RJnjbO9H1Lj/VKNTJD3NmPecojv8E=) format('woff2');
+  /* contains glyphs: ←,→,↗,↯,⇓,⇪ */
+  unicode-range: U+2190,U+2192,U+2197,U+21AF,U+21D3,U+21EA;
+}
+
+/* Mathematical Operators */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 400;
+  src: url(soba/400/MO.woff2?dN/K2CZERVzzbL2KJFiSE6Lzb1f94Nj3jWRhWyQOFgI=) format('woff2');
+  /* contains glyphs: ∨ */
+  unicode-range: U+2228;
+}
+
+/* Miscellaneous Technical */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 400;
+  src: url(soba/400/MT.woff2?tojwwV3eCbJY9jLpKMqlJxZHJsaAz99HEUP+GvRs/OM=) format('woff2');
+  /* contains glyphs: ⏵ */
+  unicode-range: U+23F5;
+}
+
+/* Miscellaneous Symbols */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 400;
+  src: url(soba/400/MS.woff2?bcfd0NOQ5LL9dSmjVawiFxZLEP8nztRgBHgUPS37axA=) format('woff2');
+  /* contains glyphs: ☺,♡,♥ */
+  unicode-range: U+263A,U+2661,U+2665;
+}
+
+/* Dingbats */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 400;
+  src: url(soba/400/D.woff2?lMcyiHBk5ninriT4DA1BZjHFtRWgNgAqHL5XV4EIaUg=) format('woff2');
+  /* contains glyphs: ➕︎ */
+  unicode-range: U+2795,U+FE0E;
+}
+
+/* Supplemental Mathematical Operators */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 400;
+  src: url(soba/400/SMO.woff2?9+IT4Yw6qLVZ/JEGOImNBXKzHJKIf7EzUQYt76j1hdE=) format('woff2');
+  /* contains glyphs: ⨯ */
+  unicode-range: U+2A2F;
+}
+
+/* Domino Tiles */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 400;
+  src: url(soba/400/DT.woff2?iRtIoRS3WhHgZ1lWcPLU4z0Xu3cIx7qKpP2Fe9RoNEc=) format('woff2');
+  /* contains glyphs: 🁀 */
+  unicode-range: U+1F040;
+}
+
+/* Miscellaneous Symbols and Pictographs */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 400;
+  src: url(soba/400/MSAP.woff2?D1EZ7UFE8Dfyk9m/R7QjPTNbo+o+1ChRlzxUr3oZKUA=) format('woff2');
+  /* contains glyphs: 🌐︎,🎙,💻︎,📧︎,🔍︎ */
+  unicode-range: U+FE0E,U+1F310,U+1F399,U+1F4BB,U+1F4E7,U+1F50D;
+}
+
+/* Arrows */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 500;
+  src: url(soba/500/A.woff2?5yfR/OlF4b4Ofk2IzMaAvlLAUdPzKi69tHIsn7bX+qc=) format('woff2');
+  /* contains glyphs: ↗ */
+  unicode-range: U+2197;
+}
+
+/* Miscellaneous Technical */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 500;
+  src: url(soba/500/MT.woff2?rE6e9Q4o5VkDrFEW2xOcrhbsmDtQZCJC3fmDhPcNOjE=) format('woff2');
+  /* contains glyphs: ⌚︎ */
+  unicode-range: U+231A,U+FE0E;
+}
+
+/* Dingbats */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 500;
+  src: url(soba/500/D.woff2?Szp0EqFDLX2zxF7i+ItCqT/VkrYYPFVh14muS0TLt2c=) format('woff2');
+  /* contains glyphs: ✉ */
+  unicode-range: U+2709;
+}
+
+/* Miscellaneous Symbols and Pictographs */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 500;
+  src: url(soba/500/MSAP.woff2?tIOydd+6l8D1vIV4rUKUaRug3PSeCb4yxUXQbnpbS+o=) format('woff2');
+  /* contains glyphs: 👥︎,📍︎,🗓,🗞 */
+  unicode-range: U+FE0E,U+1F465,U+1F4CD,U+1F5D3,U+1F5DE;
+}
+
+/* Miscellaneous Symbols and Pictographs */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 600;
+  src: url(soba/600/MSAP.woff2?fDdgv7La0rltuUWFiRykXbEUOU3KCSCYI8KYnoiRRd8=) format('woff2');
+  /* contains glyphs: 🎚 */
+  unicode-range: U+1F39A;
+}
+
+/* Private Use Area */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 700;
+  src: url(soba/700/PUA.woff2?DVgSuLlX08M67rRw+x3wFgs+ecGgGVrQiEV0dMKE9Gc=) format('woff2');
+  /* contains glyphs: ,,,,,,,,,,,, */
+  unicode-range: U+E000-E009,U+E010,U+E011,U+E040;
+}
+
+/* Miscellaneous Symbols and Pictographs */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 700;
+  src: url(soba/700/MSAP.woff2?CNuYtJztzR7E5uQxBCGPE8zn+f1Y/n338HZbgmEehv8=) format('woff2');
+  /* contains glyphs: 💁︎,📞︎,📧︎ */
+  unicode-range: U+FE0E,U+1F481,U+1F4DE,U+1F4E7;
+}
+
+/* Geometric Shapes */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 800;
+  src: url(soba/800/GS.woff2?XEje1jZAZ8MfXZYfuVUEiCbMkyFmQ623/UKs4wlHBb8=) format('woff2');
+  /* contains glyphs: ◆ */
+  unicode-range: U+25C6;
+}
+
