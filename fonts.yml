@@ -937,6 +937,46 @@ basic:
         src/basic/900/u1F5D9-close.svg: cyEPk3JxsBSZkddHWJyRTRtGuAhMyd877gUzdS7Hdb4=
       abbr: MSAP
       hash: O7DejwkszH+sHzc24SVhCrgFcvcoLWGfoI0+upxU9vY=
+coby:
+  '500':
+    Arrows:
+      unicodeRange: U+2192,U+2193,U+2197,U+21D3
+      glyphs:
+        - →
+        - ↓
+        - ↗
+        - ⇓
+      files:
+        src/coby/500/u2192-Arrow-right.svg: hcrFVK7971knf3+i/od52lBPK1GRTlbgGskXeigkb3o=
+        src/coby/500/u2193-arrow down.svg: ImZLTRbIYFmKxw3dFstYCm2ezq34Ufza+7skSzN9pIk=
+        src/coby/500/u2197-External-link.svg: aM6dL1UelSTs7uyD0YvLVqqJVaMJPmbxlOpNMhXGQgs=
+        src/coby/500/u21D3-Download.svg: 3Ko1lw3RVr8taQiu2S37L4nSh7DZY0//UfaE1DjqiW0=
+      abbr: A
+      hash: ysWLgnU1+0dgCKYBQKgIX/gnLHbrbWWB+qmIPL6OCT0=
+    Mathematical Operators:
+      unicodeRange: U+2228
+      glyphs:
+        - ∨
+      files:
+        src/coby/500/u2228-Dropdown.svg: FFd1Je7us9HlxneDQ+8ozHdFX8/TriXo+NM9GG5aRlQ=
+      abbr: MO
+      hash: yYO0naBfAaLcUvW+LoEhPGkavXp9fYwa37+N2u2OBu8=
+    Dingbats:
+      unicodeRange: U+270E
+      glyphs:
+        - ✎
+      files:
+        src/coby/500/u270E-pen.svg: r3kmpNTgQGDzvUJwXpNrJ08/AHQfbmIRtnyy4ZnrVkA=
+      abbr: D
+      hash: +e12gMamZ/rhc1IDkxEqhwRiCA/3DYHw9/1jn4bf9TM=
+    Supplemental Mathematical Operators:
+      unicodeRange: U+2A2F
+      glyphs:
+        - ⨯
+      files:
+        src/coby/500/u2A2F-x.svg: Aa7nu1jy7aJ3rcSOeQJ5qBcc68sRxVm0W9pqGBvuYwA=
+      abbr: SMO
+      hash: xtECJVO0cA7D9eXVc2WuD6+kw21GhH3D9exf+8pUsqc=
 soba:
   '400':
     Basic Latin:
@@ -989,10 +1029,10 @@ soba:
         - ♥
       files:
         src/soba/400/u263A-Face-to-face.svg: QAQR4HjWfxOVk6V4H8ZPhtdjRV6aDIGUtvm9fwpwUak=
-        src/soba/400/u2661-Compare.svg: eGyp15tF0E8CuOGSzmiZSr4YOhE7HkkdKdUOsTrGzVI=
-        src/soba/400/u2665-Compare-active.svg: XqKEiPbKj3sV/TbQGntVb8mWhF8ws+nPgyFY1AaDoLY=
+        src/soba/400/u2661-Compare.svg: TpK48gbCFE7WB6sh7ZUClX4huyMhdOQTdlMZza9Qo+Y=
+        src/soba/400/u2665-Compare-active.svg: sbsjJZ2tsgI9YN5D5yy5pOCeyjm1qcz5/JIyB8Wbjvs=
       abbr: MS
-      hash: bcfd0NOQ5LL9dSmjVawiFxZLEP8nztRgBHgUPS37axA=
+      hash: 4g4Yeu0Xqh6LmPsYlYa6j5l0Y7G95NGYC1H3Z4WftyM=
     Dingbats:
       unicodeRange: U+2795,U+FE0E
       glyphs:

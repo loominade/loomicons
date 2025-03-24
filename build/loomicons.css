@@ -818,6 +818,46 @@
   unicode-range: U+FE0E,U+1F4CA,U+1F4D6,U+1F5D9;
 }
 
+/* Arrows */
+@font-face {
+  font-family: coby;
+  font-display: swap;
+  font-weight: 500;
+  src: url(coby/500/A.woff2?ysWLgnU1+0dgCKYBQKgIX/gnLHbrbWWB+qmIPL6OCT0=) format('woff2');
+  /* contains glyphs: →,↓,↗,⇓ */
+  unicode-range: U+2192,U+2193,U+2197,U+21D3;
+}
+
+/* Mathematical Operators */
+@font-face {
+  font-family: coby;
+  font-display: swap;
+  font-weight: 500;
+  src: url(coby/500/MO.woff2?yYO0naBfAaLcUvW+LoEhPGkavXp9fYwa37+N2u2OBu8=) format('woff2');
+  /* contains glyphs: ∨ */
+  unicode-range: U+2228;
+}
+
+/* Dingbats */
+@font-face {
+  font-family: coby;
+  font-display: swap;
+  font-weight: 500;
+  src: url(coby/500/D.woff2?+e12gMamZ/rhc1IDkxEqhwRiCA/3DYHw9/1jn4bf9TM=) format('woff2');
+  /* contains glyphs: ✎ */
+  unicode-range: U+270E;
+}
+
+/* Supplemental Mathematical Operators */
+@font-face {
+  font-family: coby;
+  font-display: swap;
+  font-weight: 500;
+  src: url(coby/500/SMO.woff2?xtECJVO0cA7D9eXVc2WuD6+kw21GhH3D9exf+8pUsqc=) format('woff2');
+  /* contains glyphs: ⨯ */
+  unicode-range: U+2A2F;
+}
+
 /* Basic Latin */
 @font-face {
   font-family: soba;
@@ -863,7 +903,7 @@
   font-family: soba;
   font-display: swap;
   font-weight: 400;
-  src: url(soba/400/MS.woff2?bcfd0NOQ5LL9dSmjVawiFxZLEP8nztRgBHgUPS37axA=) format('woff2');
+  src: url(soba/400/MS.woff2?4g4Yeu0Xqh6LmPsYlYa6j5l0Y7G95NGYC1H3Z4WftyM=) format('woff2');
   /* contains glyphs: ☺,♡,♥ */
   unicode-range: U+263A,U+2661,U+2665;
 }
