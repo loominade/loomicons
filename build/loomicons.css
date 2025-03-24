@@ -858,6 +858,46 @@
   unicode-range: U+2A2F;
 }
 
+/* General Punctuation */
+@font-face {
+  font-family: coby;
+  font-display: swap;
+  font-weight: 700;
+  src: url(coby/700/GP.woff2?joNe50MhGujbpBfi8SE4D0QXggWEjP05iE3Qa2tdcv4=) format('woff2');
+  /* contains glyphs: ⁘ */
+  unicode-range: U+2058;
+}
+
+/* Dingbats */
+@font-face {
+  font-family: coby;
+  font-display: swap;
+  font-weight: 700;
+  src: url(coby/700/D.woff2?e99wvqW/VdBI+35xtt4UJEXBNFWx4VuqOu9IO1TLUc8=) format('woff2');
+  /* contains glyphs: ✔ */
+  unicode-range: U+2714;
+}
+
+/* Supplemental Mathematical Operators */
+@font-face {
+  font-family: coby;
+  font-display: swap;
+  font-weight: 700;
+  src: url(coby/700/SMO.woff2?HRkzodYDDJqQSUPDuhaPrHyzl74BN4LHIKjsYZ9lKyI=) format('woff2');
+  /* contains glyphs: ⨯ */
+  unicode-range: U+2A2F;
+}
+
+/* Manichaean */
+@font-face {
+  font-family: coby;
+  font-display: swap;
+  font-weight: 700;
+  src: url(coby/700/M.woff2?5pUYj1Xrt9NCRB/yVkU+bQeGQOb06U+aagy6m1ZPWRE=) format('woff2');
+  /* contains glyphs: 𐫵 */
+  unicode-range: U+10AF5;
+}
+
 /* Basic Latin */
 @font-face {
   font-family: soba;

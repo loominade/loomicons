@@ -977,6 +977,39 @@ coby:
         src/coby/500/u2A2F-x.svg: Aa7nu1jy7aJ3rcSOeQJ5qBcc68sRxVm0W9pqGBvuYwA=
       abbr: SMO
       hash: xtECJVO0cA7D9eXVc2WuD6+kw21GhH3D9exf+8pUsqc=
+  '700':
+    General Punctuation:
+      unicodeRange: U+2058
+      glyphs:
+        - ⁘
+      files:
+        src/coby/700/u2058-four dots.svg: JV24A0AJz9HXew0BxvdON8bzlsg2nwgwS3vdo5rbJLM=
+      abbr: GP
+      hash: joNe50MhGujbpBfi8SE4D0QXggWEjP05iE3Qa2tdcv4=
+    Dingbats:
+      unicodeRange: U+2714
+      glyphs:
+        - ✔
+      files:
+        src/coby/700/u2714-check.svg: Q77/hcg9P2e/I7ZVaNNQKeSbYGCbf2DE41OTGdNl944=
+      abbr: D
+      hash: e99wvqW/VdBI+35xtt4UJEXBNFWx4VuqOu9IO1TLUc8=
+    Supplemental Mathematical Operators:
+      unicodeRange: U+2A2F
+      glyphs:
+        - ⨯
+      files:
+        src/coby/700/u2A2F-x.svg: HBFGQLKvrLUzc1xAzVfCvNlTn5C/gVHS8Cd1PuuK9Do=
+      abbr: SMO
+      hash: HRkzodYDDJqQSUPDuhaPrHyzl74BN4LHIKjsYZ9lKyI=
+    Manichaean:
+      unicodeRange: U+10AF5
+      glyphs:
+        - 𐫵
+      files:
+        src/coby/700/u10AF5-two dots.svg: EzDaBLDZECuH30f65BMaCiyZaAvjU78hMHzMOO67gzY=
+      abbr: M
+      hash: 5pUYj1Xrt9NCRB/yVkU+bQeGQOb06U+aagy6m1ZPWRE=
 soba:
   '400':
     Basic Latin:
