@@ -828,14 +828,14 @@
   unicode-range: U+2192,U+2193,U+2197,U+21D3;
 }
 
-/* Mathematical Operators */
+/* Geometric Shapes */
 @font-face {
   font-family: coby;
   font-display: swap;
   font-weight: 500;
-  src: url(coby/500/MO.woff2?yYO0naBfAaLcUvW+LoEhPGkavXp9fYwa37+N2u2OBu8=) format('woff2');
-  /* contains glyphs: ∨ */
-  unicode-range: U+2228;
+  src: url(coby/500/GS.woff2?xS5yUSV1DppVcuSlF2LX7akMSSTTcsuQzz2PyAVaKRA=) format('woff2');
+  /* contains glyphs: ▼ */
+  unicode-range: U+25BC;
 }
 
 /* Dingbats */
@@ -1053,7 +1053,7 @@
   font-family: soba;
   font-display: swap;
   font-weight: 700;
-  src: url(soba/700/MSAP.woff2?CNuYtJztzR7E5uQxBCGPE8zn+f1Y/n338HZbgmEehv8=) format('woff2');
+  src: url(soba/700/MSAP.woff2?wlkAASQHcdE9gLBKNhTCr1ACFHfHHVDYZMKG7cJiS94=) format('woff2');
   /* contains glyphs: 💁︎,📞︎,📧︎ */
   unicode-range: U+FE0E,U+1F481,U+1F4DE,U+1F4E7;
 }
