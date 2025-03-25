@@ -958,9 +958,9 @@ coby:
       glyphs:
         - ▼
       files:
-        src/coby/500/u25BC-Dropdown.svg: FFd1Je7us9HlxneDQ+8ozHdFX8/TriXo+NM9GG5aRlQ=
+        src/coby/500/u25BC-Dropdown.svg: +TMH0gvomFURaPumv6nKZvie2vpFv++/WTKSmXRESnw=
       abbr: GS
-      hash: xS5yUSV1DppVcuSlF2LX7akMSSTTcsuQzz2PyAVaKRA=
+      hash: 5wA4DHOoMCqeLXi1oldbKIINuP96V8svada6MyY6Ibs=
     Dingbats:
       unicodeRange: U+270E
       glyphs:
@@ -1194,11 +1194,11 @@ soba:
         - 📞︎
         - 📧︎
       files:
-        src/soba/700/u1F481-Bio.svg: GTuYlSEoI5NlYd+D9jpvwi69W4HckABKovRzgwXGjSc=
+        src/soba/700/u1F481-Bio.svg: A4/wlwDSWiIck8mSba6cPczv2IUCHoD6WPDV5z5e3rs=
         src/soba/700/u1F4DE-Phone.svg: oQXuFCOVvAy511+Auhf3Zgk0wL4HWlUL/StIlwm09PY=
         src/soba/700/u1F4E7-Email.svg: 89ccVlHx+6QcMO8QKPgD9xbkv3n+/zklevu+GV/X8uw=
       abbr: MSAP
-      hash: wlkAASQHcdE9gLBKNhTCr1ACFHfHHVDYZMKG7cJiS94=
+      hash: CNuYtJztzR7E5uQxBCGPE8zn+f1Y/n338HZbgmEehv8=
   '800':
     Geometric Shapes:
       unicodeRange: U+25C6
