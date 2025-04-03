@@ -1149,10 +1149,10 @@ soba:
         - ♡
         - ♥
       files:
-        src/soba/500/u2661-Compare.svg: CboQd2p6WidVtIwYxBSshjwpzZQr2tOHt816B6Z6xq0=
-        src/soba/500/u2665-Compare-active.svg: TOSYFMn26xa026neeFlF82PWuqeO9838tNSoph2NdzM=
+        src/soba/500/u2661-Compare.svg: OLvvCJ1jlkAjV27/bviQf09axsvYtcRW1gocjBFeLgg=
+        src/soba/500/u2665-Compare-active.svg: ufqP1MgNERVJSNC2b02vQd2P3J/vxktByzze/BAqBEE=
       abbr: MS
-      hash: SltIcl7PwzTQ+Mm5Ic28yjC1TV2xETZ3iboyGzHVddM=
+      hash: iKn3qQyPZYrT2TeB70MK3TXZDFgw+EiyFFAnBuRiAU0=
     Dingbats:
       unicodeRange: U+2709,U+2795,U+FE0E
       glyphs:
@@ -1172,9 +1172,10 @@ soba:
       abbr: SMO
       hash: TrTRqNpcPvSZcbfT4m8Bx2VXVs6J8lahXnoQ3Qr4nMY=
     Miscellaneous Symbols and Pictographs:
-      unicodeRange: U+FE0E,U+1F399,U+1F4CD,U+1F4E7,U+1F50D,U+1F5D3,U+1F5DE
+      unicodeRange: U+FE0E,U+1F399,U+1F465,U+1F4CD,U+1F4E7,U+1F50D,U+1F5D3,U+1F5DE
       glyphs:
         - 🎙
+        - 👥︎
         - 📍︎
         - 📧︎
         - 🔍︎
@@ -1182,13 +1183,14 @@ soba:
         - 🗞
       files:
         src/soba/500/u1F399-Podcast.svg: 8TfahhiIW+iicSU4Xem4TigEA4P/sryU28JQRfh6yf0=
+        src/soba/500/u1F465-People.svg: yVKB3uQQcvR3X9Y6owZ2lcyFA2SNrgTApECmwdBZ4dQ=
         src/soba/500/u1F4CD-Pin.svg: 5AVnYKVu/AuNPXF2iAuvXcbqj/FfvxGgogazG+MH2Tw=
-        src/soba/500/u1F4E7-Email.svg: LrrPTa97BdHHkRN+RD+t/4SYHX1HJzIylqDhchF13mA=
+        src/soba/500/u1F4E7-Email.svg: u//rB67F0bGm1mKQHh3bim0G2LJa0ZQO2NPOuiLIItY=
         src/soba/500/u1F50D-Search.svg: fFYJL9RDjURYXSX5F8MrCronortjRsTBYLAAVfi4Ucw=
         src/soba/500/u1F5D3-Calendar.svg: 0ZZOTSre1E0Lix/ZBK/37kzPHNXnQOhD+/e9Qw3swjY=
         src/soba/500/u1F5DE-Newsletter.svg: OK/6S+M0Fc9GoEcPxSzAaEOWhiVIV85/Nn/lwAGrFGg=
       abbr: MSAP
-      hash: uK7Y3wJcxcr2n4W8W8gLbfO/fenFOugMquAJmqg0ArA=
+      hash: I6aGEK60m/bwRVdBTsRlcheGpRtseSi00dO4XujY/wA=
   '600':
     Miscellaneous Symbols and Pictographs:
       unicodeRange: U+1F39A
@@ -1231,6 +1233,14 @@ soba:
         src/soba/700/uE040-x.svg: qK990UFVLFXlSL2z9SkI3to3eirh4JtYuN1x5hvoLw0=
       abbr: PUA
       hash: DVgSuLlX08M67rRw+x3wFgs+ecGgGVrQiEV0dMKE9Gc=
+    Musical Symbols:
+      unicodeRange: U+1D11E
+      glyphs:
+        - 𝄞
+      files:
+        src/soba/700/u1D11E-TikTok.svg: GykymF1ApBWU/IUg8pTt3H0vGhX+bjFQtB8L97ZPOpk=
+      abbr: MS
+      hash: 1VnW2NckKzSck+g6MbDn8KESrg3A7mNpvGb4wCv49kk=
     Miscellaneous Symbols and Pictographs:
       unicodeRange: U+FE0E,U+1F481,U+1F4DE,U+1F4E7
       glyphs:

@@ -1023,7 +1023,7 @@
   font-family: soba;
   font-display: swap;
   font-weight: 500;
-  src: url(soba/500/MS.woff2?SltIcl7PwzTQ+Mm5Ic28yjC1TV2xETZ3iboyGzHVddM=) format('woff2');
+  src: url(soba/500/MS.woff2?iKn3qQyPZYrT2TeB70MK3TXZDFgw+EiyFFAnBuRiAU0=) format('woff2');
   /* contains glyphs: ♡,♥ */
   unicode-range: U+2661,U+2665;
 }
@@ -1053,9 +1053,9 @@
   font-family: soba;
   font-display: swap;
   font-weight: 500;
-  src: url(soba/500/MSAP.woff2?uK7Y3wJcxcr2n4W8W8gLbfO/fenFOugMquAJmqg0ArA=) format('woff2');
-  /* contains glyphs: 🎙,📍︎,📧︎,🔍︎,🗓,🗞 */
-  unicode-range: U+FE0E,U+1F399,U+1F4CD,U+1F4E7,U+1F50D,U+1F5D3,U+1F5DE;
+  src: url(soba/500/MSAP.woff2?I6aGEK60m/bwRVdBTsRlcheGpRtseSi00dO4XujY/wA=) format('woff2');
+  /* contains glyphs: 🎙,👥︎,📍︎,📧︎,🔍︎,🗓,🗞 */
+  unicode-range: U+FE0E,U+1F399,U+1F465,U+1F4CD,U+1F4E7,U+1F50D,U+1F5D3,U+1F5DE;
 }
 
 /* Miscellaneous Symbols and Pictographs */
@@ -1076,6 +1076,16 @@
   src: url(soba/700/PUA.woff2?DVgSuLlX08M67rRw+x3wFgs+ecGgGVrQiEV0dMKE9Gc=) format('woff2');
   /* contains glyphs: ,,,,,,,,,,,, */
   unicode-range: U+E000-E009,U+E010,U+E011,U+E040;
+}
+
+/* Musical Symbols */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 700;
+  src: url(soba/700/MS.woff2?1VnW2NckKzSck+g6MbDn8KESrg3A7mNpvGb4wCv49kk=) format('woff2');
+  /* contains glyphs: 𝄞 */
+  unicode-range: U+1D11E;
 }
 
 /* Miscellaneous Symbols and Pictographs */
