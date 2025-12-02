@@ -154,6 +154,7 @@ fontFolders.forEach((fontFolder) => {
       let blocks = {};
       if (fs.statSync(weightDir).isDirectory()) {
         const glyphFiles = fs.readdirSync(weightDir);
+        // First pass: handle glyphs that fit within single blocks
         for (const blockRange of unicodeBlocks) {
           let glyphs = [];
           let files = {};
@@ -214,6 +215,81 @@ fontFolders.forEach((fontFolder) => {
             blocks[blockRange.name].hash = hashSum.digest('base64');
           }
         }
+
+        // Second pass: handle glyphs that span multiple blocks
+        const processedFiles = new Set();
+        for (const blockRange of unicodeBlocks) {
+          if (blocks[blockRange.name]) {
+            Object.keys(blocks[blockRange.name].files).forEach(f => processedFiles.add(f));
+          }
+        }
+
+        for (const glyphFile of glyphFiles) {
+          if (glyphFile.match(/\.svg$/)) {
+            const glyphFileName = `${weightDir}/${glyphFile}`;
+            if (processedFiles.has(glyphFileName)) {
+              continue; // Already processed in first pass
+            }
+
+            const sequenceString = glyphFile.slice(0, glyphFile.indexOf('-'));
+            const sequence = sequenceString.match(/([0-9A-Fa-f]+)/g);
+            const involvedBlocks = new Set();
+
+            for (const codepointSting of sequence) {
+              const codePoint = parseInt(codepointSting, 16);
+              if ([8205, 65039].includes(codePoint)) {
+                continue; // Skip joiners and variation selectors
+              }
+
+              // Find which block this codepoint belongs to
+              for (const blockRange of unicodeBlocks) {
+                if (codePoint >= blockRange.start && codePoint <= blockRange.end) {
+                  involvedBlocks.add(blockRange.name);
+                  break;
+                }
+              }
+            }
+
+            if (involvedBlocks.size > 1) {
+              // Create a pseudo block with combined name
+              const combinedBlockName = Array.from(involvedBlocks).sort().join(' + ');
+
+              if (!blocks.hasOwnProperty(combinedBlockName)) {
+                blocks[combinedBlockName] = {
+                  glyphs: [],
+                  files: {},
+                  abbr: Array.from(involvedBlocks).map(name => {
+                    const block = unicodeBlocks.find(b => b.name === name);
+                    return block ? block.abbr : '';
+                  }).filter(a => a).join('+')
+                };
+                unicode[combinedBlockName] = [];
+              }
+
+              const glyph = sequence
+                .map((i) => String.fromCodePoint(parseInt(i, 16)))
+                .join('');
+
+              blocks[combinedBlockName].glyphs.push(glyph);
+              unicode[combinedBlockName].push(glyph);
+              unicode[combinedBlockName] = [...new Set(unicode[combinedBlockName])];
+
+              const fileBuffer = fs.readFileSync(glyphFileName);
+              const hashSum = crypto.createHash('sha256');
+              hashSum.update(fileBuffer);
+              blocks[combinedBlockName].files[glyphFileName] = hashSum.digest('base64');
+
+              // Update unicode range for combined block
+              const cs = new CharacterSet(blocks[combinedBlockName].glyphs.join(''));
+              blocks[combinedBlockName].unicodeRange = cs.toHexRangeString();
+
+              // Update hash for combined block
+              const blockHashSum = crypto.createHash('sha256');
+              blockHashSum.update(JSON.stringify(blocks[combinedBlockName].files));
+              blocks[combinedBlockName].hash = blockHashSum.digest('base64');
+            }
+          }
+        }
       }
       if (!!Object.keys(blocks).length > 0) {
         weights[weight] = blocks;
@@ -254,14 +330,14 @@ for (let format of ['web', 'desktop']) {
           format == 'web'
             ? Object.keys(fonts[font][weight][block].files)
             : Object.keys(fonts[font][weight]).reduce((prev, current) => {
-                if (typeof prev == 'string') {
-                  return [];
-                }
-                return [
-                  ...prev,
-                  ...Object.keys(fonts[font][weight][current].files),
-                ];
-              });
+              if (typeof prev == 'string') {
+                return [];
+              }
+              return [
+                ...prev,
+                ...Object.keys(fonts[font][weight][current].files),
+              ];
+            });
         buildJobs.push(jobName);
         gulp.task(jobName, function (resove) {
           return gulp

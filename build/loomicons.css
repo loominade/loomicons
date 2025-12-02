@@ -713,9 +713,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/MSAP.woff2?g4JGhRnccAqhtznB4R4fD7HE7Dp8OAJDDULXt94lUn0=) format('woff2');
-  /* contains glyphs: 🏗,👔︎,👤︎,👥︎,💩︎,💾︎,📊︎,📖︎,📞︎,📧︎,🔄︎,🔍︎,🔎︎,🔑︎,🔒︎,🔽︎,🗒,🗙,🗨,🗩,🗩🗨 */
-  unicode-range: U+FE0E,U+1F3D7,U+1F454,U+1F464,U+1F465,U+1F4A9,U+1F4BE,U+1F4CA,U+1F4D6,U+1F4DE,U+1F4E7,U+1F504,U+1F50D,U+1F50E,U+1F511,U+1F512,U+1F53D,U+1F5D2,U+1F5D9,U+1F5E8,U+1F5E9;
+  src: url(basic/800/MSAP.woff2?fbOtBI3g06TxZK2P4M7/5URHyQdGTpo1fsE2DqdUOnM=) format('woff2');
+  /* contains glyphs: 🏗,👔︎,👤︎,👥︎,💩︎,💾︎,📊︎,📖︎,📞︎,📧︎,🔄︎,🔍︎,🔎︎,🔑︎,🔒︎,🔽︎,🗑,🗒,🗙,🗨,🗩,🗩🗨 */
+  unicode-range: U+FE0E,U+1F3D7,U+1F454,U+1F464,U+1F465,U+1F4A9,U+1F4BE,U+1F4CA,U+1F4D6,U+1F4DE,U+1F4E7,U+1F504,U+1F50D,U+1F50E,U+1F511,U+1F512,U+1F53D,U+1F5D1,U+1F5D2,U+1F5D9,U+1F5E8,U+1F5E9;
 }
 
 /* Transport and Map Symbols */
@@ -736,6 +736,16 @@
   src: url(basic/800/SSAP.woff2?tkJWI029ssiE3uVggXwvFgVBaCma2B6PjYTblYf/A6k=) format('woff2');
   /* contains glyphs: 🤖︎ */
   unicode-range: U+FE0E,U+1F916;
+}
+
+/* Geometric Shapes + Miscellaneous Symbols and Pictographs */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 800;
+  src: url(basic/800/GS+MSAP.woff2?lbSijU9X7YoSWYPHKko/vlWqbCy+KThPYSAfmfQDfqE=) format('woff2');
+  /* contains glyphs: ○🔑 */
+  unicode-range: U+25CB,U+1F511;
 }
 
 /* Arrows */
@@ -1053,7 +1063,7 @@
   font-family: soba;
   font-display: swap;
   font-weight: 500;
-  src: url(soba/500/MSAP.woff2?I6aGEK60m/bwRVdBTsRlcheGpRtseSi00dO4XujY/wA=) format('woff2');
+  src: url(soba/500/MSAP.woff2?qBjSJ96aiEA2nracycY6a8w97Bu09vrbd1gA039aBFE=) format('woff2');
   /* contains glyphs: 🎙,👥︎,📍︎,📧︎,🔍︎,🗓,🗞 */
   unicode-range: U+FE0E,U+1F399,U+1F465,U+1F4CD,U+1F4E7,U+1F50D,U+1F5D3,U+1F5DE;
 }
@@ -1083,7 +1093,7 @@
   font-family: soba;
   font-display: swap;
   font-weight: 700;
-  src: url(soba/700/MS.woff2?1VnW2NckKzSck+g6MbDn8KESrg3A7mNpvGb4wCv49kk=) format('woff2');
+  src: url(soba/700/MS.woff2?rFFRGDWJW0LE97M4QyyD5wGXu5U2JmUOpIYDFMCvLoY=) format('woff2');
   /* contains glyphs: 𝄞 */
   unicode-range: U+1D11E;
 }
@@ -1093,7 +1103,7 @@
   font-family: soba;
   font-display: swap;
   font-weight: 700;
-  src: url(soba/700/MSAP.woff2?CNuYtJztzR7E5uQxBCGPE8zn+f1Y/n338HZbgmEehv8=) format('woff2');
+  src: url(soba/700/MSAP.woff2?wlkAASQHcdE9gLBKNhTCr1ACFHfHHVDYZMKG7cJiS94=) format('woff2');
   /* contains glyphs: 💁︎,📞︎,📧︎ */
   unicode-range: U+FE0E,U+1F481,U+1F4DE,U+1F4E7;
 }
