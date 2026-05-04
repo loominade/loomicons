@@ -41,7 +41,13 @@
               data-weights="
                 {%- for thisFontName, font in fonts if fontName == thisFontName -%}
                   {%- for weightName, weight in font -%}
-                    {%- if glyph in weight[blockName].glyphs -%}
+                    {%- set glyph_found = false -%}
+                    {%- for glyph_name, glyph_char in weight[blockName].glyphs -%}
+                      {%- if glyph_char == glyph -%}
+                        {%- set glyph_found = true -%}
+                      {%- endif -%}
+                    {%- endfor -%}
+                    {%- if glyph_found -%}
                       {{- weightName -}}
                       {% if not loop.last %}
                         {{- ' ' -}}

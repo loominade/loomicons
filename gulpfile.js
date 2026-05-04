@@ -1,49 +1,49 @@
-const gulp = require('gulp');
-const iconfont = require('gulp-iconfont');
-const fs = require('fs');
-const CharacterSet = require('characterset');
-const { hashElement } = require('folder-hash');
-const unicodeBlocks = require('unicode-blocks');
-const rename = require('gulp-rename');
-const filter = require('gulp-filter');
-const yaml = require('js-yaml');
-const crypto = require('crypto');
-const acronym = require('@stdlib/string-acronym');
-const twig = require('gulp-twig');
-const zip = require('gulp-zip');
-const changeFileContent = require('gulp-change-file-content');
-const { reorient } = require('svg-reorient');
-const through = require('through2');
+const gulp = require("gulp");
+const iconfont = require("gulp-iconfont");
+const fs = require("fs");
+const CharacterSet = require("characterset");
+const { hashElement } = require("folder-hash");
+const unicodeBlocks = require("unicode-blocks");
+const rename = require("gulp-rename");
+const filter = require("gulp-filter");
+const yaml = require("js-yaml");
+const crypto = require("crypto");
+const acronym = require("@stdlib/string-acronym");
+const twig = require("gulp-twig");
+const zip = require("gulp-zip");
+const changeFileContent = require("gulp-change-file-content");
+const { reorient } = require("svg-reorient");
+const through = require("through2");
 
 // Function to read the file and extract emojis
 function extractDefaultEmojiStyle(filePath) {
   try {
     // Read the file content
-    const data = fs.readFileSync(filePath, 'utf8');
+    const data = fs.readFileSync(filePath, "utf8");
 
     // Split the data into lines
-    const lines = data.split('\n');
+    const lines = data.split("\n");
 
     // Initialize a string to hold the result
-    let result = '';
+    let result = "";
 
     // Process each line
     lines.forEach((line) => {
       // Ignore comments and empty lines
-      if (line.startsWith('#') || line.trim() === '') {
+      if (line.startsWith("#") || line.trim() === "") {
         return;
       }
 
       // Split the line into components
-      const parts = line.split(';');
+      const parts = line.split(";");
       if (parts.length >= 2) {
         // Check if the Default_Emoji_Style is 'emoji'
         const defaultEmojiStyle = parts[1].trim();
-        if (defaultEmojiStyle === 'emoji') {
+        if (defaultEmojiStyle === "emoji") {
           // Extract the codepoint
           const codePoint = parts[0].trim();
           // Ensure only single codepoint entries are processed
-          if (!codePoint.includes(' ') && !codePoint.includes('..')) {
+          if (!codePoint.includes(" ") && !codePoint.includes("..")) {
             // Convert the codepoint to a character
             const char = String.fromCodePoint(parseInt(codePoint, 16));
             result += char;
@@ -54,12 +54,12 @@ function extractDefaultEmojiStyle(filePath) {
 
     return result;
   } catch (err) {
-    console.error('Failed to read the file:', err);
-    return '';
+    console.error("Failed to read the file:", err);
+    return "";
   }
 }
 
-const emojis = extractDefaultEmojiStyle('./emoji-data.txt');
+const emojis = extractDefaultEmojiStyle("./emoji-data.txt");
 
 function isEmoji(string) {
   return emojis.includes(string);
@@ -71,8 +71,8 @@ const cloneSink = function () {
   const stream = through.obj(function (file, enc, cb) {
     if (file.isStream()) {
       this.emit(
-        'error',
-        new PluginError('gulp-clone', 'Streaming not supported'),
+        "error",
+        new PluginError("gulp-clone", "Streaming not supported"),
       );
       return cb();
     }
@@ -83,11 +83,11 @@ const cloneSink = function () {
 
     const codePoints = file.path
       .match(/(u[0-9a-fA-Fu]+)-[^\/]+\.svg$/)[1]
-      .split('u');
+      .split("u");
     let cloneName = [];
     let needsClone = false;
     for (const codePoint of codePoints) {
-      if (codePoint != '') {
+      if (codePoint != "") {
         if (isEmoji(String.fromCodePoint(parseInt(codePoint, 16)))) {
           needsClone = true;
           cloneName.push(`${codePoint}uEF0F`);
@@ -100,7 +100,7 @@ const cloneSink = function () {
       const clone = file.clone();
       clone.path.replace(
         /(u[0-9a-fA-Fu]+)(-[^\/]+)\.svg$/,
-        `u${cloneName.join('u')}$2-plain.svg`,
+        `u${cloneName.join("u")}$2-plain.svg`,
       );
       tapStream.write(clone);
     }
@@ -115,27 +115,27 @@ const cloneSink = function () {
 };
 
 const weights = [
-  'normal',
-  'bold',
-  '100',
-  '200',
-  '300',
-  '400',
-  '500',
-  '600',
-  '700',
-  '800',
-  '900',
+  "normal",
+  "bold",
+  "100",
+  "200",
+  "300",
+  "400",
+  "500",
+  "600",
+  "700",
+  "800",
+  "900",
 ];
 
 for (let unicodeBlock of unicodeBlocks) {
-  unicodeBlock.abbr = acronym(unicodeBlock.name.replace(/-/g, ' '), {
+  unicodeBlock.abbr = acronym(unicodeBlock.name.replace(/-/g, " "), {
     stopwords: [],
   });
 }
 
-const outputDir = 'build';
-const svgDir = 'src';
+const outputDir = "build";
+const svgDir = "src";
 
 const fonts = {};
 const unicode = {};
@@ -156,11 +156,11 @@ fontFolders.forEach((fontFolder) => {
         const glyphFiles = fs.readdirSync(weightDir);
         // First pass: handle glyphs that fit within single blocks
         for (const blockRange of unicodeBlocks) {
-          let glyphs = [];
+          let glyphs = {};
           let files = {};
           for (const glyphFile of glyphFiles) {
             if (glyphFile.match(/\.svg$/)) {
-              const sequenceString = glyphFile.slice(0, glyphFile.indexOf('-'));
+              const sequenceString = glyphFile.slice(0, glyphFile.indexOf("-"));
               const sequence = sequenceString.match(/([0-9A-Fa-f]+)/g);
               let allInRange = true;
               for (const codepointSting of sequence) {
@@ -176,17 +176,19 @@ fontFolders.forEach((fontFolder) => {
                 }
               }
               if (allInRange) {
-                glyphs.push(
-                  sequence
-                    .map((i) => String.fromCodePoint(parseInt(i, 16)))
-                    .join(''),
-                );
+                const name = glyphFile
+                  .substring(glyphFile.indexOf("-") + 1)
+                  .replace(".svg", "");
+                const glyph = sequence
+                  .map((i) => String.fromCodePoint(parseInt(i, 16)))
+                  .join("");
+                glyphs[name] = glyph;
                 const glyphFileName = `${weightDir}/${glyphFile}`;
                 const fileBuffer = fs.readFileSync(glyphFileName);
-                const hashSum = crypto.createHash('sha256');
+                const hashSum = crypto.createHash("sha256");
                 hashSum.update(fileBuffer);
 
-                files[glyphFileName] = hashSum.digest('base64');
+                files[glyphFileName] = hashSum.digest("base64");
               }
             }
           }
@@ -195,24 +197,24 @@ fontFolders.forEach((fontFolder) => {
               glyphs[k] += String.fromCodePoint(65038);
             }
           }
-          if (glyphs.length > 0) {
+          if (Object.keys(glyphs).length > 0) {
             if (!blocks.hasOwnProperty(blockRange.name)) {
               blocks[blockRange.name] = {};
             }
             if (!unicode.hasOwnProperty(blockRange.name)) {
               unicode[blockRange.name] = [];
             }
-            const cs = new CharacterSet(glyphs.join(''));
+            const cs = new CharacterSet(Object.values(glyphs).join(""));
             blocks[blockRange.name].unicodeRange = cs.toHexRangeString();
             blocks[blockRange.name].glyphs = glyphs;
-            unicode[blockRange.name].push(...glyphs);
+            unicode[blockRange.name].push(...Object.values(glyphs));
             unicode[blockRange.name] = [...new Set(unicode[blockRange.name])];
             blocks[blockRange.name].files = files;
             blocks[blockRange.name].abbr = blockRange.abbr;
 
-            const hashSum = crypto.createHash('sha256');
+            const hashSum = crypto.createHash("sha256");
             hashSum.update(JSON.stringify(files));
-            blocks[blockRange.name].hash = hashSum.digest('base64');
+            blocks[blockRange.name].hash = hashSum.digest("base64");
           }
         }
 
@@ -220,7 +222,9 @@ fontFolders.forEach((fontFolder) => {
         const processedFiles = new Set();
         for (const blockRange of unicodeBlocks) {
           if (blocks[blockRange.name]) {
-            Object.keys(blocks[blockRange.name].files).forEach(f => processedFiles.add(f));
+            Object.keys(blocks[blockRange.name].files).forEach((f) =>
+              processedFiles.add(f),
+            );
           }
         }
 
@@ -231,7 +235,7 @@ fontFolders.forEach((fontFolder) => {
               continue; // Already processed in first pass
             }
 
-            const sequenceString = glyphFile.slice(0, glyphFile.indexOf('-'));
+            const sequenceString = glyphFile.slice(0, glyphFile.indexOf("-"));
             const sequence = sequenceString.match(/([0-9A-Fa-f]+)/g);
             const involvedBlocks = new Set();
 
@@ -243,7 +247,10 @@ fontFolders.forEach((fontFolder) => {
 
               // Find which block this codepoint belongs to
               for (const blockRange of unicodeBlocks) {
-                if (codePoint >= blockRange.start && codePoint <= blockRange.end) {
+                if (
+                  codePoint >= blockRange.start &&
+                  codePoint <= blockRange.end
+                ) {
                   involvedBlocks.add(blockRange.name);
                   break;
                 }
@@ -252,41 +259,57 @@ fontFolders.forEach((fontFolder) => {
 
             if (involvedBlocks.size > 1) {
               // Create a pseudo block with combined name
-              const combinedBlockName = Array.from(involvedBlocks).sort().join(' + ');
+              const combinedBlockName = Array.from(involvedBlocks)
+                .sort()
+                .join(" + ");
 
               if (!blocks.hasOwnProperty(combinedBlockName)) {
                 blocks[combinedBlockName] = {
-                  glyphs: [],
+                  glyphs: {},
                   files: {},
-                  abbr: Array.from(involvedBlocks).map(name => {
-                    const block = unicodeBlocks.find(b => b.name === name);
-                    return block ? block.abbr : '';
-                  }).filter(a => a).join('+')
+                  abbr: Array.from(involvedBlocks)
+                    .map((name) => {
+                      const block = unicodeBlocks.find((b) => b.name === name);
+                      return block ? block.abbr : "";
+                    })
+                    .filter((a) => a)
+                    .join("+"),
                 };
                 unicode[combinedBlockName] = [];
               }
 
               const glyph = sequence
                 .map((i) => String.fromCodePoint(parseInt(i, 16)))
-                .join('');
+                .join("");
 
-              blocks[combinedBlockName].glyphs.push(glyph);
+              const name = glyphFile
+                .substring(glyphFile.indexOf("-") + 1)
+                .replace(".svg", "");
+
+              blocks[combinedBlockName].glyphs[name] = glyph;
               unicode[combinedBlockName].push(glyph);
-              unicode[combinedBlockName] = [...new Set(unicode[combinedBlockName])];
+              unicode[combinedBlockName] = [
+                ...new Set(unicode[combinedBlockName]),
+              ];
 
               const fileBuffer = fs.readFileSync(glyphFileName);
-              const hashSum = crypto.createHash('sha256');
+              const hashSum = crypto.createHash("sha256");
               hashSum.update(fileBuffer);
-              blocks[combinedBlockName].files[glyphFileName] = hashSum.digest('base64');
+              blocks[combinedBlockName].files[glyphFileName] =
+                hashSum.digest("base64");
 
               // Update unicode range for combined block
-              const cs = new CharacterSet(blocks[combinedBlockName].glyphs.join(''));
+              const cs = new CharacterSet(
+                Object.values(blocks[combinedBlockName].glyphs).join(""),
+              );
               blocks[combinedBlockName].unicodeRange = cs.toHexRangeString();
 
               // Update hash for combined block
-              const blockHashSum = crypto.createHash('sha256');
-              blockHashSum.update(JSON.stringify(blocks[combinedBlockName].files));
-              blocks[combinedBlockName].hash = blockHashSum.digest('base64');
+              const blockHashSum = crypto.createHash("sha256");
+              blockHashSum.update(
+                JSON.stringify(blocks[combinedBlockName].files),
+              );
+              blocks[combinedBlockName].hash = blockHashSum.digest("base64");
             }
           }
         }
@@ -301,8 +324,8 @@ fontFolders.forEach((fontFolder) => {
   }
 });
 
-fs.writeFileSync('fonts.yml', yaml.dump(fonts, { flowLevel: 5 }), {
-  encoding: 'utf-8',
+fs.writeFileSync("fonts.yml", yaml.dump(fonts, { flowLevel: 5 }), {
+  encoding: "utf-8",
 });
 
 const buildJobs = [];
@@ -315,29 +338,26 @@ function prepareSVG() {
         return reorient(content);
       }),
     )
-    .pipe(gulp.dest('./src'));
+    .pipe(gulp.dest("./src"));
 }
 
 buildJobs.push(prepareSVG);
 
-for (let format of ['web', 'desktop']) {
+for (let format of ["web", "desktop"]) {
   for (let font in fonts) {
     for (let weight in fonts[font]) {
       for (let block in fonts[font][weight]) {
         const blockAbbr = fonts[font][weight][block].abbr;
         const jobName = `${font}-${weight}-${blockAbbr}-${format}`;
         const src =
-          format == 'web'
+          format == "web"
             ? Object.keys(fonts[font][weight][block].files)
             : Object.keys(fonts[font][weight]).reduce((prev, current) => {
-              if (typeof prev == 'string') {
-                return [];
-              }
               return [
                 ...prev,
                 ...Object.keys(fonts[font][weight][current].files),
               ];
-            });
+            }, []);
         buildJobs.push(jobName);
         gulp.task(jobName, function (resove) {
           return gulp
@@ -353,13 +373,13 @@ for (let format of ['web', 'desktop']) {
                 fontHeight: 1000,
                 fontWeight: weight,
                 ligatures: true,
-                formats: format == 'web' ? ['woff2'] : ['ttf'],
+                formats: format == "web" ? ["woff2"] : ["ttf"],
                 timestamp: 0,
               }),
             )
             .pipe(
               rename(function (path) {
-                if (format == 'web') {
+                if (format == "web") {
                   path.dirname = `./${font}/${weight}`;
                   path.basename = `${blockAbbr}`;
                 } else {
@@ -370,12 +390,12 @@ for (let format of ['web', 'desktop']) {
             )
             .pipe(gulp.dest(outputDir));
         });
-        if (format == 'desktop') {
+        if (format == "desktop") {
           continue;
         }
       }
     }
-    if (format == 'desktop') {
+    if (format == "desktop") {
       const jobName = `zip-${font}`;
       buildJobs.push(jobName);
       gulp.task(jobName, function () {
@@ -393,9 +413,34 @@ for (let format of ['web', 'desktop']) {
   }
 }
 
-gulp.task('css', function () {
+gulp.task("codepoints", function (done) {
+  for (let font in fonts) {
+    for (let weight in fonts[font]) {
+      let codepoints = [];
+      for (let block in fonts[font][weight]) {
+        for (let glyph in fonts[font][weight][block].glyphs) {
+          codepoints.push(`${glyph}: ${fonts[font][weight][block].glyphs[glyph]}`);
+        }
+      }
+      codepoints.sort();
+      const outputDirName = `${outputDir}/${font}`;
+      if (!fs.existsSync(outputDirName)) {
+        fs.mkdirSync(outputDirName, { recursive: true });
+      }
+      fs.writeFileSync(
+        `${outputDirName}/${weight}/codepoints.yaml`,
+        codepoints.join("\n"),
+      );
+    }
+  }
+  done();
+});
+
+buildJobs.push("codepoints");
+
+gulp.task("css", function () {
   return gulp
-    .src('./template.css.twig')
+    .src("./template.css.twig")
     .pipe(
       twig({
         data: {
@@ -405,18 +450,18 @@ gulp.task('css', function () {
     )
     .pipe(
       rename(function (path) {
-        path.basename = 'loomicons';
-        path.extname = '.css';
+        path.basename = "loomicons";
+        path.extname = ".css";
       }),
     )
     .pipe(gulp.dest(outputDir));
 });
 
-buildJobs.push('css');
+buildJobs.push("css");
 
-gulp.task('html', function () {
+gulp.task("html", function () {
   return gulp
-    .src('./demo.html.twig')
+    .src("./demo.html.twig")
     .pipe(
       twig({
         data: {
@@ -427,13 +472,13 @@ gulp.task('html', function () {
     )
     .pipe(
       rename(function (path) {
-        path.basename = 'index';
-        path.extname = '.html';
+        path.basename = "index";
+        path.extname = ".html";
       }),
     )
     .pipe(gulp.dest(outputDir));
 });
 
-buildJobs.push('html');
+buildJobs.push("html");
 
-gulp.task('build', gulp.series(buildJobs));
+gulp.task("build", gulp.series(buildJobs));
