@@ -3,13 +3,15 @@ book: 📖︎
 chain: ⛓
 check: ☑
 chromium: 
+circle-left: ⧀
+circle-right: ⧁
 circle: ○
 circled-key: ○🔑
 close: 🗙
 copy: ⧉
 crane: 🏗
+down-pointing: ▼
 down: ↓
-down: ▼
 download: ⤓
 edge: 
 edit: ✏
@@ -27,7 +29,6 @@ info: 🛈
 key: 🔑︎
 left-arrowhead: ⮜
 left: ←
-left: ⧀
 load: 🔄︎
 lock: 🔒︎
 longarrow: ⟶
@@ -47,7 +48,6 @@ quote: ❞
 right-3d: ➭
 right-arrowhead: ⮞
 right: →
-right: ⧁
 robot: 🤖︎
 rss: 
 safari: 

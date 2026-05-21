@@ -4,7 +4,7 @@
   font-display: swap;
   font-weight: 100;
   src: url(basic/100/A.woff2?KrZ+NqNreMDZYHO45C0wh1nY3ICvDziWBHx2fv+42yc=) format('woff2');
-  /* contains glyphs: ←,↑,→,↓ */
+  /* contains glyphs: ←↑→↓ */
   unicode-range: U+2190-2193;
 }
 
@@ -13,9 +13,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 100;
-  src: url(basic/100/GS.woff2?xVGBGcB8eEULWFhuuyemnideE+OJityDOcoioM/qXXI=) format('woff2');
-  /* contains glyphs: □,▤,▥,▦,△,▶,◇,○,◑,◫,◰ */
-  unicode-range: U+25A1,U+25A4-25A6,U+25B3,U+25B6,U+25C7,U+25CB,U+25D1,U+25EB,U+25F0;
+  src: url(basic/100/GS.woff2?IAqP4F6q4cKvFV5DqLUiJBuIBCCkCE50KxeneCMoLgQ=) format('woff2');
+  /* contains glyphs: □▤▥▦△▶◇○◑◫◰▼ */
+  unicode-range: U+25A1,U+25A4-25A6,U+25B3,U+25B6,U+25BC,U+25C7,U+25CB,U+25D1,U+25EB,U+25F0;
 }
 
 /* Dingbats */
@@ -23,8 +23,8 @@
   font-family: basic;
   font-display: swap;
   font-weight: 100;
-  src: url(basic/100/D.woff2?cApUsslHE+/MnnaomdtjDYFNbUVvDgQme/XiusghbVw=) format('woff2');
-  /* contains glyphs: ➕︎,➖︎ */
+  src: url(basic/100/D.woff2?NOIzYrHC+QmqPvC/7pQxl04TxRs4nWdWRJSCaO9mztY=) format('woff2');
+  /* contains glyphs: ➕︎➖︎ */
   unicode-range: U+2795,U+2796,U+FE0E;
 }
 
@@ -48,13 +48,23 @@
   unicode-range: U+2913;
 }
 
+/* Miscellaneous Mathematical Symbols-B */
+@font-face {
+  font-family: basic;
+  font-display: swap;
+  font-weight: 100;
+  src: url(basic/100/MMSB.woff2?WXtfL3CgR09Y1k/JtN+TFEWGEOnMy/J2whkzGLQUSQ4=) format('woff2');
+  /* contains glyphs: ⧀⧁ */
+  unicode-range: U+29C0,U+29C1;
+}
+
 /* Miscellaneous Symbols and Arrows */
 @font-face {
   font-family: basic;
   font-display: swap;
   font-weight: 100;
   src: url(basic/100/MSAA.woff2?M5lgSjH2E8+gUvgVgxscNtm2k9oQZe74zWVOVtvLDcQ=) format('woff2');
-  /* contains glyphs: ⬡,⮜,⮞ */
+  /* contains glyphs: ⬡⮜⮞ */
   unicode-range: U+2B21,U+2B9C,U+2B9E;
 }
 
@@ -64,7 +74,7 @@
   font-display: swap;
   font-weight: 100;
   src: url(basic/100/MSAP.woff2?s2HGiHZu4pauodlGq9tR33Cc3mm8wSoYj1Ybn+7ORq0=) format('woff2');
-  /* contains glyphs: 🌐︎,📖︎,🖥,🖥‍🌐,🗙 */
+  /* contains glyphs: 🌐︎📖︎🖥🖥‍🌐🗙 */
   unicode-range: U+200D,U+FE0E,U+1F310,U+1F4D6,U+1F5A5,U+1F5D9;
 }
 
@@ -74,7 +84,7 @@
   font-display: swap;
   font-weight: 200;
   src: url(basic/200/A.woff2?FLgeC958lvqrwXupQCsVJ5KS0YeE8grT+1fLDy7eM54=) format('woff2');
-  /* contains glyphs: ←,↑,→,↓ */
+  /* contains glyphs: ←↑→↓ */
   unicode-range: U+2190-2193;
 }
 
@@ -84,7 +94,7 @@
   font-display: swap;
   font-weight: 200;
   src: url(basic/200/GS.woff2?mio317YJAzGhFqZr4p5DjQvLyYzkSDjL2Se4s7APbjg=) format('woff2');
-  /* contains glyphs: □,▶ */
+  /* contains glyphs: □▶ */
   unicode-range: U+25A1,U+25B6;
 }
 
@@ -93,9 +103,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 200;
-  src: url(basic/200/D.woff2?K8ORQUq5ITpABf/Lh2LYqDjkkhaltxZAMZkDX75PcWE=) format('woff2');
-  /* contains glyphs: ➕︎ */
-  unicode-range: U+2795,U+FE0E;
+  src: url(basic/200/D.woff2?kHKFxzK9gVUJ0NaRAjpPq4Ntwcxql42Ht1pp0a2wNfk=) format('woff2');
+  /* contains glyphs: ➕︎➖︎ */
+  unicode-range: U+2795,U+2796,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -124,7 +134,7 @@
   font-display: swap;
   font-weight: 200;
   src: url(basic/200/MSAA.woff2?V7nVZ1/jQqDwcBuyfipiK7mG+9j97gmx+nGVik0wfrc=) format('woff2');
-  /* contains glyphs: ⮜,⮞ */
+  /* contains glyphs: ⮜⮞ */
   unicode-range: U+2B9C,U+2B9E;
 }
 
@@ -134,7 +144,7 @@
   font-display: swap;
   font-weight: 200;
   src: url(basic/200/MSAP.woff2?EkQbUKSRI2LWwc2nI/5uviXTBBMuctZq4ruQZ9AdruE=) format('woff2');
-  /* contains glyphs: 📖︎,🗙 */
+  /* contains glyphs: 📖︎🗙 */
   unicode-range: U+FE0E,U+1F4D6,U+1F5D9;
 }
 
@@ -144,7 +154,7 @@
   font-display: swap;
   font-weight: 300;
   src: url(basic/300/A.woff2?5Eja+vCU2Sc46PJm6xjrUR1LMsutETmk/uMynhcytz8=) format('woff2');
-  /* contains glyphs: ←,↑,→,↓ */
+  /* contains glyphs: ←↑→↓ */
   unicode-range: U+2190-2193;
 }
 
@@ -163,9 +173,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 300;
-  src: url(basic/300/D.woff2?v8FWU4NVmaLPOT2urjeI/ha+ncBoaqKl7i2Gjzdb2Tw=) format('woff2');
-  /* contains glyphs: ➕︎ */
-  unicode-range: U+2795,U+FE0E;
+  src: url(basic/300/D.woff2?J1JBfSPXp/3QTbaUQ7hH09oFIEnan3p5Im/EmXE8TuQ=) format('woff2');
+  /* contains glyphs: ➕︎➖︎ */
+  unicode-range: U+2795,U+2796,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -194,7 +204,7 @@
   font-display: swap;
   font-weight: 300;
   src: url(basic/300/MSAA.woff2?ZRJinnC4oZFKq7Ytj+eoz+4/9VB/gTUeuSU6h2oiBA0=) format('woff2');
-  /* contains glyphs: ⮜,⮞ */
+  /* contains glyphs: ⮜⮞ */
   unicode-range: U+2B9C,U+2B9E;
 }
 
@@ -204,7 +214,7 @@
   font-display: swap;
   font-weight: 300;
   src: url(basic/300/MSAP.woff2?v+/8H5Xqv8neH9i6VaWE7Qt+gOUj0yhCnBTwmabz6sw=) format('woff2');
-  /* contains glyphs: 📖︎,🗙 */
+  /* contains glyphs: 📖︎🗙 */
   unicode-range: U+FE0E,U+1F4D6,U+1F5D9;
 }
 
@@ -214,7 +224,7 @@
   font-display: swap;
   font-weight: 400;
   src: url(basic/400/A.woff2?NmLQbxvvmOBQcqzqbehdo+6t1q9K7/cRzoKHu7aFtx4=) format('woff2');
-  /* contains glyphs: ←,↑,→,↓ */
+  /* contains glyphs: ←↑→↓ */
   unicode-range: U+2190-2193;
 }
 
@@ -243,8 +253,8 @@
   font-family: basic;
   font-display: swap;
   font-weight: 400;
-  src: url(basic/400/GS.woff2?d5LVCKhJQ8Pft+HIl2nln+UzL6wQCEz7DxViU2bNRZc=) format('woff2');
-  /* contains glyphs: □,▣,▶,◑,▼ */
+  src: url(basic/400/GS.woff2?wT94H+x5iya89moqA/49AZtUbMAAsQv1jDkhQiOdDjY=) format('woff2');
+  /* contains glyphs: □▣▶◑▼ */
   unicode-range: U+25A1,U+25A3,U+25B6,U+25BC,U+25D1;
 }
 
@@ -253,9 +263,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 400;
-  src: url(basic/400/D.woff2?JKMF2Kz3EG3M+tN0e/H86O0AtTuTZ+UT4oowt2LWMvA=) format('woff2');
-  /* contains glyphs: ➕︎ */
-  unicode-range: U+2795,U+FE0E;
+  src: url(basic/400/D.woff2?iSvEq/kplotIKhut5F4MDFq7L1n9ho1R61rUDpKA/EY=) format('woff2');
+  /* contains glyphs: ➕︎➖︎ */
+  unicode-range: U+2795,U+2796,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -283,8 +293,8 @@
   font-family: basic;
   font-display: swap;
   font-weight: 400;
-  src: url(basic/400/MMSB.woff2?GuGSXS4O+/gzrPRN1V41wiyG3mUfMrlZjGHeHyjU+3c=) format('woff2');
-  /* contains glyphs: ⧀,⧁ */
+  src: url(basic/400/MMSB.woff2?RcAoaXiAi709EP2uMPdRuI+Mu32nyohl5stYl4IS7KI=) format('woff2');
+  /* contains glyphs: ⧀⧁ */
   unicode-range: U+29C0,U+29C1;
 }
 
@@ -294,7 +304,7 @@
   font-display: swap;
   font-weight: 400;
   src: url(basic/400/MSAA.woff2?LZ38qR3hTeprTGiuT83O/Dpxt0tCWpDvEmYVccyu138=) format('woff2');
-  /* contains glyphs: ⬡,⮜,⮞,⯃ */
+  /* contains glyphs: ⬡⮜⮞⯃ */
   unicode-range: U+2B21,U+2B9C,U+2B9E,U+2BC3;
 }
 
@@ -304,7 +314,7 @@
   font-display: swap;
   font-weight: 400;
   src: url(basic/400/MSAP.woff2?NZTanYFV+f4EdRIg+KGJZBhkasMHrX8b0zCAJr3I9Pg=) format('woff2');
-  /* contains glyphs: 📖︎,📞︎,🔍︎,🗙 */
+  /* contains glyphs: 📖︎📞︎🔍︎🗙 */
   unicode-range: U+FE0E,U+1F4D6,U+1F4DE,U+1F50D,U+1F5D9;
 }
 
@@ -314,7 +324,7 @@
   font-display: swap;
   font-weight: 500;
   src: url(basic/500/A.woff2?LCmsaToXuoaGNEgnEa1CRNARn19CEDasCCBi32OAw2I=) format('woff2');
-  /* contains glyphs: ←,↑,→,↓ */
+  /* contains glyphs: ←↑→↓ */
   unicode-range: U+2190-2193;
 }
 
@@ -333,9 +343,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 500;
-  src: url(basic/500/D.woff2?qk2yunFKn4+PkDW5dLGgf8/FHRfPyvOdOUoHM+AkZ1s=) format('woff2');
-  /* contains glyphs: ➕︎ */
-  unicode-range: U+2795,U+FE0E;
+  src: url(basic/500/D.woff2?Py3THH7luOSEoyBa90nie9o/tkwHXQNj8ZFr+AKwqN8=) format('woff2');
+  /* contains glyphs: ➕︎➖︎ */
+  unicode-range: U+2795,U+2796,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -364,7 +374,7 @@
   font-display: swap;
   font-weight: 500;
   src: url(basic/500/MSAA.woff2?QfNcy8b2a+sQYQfYut4hvfY21dK4dC8S2sX16dCZPMA=) format('woff2');
-  /* contains glyphs: ⮜,⮞ */
+  /* contains glyphs: ⮜⮞ */
   unicode-range: U+2B9C,U+2B9E;
 }
 
@@ -374,7 +384,7 @@
   font-display: swap;
   font-weight: 500;
   src: url(basic/500/MSAP.woff2?lSU5DPFLVNwQSdErW0z5IK+eKkyq8N2uuiUCxj/UQOc=) format('woff2');
-  /* contains glyphs: 📖︎,🔍︎,🗙 */
+  /* contains glyphs: 📖︎🔍︎🗙 */
   unicode-range: U+FE0E,U+1F4D6,U+1F50D,U+1F5D9;
 }
 
@@ -384,7 +394,7 @@
   font-display: swap;
   font-weight: 500;
   src: url(basic/500/TAMS.woff2?RKFo2ogu/qfuFWNSG/ahadF76gOQVX7cpxUJUgSuOR0=) format('woff2');
-  /* contains glyphs: 🛈,🛍 */
+  /* contains glyphs: 🛈🛍 */
   unicode-range: U+1F6C8,U+1F6CD;
 }
 
@@ -394,7 +404,7 @@
   font-display: swap;
   font-weight: 600;
   src: url(basic/600/A.woff2?dLIlnHRAa1rZLb/IzzGRaEMr40q78qjC/N5bOOFIQTk=) format('woff2');
-  /* contains glyphs: ←,↑,→,↓,↗ */
+  /* contains glyphs: ←↑→↓↗ */
   unicode-range: U+2190-2193,U+2197;
 }
 
@@ -424,7 +434,7 @@
   font-display: swap;
   font-weight: 600;
   src: url(basic/600/GS.woff2?CFJW+Q8mHiDTHWhWp/0ePGguTCgbxD2IAi6PVZDPRdo=) format('woff2');
-  /* contains glyphs: □,◑ */
+  /* contains glyphs: □◑ */
   unicode-range: U+25A1,U+25D1;
 }
 
@@ -433,9 +443,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 600;
-  src: url(basic/600/D.woff2?5RisRsoWrgJVA9eE5MQ4Z7llcMOsnFyNkv9Nv4qmP3s=) format('woff2');
-  /* contains glyphs: ➕︎ */
-  unicode-range: U+2795,U+FE0E;
+  src: url(basic/600/D.woff2?0wp7s43cvFU7cz0IE4nPb29RKK6b1A5KOxuj14Ra90E=) format('woff2');
+  /* contains glyphs: ➕︎➖︎ */
+  unicode-range: U+2795,U+2796,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -463,8 +473,8 @@
   font-family: basic;
   font-display: swap;
   font-weight: 600;
-  src: url(basic/600/MMSB.woff2?2kgmpzn6uZYH8OIXIIGGP5l/Gi6MMtWwBh7IUMcPObI=) format('woff2');
-  /* contains glyphs: ⧀,⧁ */
+  src: url(basic/600/MMSB.woff2?m/7ULhwqkwi0ZdZmlPMjhGPR4NLl/2YwEjZscJbk7hI=) format('woff2');
+  /* contains glyphs: ⧀⧁ */
   unicode-range: U+29C0,U+29C1;
 }
 
@@ -474,7 +484,7 @@
   font-display: swap;
   font-weight: 600;
   src: url(basic/600/MSAA.woff2?xpiVEToam5dD912rxd+uH2esUQMfLw6BIwdoYmZR1Ms=) format('woff2');
-  /* contains glyphs: ⬡,⮜,⮞,⯃ */
+  /* contains glyphs: ⬡⮜⮞⯃ */
   unicode-range: U+2B21,U+2B9C,U+2B9E,U+2BC3;
 }
 
@@ -484,7 +494,7 @@
   font-display: swap;
   font-weight: 600;
   src: url(basic/600/MSAP.woff2?Kr5X5/Oa3ttcOLO4djzBt2NTAXNsPYmxQD8pL8RR+C0=) format('woff2');
-  /* contains glyphs: 📖︎,📞︎,🔍︎,🗙 */
+  /* contains glyphs: 📖︎📞︎🔍︎🗙 */
   unicode-range: U+FE0E,U+1F4D6,U+1F4DE,U+1F50D,U+1F5D9;
 }
 
@@ -494,7 +504,7 @@
   font-display: swap;
   font-weight: 700;
   src: url(basic/700/A.woff2?A2u/fkL81Ye4TEWHGV90CRtjLOzb29UoZYVeKg7VQ64=) format('woff2');
-  /* contains glyphs: ←,↑,→,↓ */
+  /* contains glyphs: ←↑→↓ */
   unicode-range: U+2190-2193;
 }
 
@@ -504,7 +514,7 @@
   font-display: swap;
   font-weight: 700;
   src: url(basic/700/MT.woff2?zj4hcJYufrcmlrEWVgmIKTUdvkT4Cq2cVxPr05TGUmU=) format('woff2');
-  /* contains glyphs: ⌃,⌄ */
+  /* contains glyphs: ⌃⌄ */
   unicode-range: U+2303,U+2304;
 }
 
@@ -533,9 +543,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 700;
-  src: url(basic/700/D.woff2?dA5qkomwdgdP1C8l87z5d7OWtaiOi74Wo0rQDyE+9Hg=) format('woff2');
-  /* contains glyphs: ➕︎ */
-  unicode-range: U+2795,U+FE0E;
+  src: url(basic/700/D.woff2?SeMyBsPYLq5+YqOwuJe0lUCfWj766JD8BM2IVu8+iWI=) format('woff2');
+  /* contains glyphs: ➕︎➖︎ */
+  unicode-range: U+2795,U+2796,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -564,7 +574,7 @@
   font-display: swap;
   font-weight: 700;
   src: url(basic/700/MSAA.woff2?9buKRUVtG1f6RN7fsnFCHPVFrZKAx3ysdl49SfdK5X4=) format('woff2');
-  /* contains glyphs: ⮜,⮞ */
+  /* contains glyphs: ⮜⮞ */
   unicode-range: U+2B9C,U+2B9E;
 }
 
@@ -574,7 +584,7 @@
   font-display: swap;
   font-weight: 700;
   src: url(basic/700/MSAP.woff2?TKCKPECIKaHsVi9bXODoA5lZaUKFb5Z8skUkPEZKfrU=) format('woff2');
-  /* contains glyphs: 📖︎,📧︎,🖨,🗙 */
+  /* contains glyphs: 📖︎📧︎🖨🗙 */
   unicode-range: U+FE0E,U+1F4D6,U+1F4E7,U+1F5A8,U+1F5D9;
 }
 
@@ -584,7 +594,7 @@
   font-display: swap;
   font-weight: 700;
   src: url(basic/700/TAMS.woff2?LlwLYJo72oCYgRGRRsWIEQ1dphn0KqhCvjSOFHBFG4M=) format('woff2');
-  /* contains glyphs: 🛈,🛍 */
+  /* contains glyphs: 🛈🛍 */
   unicode-range: U+1F6C8,U+1F6CD;
 }
 
@@ -594,7 +604,7 @@
   font-display: swap;
   font-weight: 800;
   src: url(basic/800/A.woff2?48i3AqGS2NQN3aYQjL6XPKbzA/kEpYpkRX4sI7RBBAI=) format('woff2');
-  /* contains glyphs: ←,↑,→,↓,↕,↺,↻ */
+  /* contains glyphs: ←↑→↓↕↺↻ */
   unicode-range: U+2190-2193,U+2195,U+21BA,U+21BB;
 }
 
@@ -614,7 +624,7 @@
   font-display: swap;
   font-weight: 800;
   src: url(basic/800/MT.woff2?sahJ4/QRKXA2Iyq3ZmqIertEYeTKaI8eO9obK+F+lek=) format('woff2');
-  /* contains glyphs: ⏱,⏸ */
+  /* contains glyphs: ⏱⏸ */
   unicode-range: U+23F1,U+23F8;
 }
 
@@ -633,8 +643,8 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/GS.woff2?xXxLLJqPkdLyCIKrezSR/lUOYH8j/wDPo0FDKCJdRg4=) format('woff2');
-  /* contains glyphs: □,▣,▶,○,●,◑,▼ */
+  src: url(basic/800/GS.woff2?xvSLezwI1JxOZ5nwm+5/BOgGG8uvWOP1nPOwoLSMey4=) format('woff2');
+  /* contains glyphs: □▣▶○●◑▼ */
   unicode-range: U+25A1,U+25A3,U+25B6,U+25BC,U+25CB,U+25CF,U+25D1;
 }
 
@@ -644,7 +654,7 @@
   font-display: swap;
   font-weight: 800;
   src: url(basic/800/MS.woff2?E90S0sbQWfAMZU4uQ4AWhSETzTEmRod083WTR07RQqY=) format('woff2');
-  /* contains glyphs: ★,☆,☐,☑,⚙,⛓ */
+  /* contains glyphs: ★☆☐☑⚙⛓ */
   unicode-range: U+2605,U+2606,U+2610,U+2611,U+2699,U+26D3;
 }
 
@@ -653,8 +663,8 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/D.woff2?AzQrLHi/Z58knX907/cOZMI8kHSEtHhD21A6zWXYjLw=) format('woff2');
-  /* contains glyphs: ✏,✔,❞,➕︎,➖︎,➭ */
+  src: url(basic/800/D.woff2?ZcZyAYZqd3jFb1LAE4zppXDzZetmNEDJxbRLPlvfJ+o=) format('woff2');
+  /* contains glyphs: ✏✔❞➕︎➖︎➭ */
   unicode-range: U+270F,U+2714,U+275E,U+2795,U+2796,U+27AD,U+FE0E;
 }
 
@@ -683,8 +693,8 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/MMSB.woff2?6GTDMkiQrDQ3BKR5nmrBxvaIY0KR5sUcl5epL5AUKfE=) format('woff2');
-  /* contains glyphs: ⧀,⧁,⧉ */
+  src: url(basic/800/MMSB.woff2?H7a34uSCTa1OWxK/o55ntIIHvyADlo0H3KlcdsTIrqY=) format('woff2');
+  /* contains glyphs: ⧀⧁⧉ */
   unicode-range: U+29C0,U+29C1,U+29C9;
 }
 
@@ -694,7 +704,7 @@
   font-display: swap;
   font-weight: 800;
   src: url(basic/800/MSAA.woff2?MjhKv2LOXB/5hayZvNqB00CbyEgP1NAghwq1IRWj9WQ=) format('woff2');
-  /* contains glyphs: ⬡,⮜,⮞,⯪ */
+  /* contains glyphs: ⬡⮜⮞⯪ */
   unicode-range: U+2B21,U+2B9C,U+2B9E,U+2BEA;
 }
 
@@ -704,7 +714,7 @@
   font-display: swap;
   font-weight: 800;
   src: url(basic/800/PUA.woff2?JAkkTZcWwdjMTpIY0yW9BPWxh7BcjgKz5LrjIMg1qzw=) format('woff2');
-  /* contains glyphs: ,,,,, */
+  /* contains glyphs:  */
   unicode-range: U+E050,U+E051,U+E053,U+E056,U+E057,U+E381;
 }
 
@@ -713,8 +723,8 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/MSAP.woff2?fbOtBI3g06TxZK2P4M7/5URHyQdGTpo1fsE2DqdUOnM=) format('woff2');
-  /* contains glyphs: 🏗,👔︎,👤︎,👥︎,💩︎,💾︎,📊︎,📖︎,📞︎,📧︎,🔄︎,🔍︎,🔎︎,🔑︎,🔒︎,🔽︎,🗑,🗒,🗙,🗨,🗩,🗩🗨 */
+  src: url(basic/800/MSAP.woff2?XxhrFzojzCrG+s5Kvc75EDn68IkpA/sgbzh88hhcwJs=) format('woff2');
+  /* contains glyphs: 🏗👔︎👤︎👥︎💩︎💾︎📊︎📖︎📞︎📧︎🔄︎🔍︎🔎︎🔑︎🔒︎🔽︎🗑🗒🗙🗨🗩🗩🗨 */
   unicode-range: U+FE0E,U+1F3D7,U+1F454,U+1F464,U+1F465,U+1F4A9,U+1F4BE,U+1F4CA,U+1F4D6,U+1F4DE,U+1F4E7,U+1F504,U+1F50D,U+1F50E,U+1F511,U+1F512,U+1F53D,U+1F5D1,U+1F5D2,U+1F5D9,U+1F5E8,U+1F5E9;
 }
 
@@ -743,7 +753,7 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/GS+MSAP.woff2?lbSijU9X7YoSWYPHKko/vlWqbCy+KThPYSAfmfQDfqE=) format('woff2');
+  src: url(basic/800/GS+MSAP.woff2?lTxIjM2LrRADJiYXXYsyNstD/sXJ0Wj8P2DQEKJe+FU=) format('woff2');
   /* contains glyphs: ○🔑 */
   unicode-range: U+25CB,U+1F511;
 }
@@ -754,7 +764,7 @@
   font-display: swap;
   font-weight: 900;
   src: url(basic/900/A.woff2?/n0h7vKxebxn6TuTb0aaed1lg4rtS7se3WUT66qupRg=) format('woff2');
-  /* contains glyphs: ←,↑,→,↓,↗,↺,↻ */
+  /* contains glyphs: ←↑→↓↗↺↻ */
   unicode-range: U+2190-2193,U+2197,U+21BA,U+21BB;
 }
 
@@ -764,7 +774,7 @@
   font-display: swap;
   font-weight: 900;
   src: url(basic/900/GS.woff2?5ZlpzzJHanD7SWZ861eRyDGjADdxuwczjWgKloZ92Qk=) format('woff2');
-  /* contains glyphs: □,○ */
+  /* contains glyphs: □○ */
   unicode-range: U+25A1,U+25CB;
 }
 
@@ -773,9 +783,9 @@
   font-family: basic;
   font-display: swap;
   font-weight: 900;
-  src: url(basic/900/D.woff2?9bD13zf3sEl+yk18YbF9aGwujS0IDaDC2TxxXfhird0=) format('woff2');
-  /* contains glyphs: ➕︎ */
-  unicode-range: U+2795,U+FE0E;
+  src: url(basic/900/D.woff2?KzjynjJoX1TTocYvZYmspDEuBd0yBNXzbowml7R8vRw=) format('woff2');
+  /* contains glyphs: ➕︎➖︎ */
+  unicode-range: U+2795,U+2796,U+FE0E;
 }
 
 /* Supplemental Arrows-A */
@@ -814,7 +824,7 @@
   font-display: swap;
   font-weight: 900;
   src: url(basic/900/MSAA.woff2?1RwjjOTdLiR/QaUK+TSb5XYoZpPSdWNiipCclPHH+Ec=) format('woff2');
-  /* contains glyphs: ⮜,⮞ */
+  /* contains glyphs: ⮜⮞ */
   unicode-range: U+2B9C,U+2B9E;
 }
 
@@ -824,7 +834,7 @@
   font-display: swap;
   font-weight: 900;
   src: url(basic/900/MSAP.woff2?O7DejwkszH+sHzc24SVhCrgFcvcoLWGfoI0+upxU9vY=) format('woff2');
-  /* contains glyphs: 📊︎,📖︎,🗙 */
+  /* contains glyphs: 📊︎📖︎🗙 */
   unicode-range: U+FE0E,U+1F4CA,U+1F4D6,U+1F5D9;
 }
 
@@ -834,18 +844,8 @@
   font-display: swap;
   font-weight: 500;
   src: url(coby/500/A.woff2?ysWLgnU1+0dgCKYBQKgIX/gnLHbrbWWB+qmIPL6OCT0=) format('woff2');
-  /* contains glyphs: →,↓,↗,⇓ */
+  /* contains glyphs: →↓↗⇓ */
   unicode-range: U+2192,U+2193,U+2197,U+21D3;
-}
-
-/* Geometric Shapes */
-@font-face {
-  font-family: coby;
-  font-display: swap;
-  font-weight: 500;
-  src: url(coby/500/GS.woff2?0CJO2212PE1rEpEpCk20ZCcinNJyGmSrzJy3c4z33bY=) format('woff2');
-  /* contains glyphs: ▼ */
-  unicode-range: U+25BC;
 }
 
 /* Dingbats */
@@ -924,7 +924,7 @@
   font-display: swap;
   font-weight: 400;
   src: url(soba/400/A.woff2?E74lf/ZDizQ9l+RJnjbO9H1Lj/VKNTJD3NmPecojv8E=) format('woff2');
-  /* contains glyphs: ←,→,↗,↯,⇓,⇪ */
+  /* contains glyphs: ←→↗↯⇓⇪ */
   unicode-range: U+2190,U+2192,U+2197,U+21AF,U+21D3,U+21EA;
 }
 
@@ -954,7 +954,7 @@
   font-display: swap;
   font-weight: 400;
   src: url(soba/400/MS.woff2?4g4Yeu0Xqh6LmPsYlYa6j5l0Y7G95NGYC1H3Z4WftyM=) format('woff2');
-  /* contains glyphs: ☺,♡,♥ */
+  /* contains glyphs: ☺♡♥ */
   unicode-range: U+263A,U+2661,U+2665;
 }
 
@@ -994,7 +994,7 @@
   font-display: swap;
   font-weight: 400;
   src: url(soba/400/MSAP.woff2?D1EZ7UFE8Dfyk9m/R7QjPTNbo+o+1ChRlzxUr3oZKUA=) format('woff2');
-  /* contains glyphs: 🌐︎,🎙,💻︎,📧︎,🔍︎ */
+  /* contains glyphs: 🌐︎🎙💻︎📧︎🔍︎ */
   unicode-range: U+FE0E,U+1F310,U+1F399,U+1F4BB,U+1F4E7,U+1F50D;
 }
 
@@ -1004,7 +1004,7 @@
   font-display: swap;
   font-weight: 500;
   src: url(soba/500/A.woff2?2bw7qduirLeeXBFiXDkIpisyOwLtOjqO2/vnogXxA9A=) format('woff2');
-  /* contains glyphs: ←,→,↗,⇓,⇪ */
+  /* contains glyphs: ←→↗⇓⇪ */
   unicode-range: U+2190,U+2192,U+2197,U+21D3,U+21EA;
 }
 
@@ -1014,7 +1014,7 @@
   font-display: swap;
   font-weight: 500;
   src: url(soba/500/MO.woff2?Nsxwckv3n/yBBq93AYG/mkRnR1FDJDPfDlKNehSyC70=) format('woff2');
-  /* contains glyphs: −,∨ */
+  /* contains glyphs: −∨ */
   unicode-range: U+2212,U+2228;
 }
 
@@ -1024,7 +1024,7 @@
   font-display: swap;
   font-weight: 500;
   src: url(soba/500/MT.woff2?kwjkvXStcqG8ETQR9FDoc5FkjE3B8Vwhm4q9QgpSIps=) format('woff2');
-  /* contains glyphs: ⌚︎,⏵ */
+  /* contains glyphs: ⌚︎⏵ */
   unicode-range: U+231A,U+23F5,U+FE0E;
 }
 
@@ -1034,7 +1034,7 @@
   font-display: swap;
   font-weight: 500;
   src: url(soba/500/MS.woff2?iKn3qQyPZYrT2TeB70MK3TXZDFgw+EiyFFAnBuRiAU0=) format('woff2');
-  /* contains glyphs: ♡,♥ */
+  /* contains glyphs: ♡♥ */
   unicode-range: U+2661,U+2665;
 }
 
@@ -1044,7 +1044,7 @@
   font-display: swap;
   font-weight: 500;
   src: url(soba/500/D.woff2?M/uZ04mc0oEl848cJA8KlbBYJZvOo9io4zdxQL0hOjM=) format('woff2');
-  /* contains glyphs: ✉,➕︎ */
+  /* contains glyphs: ✉➕︎ */
   unicode-range: U+2709,U+2795,U+FE0E;
 }
 
@@ -1063,8 +1063,8 @@
   font-family: soba;
   font-display: swap;
   font-weight: 500;
-  src: url(soba/500/MSAP.woff2?qBjSJ96aiEA2nracycY6a8w97Bu09vrbd1gA039aBFE=) format('woff2');
-  /* contains glyphs: 🎙,👥︎,📍︎,📧︎,🔍︎,🗓,🗞 */
+  src: url(soba/500/MSAP.woff2?I6aGEK60m/bwRVdBTsRlcheGpRtseSi00dO4XujY/wA=) format('woff2');
+  /* contains glyphs: 🎙👥︎📍︎📧︎🔍︎🗓🗞 */
   unicode-range: U+FE0E,U+1F399,U+1F465,U+1F4CD,U+1F4E7,U+1F50D,U+1F5D3,U+1F5DE;
 }
 
@@ -1084,7 +1084,7 @@
   font-display: swap;
   font-weight: 700;
   src: url(soba/700/PUA.woff2?DVgSuLlX08M67rRw+x3wFgs+ecGgGVrQiEV0dMKE9Gc=) format('woff2');
-  /* contains glyphs: ,,,,,,,,,,,, */
+  /* contains glyphs:  */
   unicode-range: U+E000-E009,U+E010,U+E011,U+E040;
 }
 
@@ -1103,8 +1103,8 @@
   font-family: soba;
   font-display: swap;
   font-weight: 700;
-  src: url(soba/700/MSAP.woff2?wlkAASQHcdE9gLBKNhTCr1ACFHfHHVDYZMKG7cJiS94=) format('woff2');
-  /* contains glyphs: 💁︎,📞︎,📧︎ */
+  src: url(soba/700/MSAP.woff2?CNuYtJztzR7E5uQxBCGPE8zn+f1Y/n338HZbgmEehv8=) format('woff2');
+  /* contains glyphs: 💁︎📞︎📧︎ */
   unicode-range: U+FE0E,U+1F481,U+1F4DE,U+1F4E7;
 }
 
