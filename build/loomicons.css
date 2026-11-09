@@ -713,7 +713,7 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/MSAP.woff2?fbOtBI3g06TxZK2P4M7/5URHyQdGTpo1fsE2DqdUOnM=) format('woff2');
+  src: url(basic/800/MSAP.woff2?XxhrFzojzCrG+s5Kvc75EDn68IkpA/sgbzh88hhcwJs=) format('woff2');
   /* contains glyphs: 🏗,👔︎,👤︎,👥︎,💩︎,💾︎,📊︎,📖︎,📞︎,📧︎,🔄︎,🔍︎,🔎︎,🔑︎,🔒︎,🔽︎,🗑,🗒,🗙,🗨,🗩,🗩🗨 */
   unicode-range: U+FE0E,U+1F3D7,U+1F454,U+1F464,U+1F465,U+1F4A9,U+1F4BE,U+1F4CA,U+1F4D6,U+1F4DE,U+1F4E7,U+1F504,U+1F50D,U+1F50E,U+1F511,U+1F512,U+1F53D,U+1F5D1,U+1F5D2,U+1F5D9,U+1F5E8,U+1F5E9;
 }
@@ -743,7 +743,7 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/GS+MSAP.woff2?lbSijU9X7YoSWYPHKko/vlWqbCy+KThPYSAfmfQDfqE=) format('woff2');
+  src: url(basic/800/GS+MSAP.woff2?lTxIjM2LrRADJiYXXYsyNstD/sXJ0Wj8P2DQEKJe+FU=) format('woff2');
   /* contains glyphs: ○🔑 */
   unicode-range: U+25CB,U+1F511;
 }
@@ -1023,9 +1023,9 @@
   font-family: soba;
   font-display: swap;
   font-weight: 500;
-  src: url(soba/500/MT.woff2?kwjkvXStcqG8ETQR9FDoc5FkjE3B8Vwhm4q9QgpSIps=) format('woff2');
-  /* contains glyphs: ⌚︎,⏵ */
-  unicode-range: U+231A,U+23F5,U+FE0E;
+  src: url(soba/500/MT.woff2?NzYb5Bc9w/lkfhxCQKyNlgNhXuYzQ4iFWq6aH6GpZmg=) format('woff2');
+  /* contains glyphs: ⌚︎,⏵,⏸ */
+  unicode-range: U+231A,U+23F5,U+23F8,U+FE0E;
 }
 
 /* Miscellaneous Symbols */
@@ -1063,7 +1063,7 @@
   font-family: soba;
   font-display: swap;
   font-weight: 500;
-  src: url(soba/500/MSAP.woff2?qBjSJ96aiEA2nracycY6a8w97Bu09vrbd1gA039aBFE=) format('woff2');
+  src: url(soba/500/MSAP.woff2?I6aGEK60m/bwRVdBTsRlcheGpRtseSi00dO4XujY/wA=) format('woff2');
   /* contains glyphs: 🎙,👥︎,📍︎,📧︎,🔍︎,🗓,🗞 */
   unicode-range: U+FE0E,U+1F399,U+1F465,U+1F4CD,U+1F4E7,U+1F50D,U+1F5D3,U+1F5DE;
 }
@@ -1103,7 +1103,7 @@
   font-family: soba;
   font-display: swap;
   font-weight: 700;
-  src: url(soba/700/MSAP.woff2?wlkAASQHcdE9gLBKNhTCr1ACFHfHHVDYZMKG7cJiS94=) format('woff2');
+  src: url(soba/700/MSAP.woff2?CNuYtJztzR7E5uQxBCGPE8zn+f1Y/n338HZbgmEehv8=) format('woff2');
   /* contains glyphs: 💁︎,📞︎,📧︎ */
   unicode-range: U+FE0E,U+1F481,U+1F4DE,U+1F4E7;
 }
