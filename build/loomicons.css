@@ -713,7 +713,7 @@
   font-family: basic;
   font-display: swap;
   font-weight: 800;
-  src: url(basic/800/MSAP.woff2?XxhrFzojzCrG+s5Kvc75EDn68IkpA/sgbzh88hhcwJs=) format('woff2');
+  src: url(basic/800/MSAP.woff2?+clwYIqxZxmI7vHCFrXMVICHbOTugGZsidWWVWX2YyQ=) format('woff2');
   /* contains glyphs: 🏗,👔︎,👤︎,👥︎,💩︎,💾︎,📊︎,📖︎,📞︎,📧︎,🔄︎,🔍︎,🔎︎,🔑︎,🔒︎,🔽︎,🗑,🗒,🗙,🗨,🗩,🗩🗨 */
   unicode-range: U+FE0E,U+1F3D7,U+1F454,U+1F464,U+1F465,U+1F4A9,U+1F4BE,U+1F4CA,U+1F4D6,U+1F4DE,U+1F4E7,U+1F504,U+1F50D,U+1F50E,U+1F511,U+1F512,U+1F53D,U+1F5D1,U+1F5D2,U+1F5D9,U+1F5E8,U+1F5E9;
 }
@@ -1023,7 +1023,7 @@
   font-family: soba;
   font-display: swap;
   font-weight: 500;
-  src: url(soba/500/MT.woff2?NzYb5Bc9w/lkfhxCQKyNlgNhXuYzQ4iFWq6aH6GpZmg=) format('woff2');
+  src: url(soba/500/MT.woff2?vT8kGJwfNR833ujoDFyftFe7HttTvMDZYDq0qPv9dkk=) format('woff2');
   /* contains glyphs: ⌚︎,⏵,⏸ */
   unicode-range: U+231A,U+23F5,U+23F8,U+FE0E;
 }
@@ -1063,7 +1063,7 @@
   font-family: soba;
   font-display: swap;
   font-weight: 500;
-  src: url(soba/500/MSAP.woff2?I6aGEK60m/bwRVdBTsRlcheGpRtseSi00dO4XujY/wA=) format('woff2');
+  src: url(soba/500/MSAP.woff2?qBjSJ96aiEA2nracycY6a8w97Bu09vrbd1gA039aBFE=) format('woff2');
   /* contains glyphs: 🎙,👥︎,📍︎,📧︎,🔍︎,🗓,🗞 */
   unicode-range: U+FE0E,U+1F399,U+1F465,U+1F4CD,U+1F4E7,U+1F50D,U+1F5D3,U+1F5DE;
 }
@@ -1103,9 +1103,19 @@
   font-family: soba;
   font-display: swap;
   font-weight: 700;
-  src: url(soba/700/MSAP.woff2?CNuYtJztzR7E5uQxBCGPE8zn+f1Y/n338HZbgmEehv8=) format('woff2');
+  src: url(soba/700/MSAP.woff2?wlkAASQHcdE9gLBKNhTCr1ACFHfHHVDYZMKG7cJiS94=) format('woff2');
   /* contains glyphs: 💁︎,📞︎,📧︎ */
   unicode-range: U+FE0E,U+1F481,U+1F4DE,U+1F4E7;
+}
+
+/* Miscellaneous Technical */
+@font-face {
+  font-family: soba;
+  font-display: swap;
+  font-weight: 800;
+  src: url(soba/800/MT.woff2?hAP8DHs6uw8RKccv4c9WLFDirF15WSvxddGyT/3YJMA=) format('woff2');
+  /* contains glyphs: ⏸ */
+  unicode-range: U+23F8;
 }
 
 /* Geometric Shapes */
@@ -1113,8 +1123,8 @@
   font-family: soba;
   font-display: swap;
   font-weight: 800;
-  src: url(soba/800/GS.woff2?XEje1jZAZ8MfXZYfuVUEiCbMkyFmQ623/UKs4wlHBb8=) format('woff2');
-  /* contains glyphs: ◆ */
-  unicode-range: U+25C6;
+  src: url(soba/800/GS.woff2?w0jQSUgUTtuG99KT3wSyNpDtPR4IPFQE+Od88UodCBc=) format('woff2');
+  /* contains glyphs: ▶,◆ */
+  unicode-range: U+25B6,U+25C6;
 }
 

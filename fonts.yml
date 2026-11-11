@@ -830,14 +830,14 @@ basic:
         src/basic/800/u1F511-key.svg: UE2NAgjgUsYUOmpBfG8cnNwYPcmaAefX11G7AliQcKU=
         src/basic/800/u1F512-lock.svg: EZbjnDnv7/Ax0ln3I0ujLeR5379tawro4DKwsOb2u6o=
         src/basic/800/u1F53D-open-details.svg: c+14K+k25sKotsOpa92rCYYeDxA4pMqhcRhgSGJd9Gw=
-        src/basic/800/u1F5D1-bin.svg: PDowZE8T6ZCX5XqofcI9q0ITpyZgpAN0XrBIDh9NmwI=
+        src/basic/800/u1F5D1-bin.svg: SXuGbEb5qTE0D8QXEy0NAjT4W3nywOoJsW5wqS0wj0I=
         src/basic/800/u1F5D2-note.svg: uOUcpIiRZV5VZ6UR8gP7zjRHa/ef5FbzX/Ncf4OdDpU=
         src/basic/800/u1F5D9-close.svg: WMeghBKnJGz7Tt63Ehg2yJUnpmcSvPYj4iCqJqnpHrM=
         src/basic/800/u1F5E8-speech-baloon-right.svg: CGMAhlJlRkcZhcZnlcV+cTbBX0QR31vVPoxEXTnCcJY=
         src/basic/800/u1F5E9-speech-baloon.svg: po9jn0fFAGYGnhkRWfY3FcouqgqHqMtdKa9pM5AP/OE=
         src/basic/800/u1F5E9u1F5E8-speech-baloons.svg: st0u+oty1gGZbvmX08Jnlx8WfwktyaltIgppgi1RfbA=
       abbr: MSAP
-      hash: XxhrFzojzCrG+s5Kvc75EDn68IkpA/sgbzh88hhcwJs=
+      hash: +clwYIqxZxmI7vHCFrXMVICHbOTugGZsidWWVWX2YyQ=
     Transport and Map Symbols:
       unicodeRange: U+1F6C8
       glyphs:
@@ -1152,9 +1152,9 @@ soba:
       files:
         src/soba/500/u231A-Time.svg: 7M+oYSX1sn9Z3AWX3OaE3By2aQKcU15UF/+Qmq03xpk=
         src/soba/500/u23F5-Play.svg: lTtqlAmk+/XsMinP1W0dft+crxKuAzxZVT62/s3Rce8=
-        src/soba/500/u23F8-Pause.svg: MFrogGU5IDqAUB1Dw1PRHYPJSkQrgLKbx1UoP5xFPlk=
+        src/soba/500/u23F8-Pause.svg: IRuOcYtV30l8MXOeaA2Px5l7w80s00Kih8gz2u3IiQA=
       abbr: MT
-      hash: NzYb5Bc9w/lkfhxCQKyNlgNhXuYzQ4iFWq6aH6GpZmg=
+      hash: vT8kGJwfNR833ujoDFyftFe7HttTvMDZYDq0qPv9dkk=
     Miscellaneous Symbols:
       unicodeRange: U+2661,U+2665
       glyphs:
@@ -1197,12 +1197,12 @@ soba:
         src/soba/500/u1F399-Podcast.svg: 8TfahhiIW+iicSU4Xem4TigEA4P/sryU28JQRfh6yf0=
         src/soba/500/u1F465-People.svg: yVKB3uQQcvR3X9Y6owZ2lcyFA2SNrgTApECmwdBZ4dQ=
         src/soba/500/u1F4CD-Pin.svg: 5AVnYKVu/AuNPXF2iAuvXcbqj/FfvxGgogazG+MH2Tw=
-        src/soba/500/u1F4E7-Email.svg: u//rB67F0bGm1mKQHh3bim0G2LJa0ZQO2NPOuiLIItY=
+        src/soba/500/u1F4E7-Email.svg: k3xJcqs9N9k2aOysUmgUhxAxd3+MGlZG64b0oCU07Mk=
         src/soba/500/u1F50D-Search.svg: fFYJL9RDjURYXSX5F8MrCronortjRsTBYLAAVfi4Ucw=
         src/soba/500/u1F5D3-Calendar.svg: 0ZZOTSre1E0Lix/ZBK/37kzPHNXnQOhD+/e9Qw3swjY=
         src/soba/500/u1F5DE-Newsletter.svg: OK/6S+M0Fc9GoEcPxSzAaEOWhiVIV85/Nn/lwAGrFGg=
       abbr: MSAP
-      hash: I6aGEK60m/bwRVdBTsRlcheGpRtseSi00dO4XujY/wA=
+      hash: qBjSJ96aiEA2nracycY6a8w97Bu09vrbd1gA039aBFE=
   '600':
     Miscellaneous Symbols and Pictographs:
       unicodeRange: U+1F39A
@@ -1260,17 +1260,27 @@ soba:
         - 📞︎
         - 📧︎
       files:
-        src/soba/700/u1F481-Bio.svg: A4/wlwDSWiIck8mSba6cPczv2IUCHoD6WPDV5z5e3rs=
+        src/soba/700/u1F481-Bio.svg: GTuYlSEoI5NlYd+D9jpvwi69W4HckABKovRzgwXGjSc=
         src/soba/700/u1F4DE-Phone.svg: oQXuFCOVvAy511+Auhf3Zgk0wL4HWlUL/StIlwm09PY=
         src/soba/700/u1F4E7-Email.svg: 89ccVlHx+6QcMO8QKPgD9xbkv3n+/zklevu+GV/X8uw=
       abbr: MSAP
-      hash: CNuYtJztzR7E5uQxBCGPE8zn+f1Y/n338HZbgmEehv8=
+      hash: wlkAASQHcdE9gLBKNhTCr1ACFHfHHVDYZMKG7cJiS94=
   '800':
-    Geometric Shapes:
-      unicodeRange: U+25C6
+    Miscellaneous Technical:
+      unicodeRange: U+23F8
       glyphs:
+        - ⏸
+      files:
+        src/soba/800/u23F8-pause.svg: EmrRFjD2ctwFwyAKj03Qcfs7DHQptU9wjxnSO+sxL4Y=
+      abbr: MT
+      hash: hAP8DHs6uw8RKccv4c9WLFDirF15WSvxddGyT/3YJMA=
+    Geometric Shapes:
+      unicodeRange: U+25B6,U+25C6
+      glyphs:
+        - ▶
         - ◆
       files:
+        src/soba/800/u25B6-play.svg: 7KH5Bj1itAr1dpcz92fNgCkqI/QLXKF6jQpF7+7o9JA=
         src/soba/800/u25C6-Bulletpoint.svg: NK26gg8e38vJlLKw6Z6V/0LCT4l2G81cbPXpDvxcH8E=
       abbr: GS
-      hash: XEje1jZAZ8MfXZYfuVUEiCbMkyFmQ623/UKs4wlHBb8=
+      hash: w0jQSUgUTtuG99KT3wSyNpDtPR4IPFQE+Od88UodCBc=
